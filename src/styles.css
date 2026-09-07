@@ -1,0 +1,532 @@
+/* Kiosk stage. The panel is a fixed 1080x1920 portrait screen; nothing here
+   reflows, so every coordinate in the app is a literal design-time pixel and
+   the whole stage is scaled as one unit to fit whatever it is displayed on. */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+body {
+  /* A kiosk is touched, not browsed. Kill the browser's own touch affordances
+     so a long-press does not raise a context menu over the artwork and a
+     double-tap does not zoom the stage out of registration. */
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  overscroll-behavior: none;
+}
+
+.stage-fit {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+  flex: none;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* The plate: the exported Figma frame, rendered whole. Everything visible on a
+   screen is in this image unless it is listed as an overlay below. */
+.plate {
+  position: absolute;
+  inset: 0;
+  width: 1080px;
+  height: 1920px;
+  display: block;
+  pointer-events: none;
+}
+
+.plate-video {
+  position: absolute;
+  inset: 0;
+  width: 1080px;
+  height: 1920px;
+  object-fit: cover;
+  display: block;
+  background: #000;
+}
+
+/* Transparent hit target. The control is already painted into the plate - this
+   adds the hit area, never the button. Drawing anything here would put a live
+   control and a printed one on screen a pixel apart. */
+.hit {
+  position: absolute;
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  outline: none;
+}
+
+.hit-full {
+  position: absolute;
+  inset: 0;
+  width: 1080px;
+  height: 1920px;
+}
+
+/* ---------------------------------------------------------------------------
+   The UPI PIN dots - the only artwork in this app that is drawn rather than
+   photographed, because it is the only artwork that has to change.
+
+   Everything here exists to make that switch invisible. The plate already
+   paints six dots on this row, so `.pin-strip` covers them: opaque, in the
+   plate's own background, which was sampled out of the export at #ffffff and
+   not guessed. Without it the printed dots and the live ones would both be on
+   screen at once. The patch is far larger than the dots on purpose - the
+   artwork is flat white for tens of pixels above, below and past both ends of
+   the row, so one plain rectangle does the job that would otherwise take six
+   circles in perfect register.
+   -------------------------------------------------------------------------*/
+.pin-strip {
+  position: absolute;
+  left: 280px;
+  top: 960px;
+  width: 516px;
+  height: 72px;
+  background: #ffffff;
+  pointer-events: none;
+}
+
+/* Sized and placed inline, in design pixels, like every other coordinate. */
+.pin-dot {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Three states, and the two ring colours are the plate's, not a scheme: a dot
+   the PIN has not reached yet is grey, and the dot the next digit lands in is
+   drawn in the same blue a filled one is filled with.
+
+   2.769px, not 3. The frame was scaled on its way up to 1080, so the stroke
+   landed on a fraction, and a round 3px prints a visibly heavier dot than the
+   plate underneath - which is the one difference the pixel diff would keep. */
+.pin-dot-empty  { border: 2.769px solid #6e6e72; }
+.pin-dot-next   { border: 2.769px solid #26387e; }
+.pin-dot-filled { background: #26387e; }
+
+/* ---------------------------------------------------------------------------
+   Run modes. App pins one `data-mode` attribute to <body> and everything below
+   hangs off it - the only switch there is.
+
+   The kiosk half is written as `:not([data-mode="mouse"])` so it holds before
+   the attribute is set and if it never is: hiding the pointer is the safe
+   default, and losing it is what a touched panel wants either way.
+
+   Everything after it matches `mouse` alone. Kiosk mode has no selector here
+   that can match, so it draws the plate and the invisible hit areas and not one
+   pixel more - which is the whole point, since the screens are diffed against
+   the exported Figma frames.
+   -------------------------------------------------------------------------*/
+
+body:not([data-mode="mouse"]),
+body:not([data-mode="mouse"]) .hit {
+  cursor: none;
+}
+
+body[data-mode="mouse"] {
+  cursor: default;
+}
+
+body[data-mode="mouse"] .hit {
+  cursor: pointer;
+}
+
+/* An outline over a hit area, never in place of one: pointer events stay off so
+   the transparent button underneath still takes the click. */
+body[data-mode="mouse"] .dev-hit {
+  position: absolute;
+  outline: 2px dashed rgba(0, 160, 255, 0.7);
+  outline-offset: -2px;
+  pointer-events: none;
+}
+
+/* Ours, not the designer's - `addition: true` in flow.ts. */
+body[data-mode="mouse"] .dev-hit-addition {
+  outline-color: rgba(255, 60, 160, 0.85);
+  outline-style: solid;
+  background: rgba(255, 60, 160, 0.07);
+}
+
+/* Sized in design pixels like everything else on the stage, so the chip shrinks
+   with the artwork instead of swamping a 55px back button on a scaled panel. */
+body[data-mode="mouse"] .dev-chip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 3px 9px;
+  font: 500 20px/1.25 ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: nowrap;
+  color: #fff;
+  background: rgba(0, 78, 140, 0.85);
+}
+
+body[data-mode="mouse"] .dev-hit-addition .dev-chip {
+  background: rgba(178, 0, 90, 0.9);
+}
+
+body[data-mode="mouse"] .dev-hud {
+  position: fixed;
+  left: 12px;
+  top: 12px;
+  z-index: 10;
+  width: 196px;
+  padding: 9px 11px;
+  font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: #e6e6e6;
+  background: rgba(16, 16, 18, 0.93);
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+body[data-mode="mouse"] .dev-hud-now {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+}
+
+body[data-mode="mouse"] .dev-hud-node {
+  margin-bottom: 8px;
+  color: #8a8a8a;
+}
+
+body[data-mode="mouse"] .dev-hud-jump {
+  list-style: none;
+}
+
+body[data-mode="mouse"] .dev-hud-jump button {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  padding: 1px 5px;
+  appearance: none;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+body[data-mode="mouse"] .dev-hud-jump button:hover {
+  background: #2b2b30;
+}
+
+body[data-mode="mouse"] .dev-hud-jump .is-current {
+  background: #2f4f6f;
+  color: #fff;
+}
+
+body[data-mode="mouse"] .dev-hud-jump span {
+  width: 16px;
+  color: #777;
+  text-align: right;
+}
+
+body[data-mode="mouse"] .dev-hud-keys {
+  margin-top: 8px;
+  color: #777;
+}
+
+/* ---------------------------------------------------------------------------
+   Layer stacks. Two screens are composited from their separate Figma layers
+   instead of one plate, so that an animated layer can sit at its real depth.
+   Same rules as `.plate`: the artwork is the design, nothing here is redrawn,
+   and none of it takes a tap - the hit targets are still separate.
+   -------------------------------------------------------------------------*/
+.layer {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+}
+
+/* The clip that the Figma frame does. Several of these layers are horizontal
+   carousels whose exported PNG is wider than the frame, because Figma exports
+   a node's render bounds unclipped by its parent. */
+.layer-clip {
+  position: absolute;
+  inset: 0;
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------------
+   Home's background animation.
+
+   Figma component set "Component 52" (#211:940), four variants, each holding
+   0.2s then smart-animating to the next: #211:941 -> 944 -> 947 -> 950 and
+   back. Three legs are SMART_ANIMATE (1.5s, 1.5s, 3s, all ease-out); the
+   closing leg is DISSOLVE (2.2s), which is why there are two stacked pairs
+   below - a dissolve cross-fades, it does not move, so the last leg cannot be
+   a geometry tween like the other three. Total cycle 9s.
+
+   Both ellipses are the instance's own colours, not the component's: the
+   component sits on #0b0b0b with green/orange blobs, and the instance
+   overrides that to white with #b29bff / #ffacf7. Using the component values
+   would render a black home screen.
+   -------------------------------------------------------------------------*/
+.home-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1080px;
+  height: 974.77px;
+  overflow: hidden;          /* the instance clips its content */
+  background: #ffffff;
+  pointer-events: none;
+}
+
+.home-blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  /* Figma layer blur 653.54. CSS blur() takes the Gaussian sigma, which is
+     half of it. Close, not identical - it is the whole of home's residual
+     0.130% diff. */
+  filter: blur(326.77px);
+  /* Transform and opacity only. The keyframes below were measured as
+     left/top/width/height and converted to translate()/scale() around each
+     blob's own centre, because animating the box would relayout and repaint
+     two ~1400px blurred elements every frame - on a kiosk panel that is the
+     difference between a smooth loop and a stuttering one. Same pixels, and
+     the diff still lands at 0.130%. */
+  will-change: transform;
+}
+
+/* Keyframe-1 geometry is the base box; every stop is a transform off it. */
+.home-blob-a {
+  background: #b29bff;                       /* Ellipse 1935 */
+  left: 432px; top: 625.85px;
+  width: 1032.92px; height: 1032.92px;
+}
+.home-blob-b {
+  background: #ffacf7;                       /* Ellipse 1936 */
+  left: -432px; top: 548.31px;
+  width: 841.85px; height: 841.85px;
+}
+
+/* Pair A walks all four keyframes, then fades out across the dissolve. */
+.home-pair-a { animation: home-dissolve-out 9s linear infinite; }
+/* Pair B holds keyframe 1 and fades in underneath it. At the loop boundary
+   both pairs show keyframe 1, so the swap back is invisible. */
+.home-pair-b { animation: home-dissolve-in 9s linear infinite; }
+
+.home-pair-a, .home-pair-b { position: absolute; inset: 0; }
+
+@keyframes home-dissolve-out {
+  0%,     75.556% { opacity: 1; }
+  100%            { opacity: 0; }
+}
+@keyframes home-dissolve-in {
+  0%,     75.556% { opacity: 0; }
+  100%            { opacity: 1; }
+}
+
+/* Stops are the four variants at 0.2s hold + leg duration:
+   0.2s, 1.7s, 1.9s, 3.4s, 3.6s, 6.6s, 6.8s of a 9s cycle. */
+@keyframes home-blob-a-move {
+  0%,  2.222%  { transform: translate(0, 0) scale(1);                          animation-timing-function: ease-out; }
+  18.889%      { transform: translate(235.80px, -226.77px) scale(1.37110); }
+  21.111%      { transform: translate(235.80px, -226.77px) scale(1.37110);      animation-timing-function: ease-out; }
+  37.778%      { transform: translate(213.05px, -865.90px) scale(1.14383); }
+  40%          { transform: translate(213.05px, -865.90px) scale(1.14383);      animation-timing-function: ease-out; }
+  73.333%,
+  100%         { transform: translate(-919.76px, -777.92px) scale(1.28212); }
+}
+
+@keyframes home-blob-b-move {
+  0%,  2.222%  { transform: translate(0, 0) scale(1);                          animation-timing-function: ease-out; }
+  18.889%      { transform: translate(282.59px, 289.20px) scale(1.37109); }
+  21.111%      { transform: translate(282.59px, 289.20px) scale(1.37109);       animation-timing-function: ease-out; }
+  37.778%      { transform: translate(474.45px, 161.34px) scale(1.27289); }
+  40%          { transform: translate(474.45px, 161.34px) scale(1.27289);       animation-timing-function: ease-out; }
+  73.333%,
+  100%         { transform: translate(681.99px, 236.64px) scale(1.69122); }
+}
+
+.home-pair-a .home-blob-a { animation: home-blob-a-move 9s linear infinite; }
+.home-pair-a .home-blob-b { animation: home-blob-b-move 9s linear infinite; }
+
+/* ---------------------------------------------------------------------------
+   Success's "animation" is deliberately NOT implemented, and that is a finding
+   rather than an omission.
+
+   Figma set "Dark" (#211:3316) declares #211:3317 -> #211:3320 after 0.05s,
+   SMART_ANIMATE 1.4s LINEAR: a clipping frame widening from 2.77px to 1080px
+   with the panel inside going 0.3 -> 0.4 alpha. It reads like a wipe across
+   the screen. It is not one - the panel has no fill. Exporting both variants
+   and counting pixels: the rest state is 287 non-transparent pixels at a peak
+   alpha of 58/255, and the fully-open target is 2706 at 102/255, on a surface
+   that would be ~617,000 pixels if it were filled. Both are the antialiased
+   edge of an empty rectangle.
+
+   So the declared animation paints nothing a viewer could see, and building it
+   would mean inventing a fill the designer did not set. `success` stays a
+   plate, and diffs at 0.000%.
+   -------------------------------------------------------------------------*/
+
+/* ---------------------------------------------------------------------------
+   Tap feedback. The plates swap within a frame, so without this a tap and a
+   mis-tap look identical - the screen simply changes, and on a kiosk that
+   reads as the machine moving on by itself. A brief wash over the control that
+   was actually hit says "this one, and it registered".
+
+   Only ever applied while `pressed` is true, which is only true between the
+   click and the navigation ~140ms later. At rest no rule here matches, so the
+   screens still diff against their exported frames unchanged.
+   -------------------------------------------------------------------------*/
+.hit-pressed {
+  background: rgba(0, 0, 0, 0.10);
+  border-radius: 16px;
+  transition: background 60ms ease-out;
+}
+
+/* A tap-anywhere target covers the whole screen, and washing all 1080x1920 of
+   it is a flash, not feedback. Dimmed far further and left square-cornered. */
+.hit-full.hit-pressed {
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 0;
+}
+
+/* Home below the animated region: one crop of the plate, positioned by pulling
+   the full image up by exactly the height of the animated instance. */
+.home-below {
+  position: absolute;
+  left: 0;
+  top: 974.77px;
+  width: 1080px;
+  height: 945.23px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.home-below-img {
+  position: absolute;
+  left: 0;
+  top: -974.77px;
+  width: 1080px;
+  height: 1920px;
+  display: block;
+}
+
+/* ---------------------------------------------------------------------------
+   Success entry animation, matched to the reference recording.
+
+   Measured off the video frame by frame (30fps, `.figma/ref-video/`) rather
+   than eyeballed. The rosette's white interior goes 119px -> 148px between
+   167ms and 733ms, which fits scale 0.6 -> 1.0 on an ease-out cubic to within
+   a couple of pixels at every sample: 0.80 measured vs 0.80 predicted at
+   167ms, 0.885 vs 0.905 at 300ms, 0.993 vs 0.995 at 600ms. The tick does not
+   exist for the first ~740ms and then fades up - it does not draw on, and it
+   does not scale.
+
+   Two things the reference does NOT do, both of which were in my first attempt
+   and both of which are why it looked wrong: there is no expanding ring, and
+   the line of text does not move. It is only the badge.
+
+   Transform and opacity only, and every stop resolves to the plate.
+   -------------------------------------------------------------------------*/
+.success-badge {
+  transform-origin: center;
+  animation:
+    success-badge-scale 780ms cubic-bezier(0.33, 1, 0.68, 1) both,
+    success-badge-fade  180ms linear both;
+  will-change: transform, opacity;
+}
+
+@keyframes success-badge-scale {
+  from { transform: scale(0.6); }
+  to   { transform: scale(1); }
+}
+@keyframes success-badge-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* The tick rides the same box, so it inherits nothing and needs the scale
+   applied to it too - it is a separate element only so it can fade
+   independently, not so it can sit still while the rosette grows. */
+.success-tick {
+  transform-origin: center;
+  animation:
+    success-badge-scale 780ms cubic-bezier(0.33, 1, 0.68, 1) both,
+    success-tick-fade   400ms 740ms ease-out both;
+  will-change: transform, opacity;
+}
+
+@keyframes success-tick-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ---------------------------------------------------------------------------
+   Paid: the round badge, and nothing else on the screen.
+
+   Same curve as the badge on `success`, because it is the same badge and the
+   two screens run back to back - a different easing on the second one would
+   read as a glitch rather than as a second beat. The tick is not separated
+   here: at 161px it is a few pixels of stroke, and the reference does not
+   fade it independently at that size.
+   -------------------------------------------------------------------------*/
+.paid-badge-patch {
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.paid-badge {
+  transform-origin: center;
+  animation:
+    success-badge-scale 780ms cubic-bezier(0.33, 1, 0.68, 1) both,
+    success-badge-fade  180ms linear both;
+  will-change: transform, opacity;
+}
+
+/* ---------------------------------------------------------------------------
+   Shared by every screen whose only motion is the badge.
+   -------------------------------------------------------------------------*/
+.badge-patch {
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* ---------------------------------------------------------------------------
+   Loading: the ring turns, and keeps turning.
+
+   1.1s linear and infinite. It deliberately does not ease and does not stop -
+   easing makes a spinner look like it is struggling, and stopping makes it
+   look hung.
+   -------------------------------------------------------------------------*/
+.loading-patch {
+  position: absolute;
+  background: #ffffff;
+  pointer-events: none;
+}
+
+.loading-arc {
+  animation: loading-spin 1.1s linear infinite;
+  will-change: transform;
+}
+
+@keyframes loading-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}

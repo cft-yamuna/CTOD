@@ -1,0 +1,224 @@
+{
+  "211:941": {
+    "name": "Property 1=Frame 1686562570",
+    "type": "COMPONENT",
+    "parent": null,
+    "rel": null,
+    "opacity": 1,
+    "fills": "SOLID #0b0b0b a=1",
+    "fx": ""
+  },
+  "211:942": {
+    "name": "Ellipse 1935",
+    "type": "ELLIPSE",
+    "parent": "211:941",
+    "rel": {
+      "x": 156,
+      "y": 226,
+      "w": 373,
+      "h": 373
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "SOLID #1cab61 a=1",
+    "fx": "LAYER_BLUR r=236"
+  },
+  "211:943": {
+    "name": "Ellipse 1936",
+    "type": "ELLIPSE",
+    "parent": "211:941",
+    "rel": {
+      "x": -156,
+      "y": 198,
+      "w": 304,
+      "h": 304
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "SOLID #fc8e3e a=1",
+    "fx": "LAYER_BLUR r=236"
+  },
+  "211:944": {
+    "name": "Property 1=Frame 1686562571",
+    "type": "COMPONENT",
+    "parent": null,
+    "rel": null,
+    "opacity": 1,
+    "fills": "SOLID #0b0b0b a=1",
+    "fx": ""
+  },
+  "211:945": {
+    "name": "Ellipse 1935",
+    "type": "ELLIPSE",
+    "parent": "211:944",
+    "rel": {
+      "x": 171.94,
+      "y": 74.9,
+      "w": 511.42,
+      "h": 511.42
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "SOLID #1cab61 a=1",
+    "fx": "LAYER_BLUR r=236"
+  },
+  "211:946": {
+    "name": "Ellipse 1936",
+    "type": "ELLIPSE",
+    "parent": "211:944",
+    "rel": {
+      "x": -110.36,
+      "y": 246.03,
+      "w": 416.81,
+      "h": 416.81
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "SOLID #fc8e3e a=1",
+    "fx": "LAYER_BLUR r=236"
+  },
+  "211:947": {
+    "name": "Property 1=Frame 1686562572",
+    "type": "COMPONENT",
+    "parent": null,
+    "rel": null,
+    "opacity": 1,
+    "fills": "SOLID #0b0b0b a=1",
+    "fx": ""
+  },
+  "211:948": {
+    "name": "Ellipse 1935",
+    "type": "ELLIPSE",
+    "parent": "211:947",
+    "rel": {
+      "x": 206.11,
+      "y": -113.51,
+      "w": 426.65,
+      "h": 426.65
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "SOLID #1cab61 a=1",
+    "fx": "LAYER_BLUR r=236"
+  },
+  "211:949": {
+    "name": "Ellipse 1936",
+    "type": "ELLIPSE",
+    "parent": "211:947",
+    "rel": {
+      "x": -26.15,
+      "y": 214.78,
+      "w": 386.96,
+      "h": 386.96
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "SOLID #fc8e3e a=1",
+    "fx": "LAYER_BLUR r=236"
+  },
+  "211:950": {
+    "name": "Property 1=Variant4",
+    "type": "COMPONENT",
+    "parent": null,
+    "rel": null,
+    "opacity": 1,
+    "fills": "SOLID #0b0b0b a=1",
+    "fx": ""
+  },
+  "211:951": {
+    "name": "Ellipse 1935",
+    "type": "ELLIPSE",
+    "parent": "211:950",
+    "rel": {
+      "x": -228.75,
+      "y": -107.53,
+      "w": 478.23,
+      "h": 478.23
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "SOLID #1cab61 a=1",
+    "fx": "LAYER_BLUR r=236"
+  },
+  "211:952": {
+    "name": "Ellipse 1936",
+    "type": "ELLIPSE",
+    "parent": "211:950",
+    "rel": {
+      "x": -14.79,
+      "y": 178.39,
+      "w": 514.13,
+      "h": 514.13
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "SOLID #fc8e3e a=1",
+    "fx": "LAYER_BLUR r=236"
+  },
+  "211:3317": {
+    "name": "Property 1=Frame 1686562521",
+    "type": "COMPONENT",
+    "parent": null,
+    "rel": null,
+    "opacity": 1,
+    "fills": "",
+    "fx": ""
+  },
+  "211:3318": {
+    "name": "Frame 1686562522",
+    "type": "FRAME",
+    "parent": "211:3317",
+    "rel": {
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 396
+    },
+    "opacity": 1,
+    "fills": "",
+    "fx": ""
+  },
+  "211:3319": {
+    "name": "Rectangle 34625043",
+    "type": "VECTOR",
+    "parent": "211:3317",
+    "rel": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 395.5
+    },
+    "opacity": 0.30000001192092896,
+    "fills": "",
+    "fx": ""
+  },
+  "211:3320": {
+    "name": "Property 1=Frame 1686562522",
+    "type": "COMPONENT",
+    "parent": null,
+    "rel": null,
+    "opacity": 1,
+    "fills": "",
+    "fx": ""
+  },
+  "211:3321": {
+    "name": "Frame 1686562522",
+    "type": "FRAME",
+    "parent": "211:3320",
+    "rel": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 396
+    },
+    "opacity": 1,
+    "fills": "",
+    "fx": ""
+  },
+  "211:3322": {
+    "name": "Rectangle 34625043",
+    "type": "VECTOR",
+    "parent": "211:3320",
+    "rel": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 395.5
+    },
+    "opacity": 0.4000000059604645,
+    "fills": "",
+    "fx": ""
+  }
+}

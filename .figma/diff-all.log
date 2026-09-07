@@ -1,0 +1,356 @@
+  note: 3 servers match (5173, 5176, 5177); using 5173
+
+===== home =====
+mismatch  0.131%  (2,713 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/home/diff.png
+  actual    .figma/diff/home/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+     11084 px  move +0,+47  size +0x-78   div home-bg
+     11084 px  move +0,+47  size +0x-78   div home-pair-a
+     11084 px  move +0,+47  size +0x-78   div home-pair-b
+      7623 px  move -2,+1  size +2x+0     img layer
+      2828 px  size -1x+0                 img layer
+      2485 px  move +105,+0  size -105x+0 div home-blob home-blob-b
+      2485 px  move +105,+0  size -105x+0 div home-blob home-blob-b
+       633 px  move +66,+118  size -117x-180 img layer
+       562 px  antialiasing only          div home-blob home-blob-a
+       562 px  antialiasing only          div home-blob home-blob-a
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== intro =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/intro/diff.png
+  actual    .figma/diff/intro/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== terms =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/terms/diff.png
+  actual    .figma/diff/terms/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== cities =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/cities/diff.png
+  actual    .figma/diff/cities/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== issuer =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/issuer/diff.png
+  actual    .figma/diff/issuer/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== cardstyle =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/cardstyle/diff.png
+  actual    .figma/diff/cardstyle/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== amount =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/amount/diff.png
+  actual    .figma/diff/amount/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== methods =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/methods/diff.png
+  actual    .figma/diff/methods/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== upipin2 =====
+mismatch  0.019%  (389 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/upipin2/diff.png
+  actual    .figma/diff/upipin2/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+      1458 px  size -1x-1                 div pin-.trip
+       257 px  size -1x-1                 div pin-dot pin-dot-next
+       233 px  size -1x-1                 div pin-dot pin-dot-empty
+       222 px  size +0x-1                 div pin-dot pin-dot-empty
+       220 px  size +0x-1                 div pin-dot pin-dot-empty
+       220 px  move +1,+0  size -1x-1     div pin-dot pin-dot-empty
+       213 px  size -1x-1                 div pin-dot pin-dot-empty
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== upipin =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/upipin/diff.png
+  actual    .figma/diff/upipin/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== success =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/success/diff.png
+  actual    .figma/diff/success/actual.png
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== paid =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/paid/diff.png
+  actual    .figma/diff/paid/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== loading =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/loading/diff.png
+  actual    .figma/diff/loading/actual.png
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== balance =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/balance/diff.png
+  actual    .figma/diff/balance/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== addmoney2 =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/addmoney2/diff.png
+  actual    .figma/diff/addmoney2/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== addmoney =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/addmoney/diff.png
+  actual    .figma/diff/addmoney/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== addmethods =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/addmethods/diff.png
+  actual    .figma/diff/addmethods/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== addpin2 =====
+mismatch  0.019%  (389 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/addpin2/diff.png
+  actual    .figma/diff/addpin2/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+      1458 px  size -1x-1                 div pin-.trip
+       257 px  size -1x-1                 div pin-dot pin-dot-next
+       233 px  size -1x-1                 div pin-dot pin-dot-empty
+       222 px  size +0x-1                 div pin-dot pin-dot-empty
+       220 px  size +0x-1                 div pin-dot pin-dot-empty
+       220 px  move +1,+0  size -1x-1     div pin-dot pin-dot-empty
+       213 px  size -1x-1                 div pin-dot pin-dot-empty
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== addpin =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/addpin/diff.png
+  actual    .figma/diff/addpin/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== addsuccess =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/addsuccess/diff.png
+  actual    .figma/diff/addsuccess/actual.png
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== addpaid =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/addpaid/diff.png
+  actual    .figma/diff/addpaid/actual.png
+
+  per element  (worst first; dx/dy = how far to move it)
+
+  fit       PASS - centred and fully visible at 4 other sizes
+
+===== addbalance =====
+mismatch  0.000%  (0 px)
+  verdict   PASS - residue is antialiasing
+  diff      .figma/diff/addbalance/diff.png
+  actual    .figma/diff/addbalance/actual.png
+  fit       PASS - centred and fully visible at 4 other sizes
+
+
+================ SUMMARY ================
+  0.131%  home       pass
+  0.019%  upipin2    pass
+  0.019%  addpin2    pass
+  0.000%  intro      pass
+  0.000%  terms      pass
+  0.000%  cities     pass
+  0.000%  issuer     pass
+  0.000%  cardstyle  pass
+  0.000%  amount     pass
+  0.000%  methods    pass
+  0.000%  upipin     pass
+  0.000%  success    pass
+  0.000%  paid       pass
+  0.000%  loading    pass
+  0.000%  balance    pass
+  0.000%  addmoney2  pass
+  0.000%  addmoney   pass
+  0.000%  addmethods pass
+  0.000%  addpin     pass
+  0.000%  addsuccess pass
+  0.000%  addpaid    pass
+  0.000%  addbalance pass
+
+All 22 screens under 0.5%.
+---FLOW---
+  note: 3 servers match (5173, 5176, 5177); using 5173
+
+  22 screens, 31 declared tap transitions, 2 timed
+
+  -- deep links --
+PASS  ?screen=home lands on home
+PASS  ?screen=intro lands on intro
+PASS  ?screen=terms lands on terms
+PASS  ?screen=cities lands on cities
+PASS  ?screen=issuer lands on issuer
+PASS  ?screen=cardstyle lands on cardstyle
+PASS  ?screen=amount lands on amount
+PASS  ?screen=methods lands on methods
+PASS  ?screen=upipin2 lands on upipin2
+PASS  ?screen=upipin lands on upipin
+PASS  ?screen=success lands on success
+PASS  ?screen=paid lands on paid
+PASS  ?screen=loading lands on loading
+PASS  ?screen=balance lands on balance
+PASS  ?screen=addmoney2 lands on addmoney2
+PASS  ?screen=addmoney lands on addmoney
+PASS  ?screen=addmethods lands on addmethods
+PASS  ?screen=addpin2 lands on addpin2
+PASS  ?screen=addpin lands on addpin
+PASS  ?screen=addsuccess lands on addsuccess
+PASS  ?screen=addpaid lands on addpaid
+PASS  ?screen=addbalance lands on addbalance
+
+  -- the loop: one session, home back round to home --
+PASS  walk: home "ON-THE-GO Transit Card chip" -> intro
+PASS  walk: intro "Accept terms checkbox" -> terms
+PASS  walk: terms "Continue" -> cities
+PASS  walk: cities "City list" -> issuer
+PASS  walk: issuer "ABC Bank card" -> cardstyle
+PASS  walk: cardstyle "Continue" -> amount
+PASS  walk: amount "Continue" -> methods
+PASS  walk: methods "UPI 1 row" -> upipin2
+PASS  walk: upipin2 typed PIN + Next -> success
+PASS  walk: success waits out 3000ms -> paid
+PASS  walk: paid "Home button" -> loading
+PASS  walk: loading "Whole frame" -> balance
+PASS  walk: balance "Add ₹300 chip" -> addmoney2
+PASS  walk: addmoney2 "Add Money" -> addmethods
+PASS  walk: addmethods "UPI 1 row" -> addpin2
+PASS  walk: addpin2 typed PIN + Next -> addsuccess
+PASS  walk: addsuccess waits out 3000ms -> addpaid
+PASS  walk: addpaid "Home button" -> addbalance
+PASS  walk: addbalance "Restart" -> home
+
+  -- back arrows, closes, and anything else declared --
+PASS  intro: "Back" -> home
+PASS  terms: "Un-accept terms checkbox" -> intro
+PASS  terms: "Back" -> home
+PASS  cities: "Back" -> terms
+PASS  issuer: "Back" -> cities
+PASS  cardstyle: "Back" -> issuer
+PASS  amount: "Back" -> cardstyle
+PASS  methods: "Back" -> amount
+PASS  upipin2: "Close" -> methods
+PASS  upipin: "Next key" -> success
+PASS  upipin: "Close" -> methods
+PASS  addmoney2: "Deselect ₹300 chip" -> addmoney
+PASS  addmoney: "Select ₹300 chip" -> addmoney2
+PASS  addmethods: "Back" -> addmoney2
+PASS  addpin2: "Close" -> addmethods
+PASS  addpin: "Next key" -> addsuccess
+
+  -- the timed transitions --
+PASS  success ignores a tap, and does not advance instantly
+PASS  success -> paid on its own after 3000ms
+        fired 1.34s later, measured from 400ms in (declared 3s)
+PASS  addsuccess ignores a tap, and does not advance instantly
+PASS  addsuccess -> addpaid on its own after 3000ms
+        fired 2.06s later, measured from 400ms in (declared 3s)
+
+  -- printed controls that must do nothing --
+PASS  amount: printed amount row is inert
+PASS  methods: disabled Credit Card 1 row is inert
+PASS  methods: disabled Debit Card 1 row is inert
+PASS  paid: More details chip is inert
+PASS  paid: share screenshot is inert
+PASS  cities: header above the list region is inert
+PASS  balance: ₹100 chip is inert
+PASS  balance: ₹500 chip is inert
+PASS  balance: disabled Add Money CTA is inert
+PASS  addmoney2: ₹100 chip is inert
+PASS  addmoney2: custom amount field is inert
+PASS  addmethods: UPI 2 row is inert
+PASS  addpaid: More details chip is inert
+PASS  addpaid: UPI Help button is inert
+
+  75/75 assertions correct
+  31/31 declared tap transitions driven, 2/2 timed
+  no page or console errors
+DONE

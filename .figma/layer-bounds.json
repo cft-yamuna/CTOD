@@ -1,0 +1,359 @@
+{
+  "211:5561": [
+    {
+      "i": 0,
+      "id": "211:5562",
+      "name": "Component 53",
+      "type": "INSTANCE",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": 0,
+        "w": 1080,
+        "h": 975
+      },
+      "render": {
+        "left": 0,
+        "top": 0,
+        "w": 1080,
+        "h": 974.77
+      },
+      "fills": "SOLID",
+      "hasImage": false
+    },
+    {
+      "i": 1,
+      "id": "211:5563",
+      "name": "image 538",
+      "type": "RECTANGLE",
+      "visible": false,
+      "opacity": 1,
+      "blend": "DARKEN",
+      "box": {
+        "left": -50,
+        "top": 637,
+        "w": 377,
+        "h": 227
+      },
+      "render": null,
+      "fills": "IMAGE",
+      "hasImage": true
+    },
+    {
+      "i": 2,
+      "id": "211:5564",
+      "name": "Subtract",
+      "type": "BOOLEAN_OPERATION",
+      "visible": true,
+      "opacity": 1,
+      "blend": "DARKEN",
+      "box": {
+        "left": 792,
+        "top": 684,
+        "w": 0,
+        "h": 0
+      },
+      "render": null,
+      "fills": "IMAGE",
+      "hasImage": true
+    },
+    {
+      "i": 3,
+      "id": "211:5566",
+      "name": "Group 1547753965",
+      "type": "GROUP",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": 784,
+        "w": 1080,
+        "h": 1493
+      },
+      "render": {
+        "left": 0,
+        "top": 783.69,
+        "w": 1080,
+        "h": 1136.31
+      },
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 4,
+      "id": "211:5619",
+      "name": "Rectangle 34625004",
+      "type": "RECTANGLE",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": 1786,
+        "w": 1080,
+        "h": 241
+      },
+      "render": null,
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 5,
+      "id": "211:5620",
+      "name": "Group 1686562583",
+      "type": "GROUP",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": 1786,
+        "w": 1080,
+        "h": 3092
+      },
+      "render": {
+        "left": 0,
+        "top": 1786.15,
+        "w": 1080,
+        "h": 133.85
+      },
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 6,
+      "id": "211:5840",
+      "name": "Frame 1686562867",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 44,
+        "top": 482,
+        "w": 1036,
+        "h": 227
+      },
+      "render": {
+        "left": 44.31,
+        "top": 481.85,
+        "w": 1035.69,
+        "h": 227.08
+      },
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 7,
+      "id": "211:5935",
+      "name": "Frame 1686562563",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 44,
+        "top": 366,
+        "w": 991,
+        "h": 60
+      },
+      "render": {
+        "left": 44.31,
+        "top": 365.54,
+        "w": 991.38,
+        "h": 60
+      },
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 8,
+      "id": "211:5942",
+      "name": "Group 1686562582",
+      "type": "GROUP",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": 1621,
+        "w": 1080,
+        "h": 299
+      },
+      "render": {
+        "left": 0,
+        "top": 1621.15,
+        "w": 1080,
+        "h": 298.85
+      },
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 9,
+      "id": "211:6014",
+      "name": "Header",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": 0,
+        "w": 1080,
+        "h": 332
+      },
+      "render": {
+        "left": 0,
+        "top": 0,
+        "w": 1080,
+        "h": 332.31
+      },
+      "fills": "SOLID",
+      "hasImage": false
+    }
+  ],
+  "211:6304": [
+    {
+      "i": 0,
+      "id": "211:6305",
+      "name": "Group 1547754018",
+      "type": "GROUP",
+      "visible": true,
+      "opacity": 0.05000000074505806,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": -69,
+        "top": 1537,
+        "w": 1221,
+        "h": 1068
+      },
+      "render": {
+        "left": 0,
+        "top": 1536.92,
+        "w": 1080,
+        "h": 383.08
+      },
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 1,
+      "id": "211:6325",
+      "name": "1",
+      "type": "VECTOR",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": -21,
+        "w": 1080,
+        "h": 2607
+      },
+      "render": {
+        "left": 0,
+        "top": 0,
+        "w": 1080,
+        "h": 1920
+      },
+      "fills": "GRADIENT_LINEAR",
+      "hasImage": false
+    },
+    {
+      "i": 2,
+      "id": "211:6326",
+      "name": "Dark",
+      "type": "INSTANCE",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": 69,
+        "w": 1080,
+        "h": 1095
+      },
+      "render": {
+        "left": 0,
+        "top": 69.23,
+        "w": 1080,
+        "h": 1095.23
+      },
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 3,
+      "id": "211:6327",
+      "name": "Inner page header-1",
+      "type": "FRAME",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 0,
+        "top": 0,
+        "w": 1080,
+        "h": 122
+      },
+      "render": {
+        "left": 0,
+        "top": 0,
+        "w": 1080,
+        "h": 121.85
+      },
+      "fills": "",
+      "hasImage": false
+    },
+    {
+      "i": 4,
+      "id": "211:6337",
+      "name": "Payment successful",
+      "type": "TEXT",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 300,
+        "top": 1196,
+        "w": 479,
+        "h": 65
+      },
+      "render": {
+        "left": 304.84,
+        "top": 1209.36,
+        "w": 470.66,
+        "h": 48.15
+      },
+      "fills": "SOLID",
+      "hasImage": false
+    },
+    {
+      "i": 5,
+      "id": "211:6338",
+      "name": "Animation",
+      "type": "RECTANGLE",
+      "visible": true,
+      "opacity": 1,
+      "blend": "PASS_THROUGH",
+      "box": {
+        "left": 335,
+        "top": 753,
+        "w": 415,
+        "h": 352
+      },
+      "render": {
+        "left": 335.08,
+        "top": 753.23,
+        "w": 415.38,
+        "h": 351.69
+      },
+      "fills": "IMAGE",
+      "hasImage": true
+    }
+  ]
+}

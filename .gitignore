@@ -1,0 +1,13 @@
+node_modules
+dist
+.figma/diff
+
+# build cache
+tsconfig.tsbuildinfo
+
+# Full-resolution plate originals. Large, and every shipped plate is
+# regenerated from them by scripts/prepare-plate.mjs.
+assets-src
+
+# Vite dev server log - regenerated on every run.
+dev.log

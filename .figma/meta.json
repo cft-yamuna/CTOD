@@ -1,0 +1,5181 @@
+{
+  "fileKey": "jk3u8GQ1wxKd3Ge5hEPLaJ",
+  "nodes": [
+    "211:5456",
+    "211:5505",
+    "211:5561",
+    "211:6054",
+    "211:6137",
+    "211:6178",
+    "211:6253",
+    "211:6304",
+    "211:6339",
+    "211:6419",
+    "211:6499",
+    "211:6530",
+    "211:6689",
+    "211:6706"
+  ],
+  "extractedAt": "2026-09-06T11:16:42.420Z",
+  "nodesWalked": 2198,
+  "findings": [
+    {
+      "id": "211:5456",
+      "name": "Introduction to ON-THE-GO accept terms",
+      "type": "FRAME",
+      "path": "Introduction to ON-THE-GO accept terms",
+      "box": {
+        "x": -58517,
+        "y": 10633,
+        "width": 1080,
+        "height": 1920
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:5457",
+      "name": "Frame 1984080068",
+      "type": "FRAME",
+      "path": "Introduction to ON-THE-GO accept terms > Frame 1984080068",
+      "box": {
+        "x": -58517,
+        "y": 10936.767578125,
+        "width": 1080,
+        "height": 1249
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:5488",
+      "name": "CheckBox",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO accept terms > Frame 1686562600 > CheckBox",
+      "box": {
+        "x": -58494.84765625,
+        "y": 12193.23046875,
+        "width": 1035.6923828125,
+        "height": 88.61538696289062
+      },
+      "instanceProperties": {
+        "Show Label#2712:5": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Text#2712:0": {
+          "type": "TEXT",
+          "value": "By continuing, you agree to the Terms & condition"
+        },
+        "State (Off/On)": {
+          "value": "On",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Disabled": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Intermidiate": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5488;2712:826",
+      "name": "vuesax/linear/arrow-right",
+      "type": "GROUP",
+      "path": "Introduction to ON-THE-GO accept terms > Frame 1686562600 > CheckBox > vuesax/linear/arrow-right",
+      "box": {
+        "x": -58417.84765625,
+        "y": 12193.23046875,
+        "width": 88.61538696289062,
+        "height": 88.61538696289062
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:5505"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:5505"
+    },
+    {
+      "id": "211:5489",
+      "name": "Footer",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO accept terms > Frame 1686562600 > Footer",
+      "box": {
+        "x": -58517,
+        "y": 12281.845703125,
+        "width": 1080,
+        "height": 271.3846130371094
+      },
+      "instanceProperties": {
+        "Footer": {
+          "value": "full width cta",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5489;580:698",
+      "name": "Home",
+      "type": "FRAME",
+      "path": "Introduction to ON-THE-GO accept terms > Frame 1686562600 > Footer > Group 1686562524 > Group 1547754010 > Home",
+      "box": {
+        "x": -58517,
+        "y": 12489.4912109375,
+        "width": 1080,
+        "height": 63.69231033325195
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "I211:5489;2260:88143",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO accept terms > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562288 > Button",
+      "box": {
+        "x": -58472.69140625,
+        "y": 12315.076171875,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6054"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6054",
+      "instanceProperties": {
+        "Type": {
+          "value": "Primary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5489;2260:88143;1318:747",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO accept terms > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -58472.69140625,
+        "y": 12315.076171875,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Text2#1318:10": {
+          "type": "TEXT",
+          "value": "Label"
+        },
+        "Right icon 24#240:20": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Right icon 12#240:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Right icon 16#240:12": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Left icon 12#240:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Left icon 16#240:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Show Right#1318:8": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Left#1318:6": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Left icon 24#240:16": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Buy your RuPay ON-THE-GO card"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5490",
+      "name": "Gradient Bkg",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO accept terms > Gradient Bkg",
+      "box": {
+        "x": -58517,
+        "y": 10633,
+        "width": 1080,
+        "height": 2337.230712890625
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:5491",
+      "name": "Header",
+      "type": "FRAME",
+      "path": "Introduction to ON-THE-GO accept terms > Header",
+      "box": {
+        "x": -58517,
+        "y": 10633.69140625,
+        "width": 1080,
+        "height": 299.0769348144531
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:5497",
+      "name": "Arrow-Left-1-",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO accept terms > Header > set > Frame 1686562385 > Arrow-Left-1-",
+      "box": {
+        "x": -58472.69140625,
+        "y": 10816.4599609375,
+        "width": 55.38461685180664,
+        "height": 55.38461685180664
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:5561"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:5561"
+    },
+    {
+      "id": "211:5505",
+      "name": "Introduction to ON-THE-GO",
+      "type": "FRAME",
+      "path": "Introduction to ON-THE-GO",
+      "box": {
+        "x": -59717,
+        "y": 10633,
+        "width": 1080,
+        "height": 1920
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:5506",
+      "name": "Frame 1984080067",
+      "type": "FRAME",
+      "path": "Introduction to ON-THE-GO > Frame 1984080067",
+      "box": {
+        "x": -59717,
+        "y": 10937,
+        "width": 1080,
+        "height": 1249
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:5537",
+      "name": "CheckBox",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO > Frame 1686562600 > CheckBox",
+      "box": {
+        "x": -59694.84765625,
+        "y": 12193.23046875,
+        "width": 1035.6923828125,
+        "height": 88.61538696289062
+      },
+      "instanceProperties": {
+        "Show Label#2712:5": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Text#2712:0": {
+          "type": "TEXT",
+          "value": "By continuing, you agree to the Terms & condition"
+        },
+        "State (Off/On)": {
+          "value": "Off",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Disabled": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Intermidiate": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5537;2688:1936",
+      "name": "vuesax/linear/arrow-right",
+      "type": "GROUP",
+      "path": "Introduction to ON-THE-GO > Frame 1686562600 > CheckBox > vuesax/linear/arrow-right",
+      "box": {
+        "x": -59617.84765625,
+        "y": 12193.23046875,
+        "width": 88.61538696289062,
+        "height": 88.61538696289062
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:5456"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:5456"
+    },
+    {
+      "id": "211:5542",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562832 > Frame 1686562288 > Button",
+      "box": {
+        "x": -59672.69140625,
+        "y": 12322.9833984375,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Primary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Disabled",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5542;1318:885",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562832 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -59672.69140625,
+        "y": 12322.9833984375,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Right Icon#3413:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Left Icon#3413:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Show Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Buy your RuPay ON-THE-GO card"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5544",
+      "name": "Home",
+      "type": "FRAME",
+      "path": "Introduction to ON-THE-GO > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562832 > Group 1547754010 > Home",
+      "box": {
+        "x": -59717,
+        "y": 12489.13671875,
+        "width": 1080,
+        "height": 63.69230651855469
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:5546",
+      "name": "Gradient Bkg",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO > Gradient Bkg",
+      "box": {
+        "x": -59717,
+        "y": 10633,
+        "width": 1080,
+        "height": 2337.230712890625
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:5547",
+      "name": "Header",
+      "type": "FRAME",
+      "path": "Introduction to ON-THE-GO > Header",
+      "box": {
+        "x": -59717,
+        "y": 10633.69140625,
+        "width": 1080,
+        "height": 299.0769348144531
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:5553",
+      "name": "Arrow-Left-1-",
+      "type": "INSTANCE",
+      "path": "Introduction to ON-THE-GO > Header > set > Frame 1686562385 > Arrow-Left-1-",
+      "box": {
+        "x": -59672.69140625,
+        "y": 10816.4599609375,
+        "width": 55.38461685180664,
+        "height": 55.38461685180664
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:5561"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:5561"
+    },
+    {
+      "id": "211:5561",
+      "name": "Home ON-THE-GO entry",
+      "type": "FRAME",
+      "path": "Home ON-THE-GO entry",
+      "box": {
+        "x": -60917,
+        "y": 10633,
+        "width": 1080,
+        "height": 1920
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:5562",
+      "name": "Component 53",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Component 53",
+      "box": {
+        "x": -60917,
+        "y": 10633,
+        "width": 1080,
+        "height": 974.769287109375
+      },
+      "interactions": [
+        {
+          "trigger": "AFTER_TIMEOUT",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "CHANGE_TO",
+              "destination": "211:944"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:944",
+      "instanceProperties": {
+        "Property 1": {
+          "value": "Frame 1686562570",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5572",
+      "name": "Frame 1984078458",
+      "type": "FRAME",
+      "path": "Home ON-THE-GO entry > Group 1547753965 > Group 1547753964 > Frame 1686562869 > Frame 1984078457 > Frame 1984078462 > Frame 1984078458",
+      "box": {
+        "x": -60833.921875,
+        "y": 12197.6171875,
+        "width": 382.76922607421875,
+        "height": 132.92308044433594
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:5505"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:5505"
+    },
+    {
+      "id": "211:5574",
+      "name": "Rupay",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1547753965 > Group 1547753964 > Frame 1686562869 > Frame 1984078457 > Frame 1984078462 > Frame 1984078458 > Avatar/Bank Logos > Rupay",
+      "box": {
+        "x": -60798.20703125,
+        "y": 12246.673828125,
+        "width": 83.64588928222656,
+        "height": 34.81317901611328
+      },
+      "instanceProperties": {
+        "Light <> Dark": {
+          "value": "Yes",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Type": {
+          "value": "General",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5586",
+      "name": "Set of Icons",
+      "type": "FRAME",
+      "path": "Home ON-THE-GO entry > Group 1547753965 > Set of Icons",
+      "box": {
+        "x": -60872.69140625,
+        "y": 11461,
+        "width": 991.3846435546875,
+        "height": 700.6153564453125
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:5624",
+      "name": "Set",
+      "type": "FRAME",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562141 > Set",
+      "box": {
+        "x": -60872.69140625,
+        "y": 14255.15234375,
+        "width": 991.3846435546875,
+        "height": 492.9230651855469
+      },
+      "overflowDirection": "HORIZONTAL_SCROLLING"
+    },
+    {
+      "id": "211:5671",
+      "name": "Link",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Frame 1686562120 > Link",
+      "box": {
+        "x": -60096.76953125,
+        "y": 12427.4599609375,
+        "width": 215.4615478515625,
+        "height": 55.38461685180664
+      },
+      "instanceProperties": {
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Underline": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5671;1333:3363",
+      "name": ".master/Link",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Frame 1686562120 > Link > .master/Link",
+      "box": {
+        "x": -60096.76953125,
+        "y": 12427.4599609375,
+        "width": 215.4615478515625,
+        "height": 55.38461685180664
+      },
+      "instanceProperties": {
+        "Text#1340:8": {
+          "type": "TEXT",
+          "value": "View all"
+        },
+        "Icon#1340:5": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Size": {
+          "value": "M",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5673",
+      "name": "2",
+      "type": "FRAME",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Group 1547754084 > 2",
+      "box": {
+        "x": -60874.078125,
+        "y": 12535.4599609375,
+        "width": 994.1538696289062,
+        "height": 408.3846130371094
+      },
+      "overflowDirection": "HORIZONTAL_SCROLLING"
+    },
+    {
+      "id": "211:5679",
+      "name": "Bank Logos (Small)",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Group 1547754084 > 2 > 2 > Frame 1686562091 > Logo box > Bank Logos (Small)",
+      "box": {
+        "x": -60796.5390625,
+        "y": 12611.61328125,
+        "width": 66.46154022216797,
+        "height": 66.46154022216797
+      },
+      "instanceProperties": {
+        "Bank Name": {
+          "value": "Kotak Mahindra Bank",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5685",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Group 1547754084 > 2 > 2 > Button",
+      "box": {
+        "x": -60840.84765625,
+        "y": 12799.15234375,
+        "width": 653.5384521484375,
+        "height": 111.46154022216797
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Secondary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5685;1318:1369",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Group 1547754084 > 2 > 2 > Button > .Button/master",
+      "box": {
+        "x": -60840.84765625,
+        "y": 12799.15234375,
+        "width": 653.5384521484375,
+        "height": 111.46154022216797
+      },
+      "instanceProperties": {
+        "Left Icon2#1318:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1895",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Right Icon - 20px#1318:5": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Right Icon2#1318:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1895",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Right Icon - 16px#2159:65": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "3fd4ba5d097d67dafdce7ba489cf28135d5d0fe2"
+            }
+          ]
+        },
+        "Left Icon - 20px#1318:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Show Left#1318:6": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Left Icon - 16px#2159:61": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "3fd4ba5d097d67dafdce7ba489cf28135d5d0fe2"
+            }
+          ]
+        },
+        "Text2#1318:10": {
+          "type": "TEXT",
+          "value": "Label"
+        },
+        "Show Right#1318:8": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Pay ₹14,220"
+        },
+        "Size": {
+          "value": "Medium",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5711",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Group 1547754084 > 2 > 1 > Button",
+      "box": {
+        "x": -60087.6171875,
+        "y": 12799.15234375,
+        "width": 703.3846435546875,
+        "height": 111.46154022216797
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Secondary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5711;1318:1369",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Group 1547754084 > 2 > 1 > Button > .Button/master",
+      "box": {
+        "x": -60087.6171875,
+        "y": 12799.15234375,
+        "width": 703.3846435546875,
+        "height": 111.46154022216797
+      },
+      "instanceProperties": {
+        "Left Icon2#1318:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1895",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Right Icon - 20px#1318:5": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Right Icon2#1318:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1895",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Right Icon - 16px#2159:65": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "3fd4ba5d097d67dafdce7ba489cf28135d5d0fe2"
+            }
+          ]
+        },
+        "Left Icon - 20px#1318:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Show Left#1318:6": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Left Icon - 16px#2159:61": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "3fd4ba5d097d67dafdce7ba489cf28135d5d0fe2"
+            }
+          ]
+        },
+        "Text2#1318:10": {
+          "type": "TEXT",
+          "value": "Label"
+        },
+        "Show Right#1318:8": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Recharge"
+        },
+        "Size": {
+          "value": "Medium",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5735",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Group 1547754084 > 2 > 3 > Button",
+      "box": {
+        "x": -59284.5390625,
+        "y": 12799.15234375,
+        "width": 703.3846435546875,
+        "height": 111.46154022216797
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Secondary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5735;1318:1369",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Frame 1686562489 > Group 1547754084 > 2 > 3 > Button > .Button/master",
+      "box": {
+        "x": -59284.5390625,
+        "y": 12799.15234375,
+        "width": 703.3846435546875,
+        "height": 111.46154022216797
+      },
+      "instanceProperties": {
+        "Left Icon2#1318:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1895",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Right Icon - 20px#1318:5": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Right Icon2#1318:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1895",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Right Icon - 16px#2159:65": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "3fd4ba5d097d67dafdce7ba489cf28135d5d0fe2"
+            }
+          ]
+        },
+        "Left Icon - 20px#1318:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "2362b41bab96cfdde1c942bf7ae08ab39c1695d3"
+            }
+          ]
+        },
+        "Show Left#1318:6": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Left Icon - 16px#2159:61": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:1899",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "3fd4ba5d097d67dafdce7ba489cf28135d5d0fe2"
+            }
+          ]
+        },
+        "Text2#1318:10": {
+          "type": "TEXT",
+          "value": "Label"
+        },
+        "Show Right#1318:8": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Pay ₹3,290"
+        },
+        "Size": {
+          "value": "Medium",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5760",
+      "name": "Tab/Set of 3",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Recent transfers & Frequently used - White2 > Frame 1686562320 > Tab/Set of 3",
+      "box": {
+        "x": -60872.69140625,
+        "y": 13083.767578125,
+        "width": 991.3846435546875,
+        "height": 132.92308044433594
+      },
+      "instanceProperties": {
+        "Selection": {
+          "value": "Set of 2",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5760;2105:5933",
+      "name": "Selections",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Recent transfers & Frequently used - White2 > Frame 1686562320 > Tab/Set of 3 > Selections",
+      "box": {
+        "x": -60872.69140625,
+        "y": 13083.767578125,
+        "width": 495.69232177734375,
+        "height": 132.92308044433594
+      },
+      "instanceProperties": {
+        "Show count#3385:2": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "State (Off/On)": {
+          "value": "On",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5760;2105:5936",
+      "name": "Selections",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Recent transfers & Frequently used - White2 > Frame 1686562320 > Tab/Set of 3 > Selections",
+      "box": {
+        "x": -60377,
+        "y": 13083.767578125,
+        "width": 495.69232177734375,
+        "height": 132.92308044433594
+      },
+      "instanceProperties": {
+        "Show count#3385:2": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "State (Off/On)": {
+          "value": "Off",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5787",
+      "name": "Informative Chips",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Group 1686562583 > Group 1686562582 > Recent transfers & Frequently used - White2 > Frame 1686562320 > Frame 1686562582 > Frame 1686562082 > Frame 1280022974 > Frame 1686562079 > Frame 1686562872 > Informative Chips",
+      "box": {
+        "x": -60582.4296875,
+        "y": 13278.3076171875,
+        "width": 164.15383911132812,
+        "height": 45.07691955566406
+      },
+      "instanceProperties": {
+        "Icon Swap#2335:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:191",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "20d9667cbfc7c599681e14d12e3edd6f8ebc1110"
+            }
+          ]
+        },
+        "Icon swap#2260:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:185",
+          "preferredValues": []
+        },
+        "Icon#2260:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Icon#2335:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Informative Chips": {
+          "value": "Positive",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5841",
+      "name": "Frame 1686562866",
+      "type": "FRAME",
+      "path": "Home ON-THE-GO entry > Frame 1686562867 > Frame 1686562866",
+      "box": {
+        "x": -60872.69140625,
+        "y": 11114.845703125,
+        "width": 1035.6922607421875,
+        "height": 177.23077392578125
+      },
+      "overflowDirection": "HORIZONTAL_SCROLLING"
+    },
+    {
+      "id": "211:5846",
+      "name": "Avatar/Bank Logos",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Frame 1686562867 > Frame 1686562866 > Frame 1686562788 > Frame 1686562148 > Frame 1686562148 > Frame 1686562866 > Avatar/Bank Logos",
+      "box": {
+        "x": -60833.921875,
+        "y": 11159.1533203125,
+        "width": 88.61538696289062,
+        "height": 88.61538696289062
+      },
+      "instanceProperties": {
+        "Size": {
+          "value": "S",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5846;360:844",
+      "name": "Bank Logos (Small)",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Frame 1686562867 > Frame 1686562866 > Frame 1686562788 > Frame 1686562148 > Frame 1686562148 > Frame 1686562866 > Avatar/Bank Logos > Bank Logos (Small)",
+      "box": {
+        "x": -60814.5390625,
+        "y": 11178.5380859375,
+        "width": 49.846153259277344,
+        "height": 49.846153259277344
+      },
+      "instanceProperties": {
+        "Bank Name": {
+          "value": "Bank of India",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5858",
+      "name": "Link",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Frame 1686562867 > Frame 1686562866 > Frame 1686562788 > Frame 1686562148 > Link",
+      "box": {
+        "x": -60316.07421875,
+        "y": 11175.7685546875,
+        "width": 307.4615478515625,
+        "height": 55.38461685180664
+      },
+      "instanceProperties": {
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Underline": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:5858;1333:3363",
+      "name": ".master/Link",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Frame 1686562867 > Frame 1686562866 > Frame 1686562788 > Frame 1686562148 > Link > .master/Link",
+      "box": {
+        "x": -60316.07421875,
+        "y": 11175.7685546875,
+        "width": 307.4615478515625,
+        "height": 55.38461685180664
+      },
+      "instanceProperties": {
+        "Text#1340:8": {
+          "type": "TEXT",
+          "value": "Check balance"
+        },
+        "Icon#1340:5": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Size": {
+          "value": "S",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5863",
+      "name": "Rupay",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Frame 1686562867 > Frame 1686562866 > Frame 1686562783 > Frame 1686562148 > Frame 1686562148 > Avatar/Bank Logos > Rupay",
+      "box": {
+        "x": -59906.4375,
+        "y": 11186.0556640625,
+        "width": 83.64588928222656,
+        "height": 34.81317901611328
+      },
+      "instanceProperties": {
+        "Light <> Dark": {
+          "value": "Yes",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Type": {
+          "value": "General",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:5942",
+      "name": "Group 1686562582",
+      "type": "GROUP",
+      "path": "Home ON-THE-GO entry > Group 1686562582",
+      "box": {
+        "x": -60917,
+        "y": 12254.15234375,
+        "width": 1080,
+        "height": 299.07708740234375
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6007",
+      "name": "Group 1686562362",
+      "type": "GROUP",
+      "path": "Home ON-THE-GO entry > Group 1686562582 > Group 1686562354 > Group 1686562362",
+      "box": {
+        "x": -60099.40625,
+        "y": 12345.5361328125,
+        "width": 132.92308044433594,
+        "height": 132.92308044433594
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6010",
+      "name": "Home",
+      "type": "FRAME",
+      "path": "Home ON-THE-GO entry > Group 1686562582 > Group 1547754079 > Home",
+      "box": {
+        "x": -60917,
+        "y": 12489.537109375,
+        "width": 1080,
+        "height": 63.69230651855469
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6014",
+      "name": "Header",
+      "type": "FRAME",
+      "path": "Home ON-THE-GO entry > Header",
+      "box": {
+        "x": -60917,
+        "y": 10633,
+        "width": 1080,
+        "height": 332.30767822265625
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6029",
+      "name": "Tap - Version 7",
+      "type": "INSTANCE",
+      "path": "Home ON-THE-GO entry > Header > Frame 1686560800 > Tap - Version 7",
+      "box": {
+        "x": -60615.15234375,
+        "y": 10782.5380859375,
+        "width": 476.3077087402344,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Property 1": {
+          "value": "Home",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6055",
+      "name": "Frame 1984079978",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978",
+      "box": {
+        "x": -57317,
+        "y": 10633,
+        "width": 1080,
+        "height": 1925.4615478515625
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6063",
+      "name": "Arrow-Left-1-",
+      "type": "INSTANCE",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079977 > Header > set > Frame 1686562385 > Arrow-Left-1-",
+      "box": {
+        "x": -57272.69140625,
+        "y": 10843.4609375,
+        "width": 55.38461685180664,
+        "height": 55.38461685180664
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:5456"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:5456"
+    },
+    {
+      "id": "211:6065",
+      "name": "Input Text",
+      "type": "INSTANCE",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079977 > Header > set > Frame 1686562385 > Frame 1686560800 > Input Text",
+      "box": {
+        "x": -57173,
+        "y": 10799.1533203125,
+        "width": 780.923095703125,
+        "height": 144
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Search",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Inactive",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6065;240:12890",
+      "name": ".master/.search-input",
+      "type": "INSTANCE",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079977 > Header > set > Frame 1686562385 > Frame 1686560800 > Input Text > .master/.search-input",
+      "box": {
+        "x": -57173,
+        "y": 10799.1533203125,
+        "width": 780.923095703125,
+        "height": 144
+      },
+      "instanceProperties": {
+        "Instance#2209:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:2973",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "c3fe0c9e08f5f624c9eb8fed684af7d5f5ae6d19"
+            }
+          ]
+        },
+        "Input feedback #1381:64": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Emoji icon#1381:50": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Emoji selector#1381:57": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Character count#1381:43": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#1381:36": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Right Icon#1381:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Rupee symbol#1381:22": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Left Icon#1381:1": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Text#1381:29": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Left Icon#1381:20": {
+          "type": "BOOLEAN",
+          "value": true
+        }
+      }
+    },
+    {
+      "id": "211:6072",
+      "name": "Frame 1984079978",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978",
+      "box": {
+        "x": -57317,
+        "y": 10987.4619140625,
+        "width": 1080,
+        "height": 1571
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6137"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6137",
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:6074",
+      "name": "Frame 1686560857",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978 > Card-Bank > Frame 1686560857",
+      "box": {
+        "x": -57272.69140625,
+        "y": 10987.4619140625,
+        "width": 991.3846435546875,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6081",
+      "name": "Frame 1686560858",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978 > Card-Bank > Frame 1686560858",
+      "box": {
+        "x": -57272.69140625,
+        "y": 11211.76953125,
+        "width": 991.3846435546875,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6088",
+      "name": "Frame 1686560859",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978 > Card-Bank > Frame 1686560859",
+      "box": {
+        "x": -57272.69140625,
+        "y": 11436.0771484375,
+        "width": 991.3846435546875,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6095",
+      "name": "Frame 1686560862",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978 > Card-Bank > Frame 1686560862",
+      "box": {
+        "x": -57272.69140625,
+        "y": 11660.384765625,
+        "width": 991.3846435546875,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6109",
+      "name": "Frame 1686560860",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978 > Card-Bank > Frame 1686560860",
+      "box": {
+        "x": -57272.69140625,
+        "y": 12109,
+        "width": 991.3846435546875,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6116",
+      "name": "Frame 1686560863",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978 > Card-Bank > Frame 1686560863",
+      "box": {
+        "x": -57272.69140625,
+        "y": 12333.30859375,
+        "width": 991.3846435546875,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6123",
+      "name": "Frame 1686560864",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978 > Card-Bank > Frame 1686560864",
+      "box": {
+        "x": -57272.69140625,
+        "y": 12557.6162109375,
+        "width": 991.3846435546875,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6130",
+      "name": "Frame 1686560865",
+      "type": "FRAME",
+      "path": "All supported cities > Frame 1984079978 > Frame 1984079978 > Card-Bank > Frame 1686560865",
+      "box": {
+        "x": -57272.69140625,
+        "y": 12781.923828125,
+        "width": 991.3846435546875,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6138",
+      "name": "Gradient Bkg",
+      "type": "INSTANCE",
+      "path": "Choose card issuer > Gradient Bkg",
+      "box": {
+        "x": -56117,
+        "y": 10633,
+        "width": 1080,
+        "height": 2337.230712890625
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6160",
+      "name": "Bank accounts",
+      "type": "FRAME",
+      "path": "Choose card issuer > Frame 1686562919 > Bank accounts",
+      "box": {
+        "x": -56072.69140625,
+        "y": 11137,
+        "width": 991.3846435546875,
+        "height": 310.1538391113281
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6253"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6253"
+    },
+    {
+      "id": "211:6173",
+      "name": "Header",
+      "type": "INSTANCE",
+      "path": "Choose card issuer > Frame 1984079979 > Header",
+      "box": {
+        "x": -56117,
+        "y": 10633,
+        "width": 1080,
+        "height": 299.0769348144531
+      },
+      "instanceProperties": {
+        "Select Icon 2#3887:9": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3240",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "b60e33f964d5bd95c5fd856b0f290be09516617c"
+            }
+          ]
+        },
+        "Select Icon 1#3706:18": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:869",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "e34cd420c31b65793c6798862c55099fe6830b67"
+            }
+          ]
+        },
+        "Show Icon#3706:11": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Label#3575:3": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Type label here#3883:0": {
+          "type": "TEXT",
+          "value": "Payment Methods"
+        },
+        "Select Icon 3#3887:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3215",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "113f7aaeabb8439efb6334537768a53bef57d65b"
+            }
+          ]
+        },
+        "Type": {
+          "value": "Basic",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Transparent Bkg": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6173;3883:9437",
+      "name": "Arrow-Left-1-",
+      "type": "INSTANCE",
+      "path": "Choose card issuer > Frame 1984079979 > Header > set > Arrow-Left-1-",
+      "box": {
+        "x": -56072.69140625,
+        "y": 10815.7685546875,
+        "width": 55.38461685180664,
+        "height": 55.38461685180664
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6054"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6054"
+    },
+    {
+      "id": "211:6179",
+      "name": "Frame 1984080071",
+      "type": "FRAME",
+      "path": "Amount details > Frame 1984080071",
+      "box": {
+        "x": -53717,
+        "y": 10932,
+        "width": 1080,
+        "height": 1327
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:6205",
+      "name": "Frame 1686560858",
+      "type": "FRAME",
+      "path": "Amount details > Frame 1984080071 > Frame 1984080072 > Bank accounts > Frame 1984079986 > Frame 1686560858",
+      "box": {
+        "x": -53639.4609375,
+        "y": 12125.6923828125,
+        "width": 924.923095703125,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6215",
+      "name": "Frame 1686560859",
+      "type": "FRAME",
+      "path": "Amount details > Frame 1984080071 > Frame 1984080072 > Bank accounts > Frame 1984079986 > Frame 1686560859",
+      "box": {
+        "x": -53639.4609375,
+        "y": 12338.9228515625,
+        "width": 924.923095703125,
+        "height": 155.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6225",
+      "name": "Frame 1686560860",
+      "type": "FRAME",
+      "path": "Amount details > Frame 1984080071 > Frame 1984080072 > Bank accounts > Frame 1984079986 > Frame 1686560860",
+      "box": {
+        "x": -53639.4609375,
+        "y": 12552.154296875,
+        "width": 924.923095703125,
+        "height": 116.30769348144531
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6228",
+      "name": "Gradient Bkg",
+      "type": "INSTANCE",
+      "path": "Amount details > Gradient Bkg",
+      "box": {
+        "x": -53717,
+        "y": 10633,
+        "width": 1080,
+        "height": 2337.230712890625
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6250",
+      "name": "Footer",
+      "type": "INSTANCE",
+      "path": "Amount details > Frame 1686562600 > Footer",
+      "box": {
+        "x": -53717,
+        "y": 12281.845703125,
+        "width": 1080,
+        "height": 271.3846130371094
+      },
+      "instanceProperties": {
+        "Footer": {
+          "value": "full width cta",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6250;580:698",
+      "name": "Home",
+      "type": "FRAME",
+      "path": "Amount details > Frame 1686562600 > Footer > Group 1686562524 > Group 1547754010 > Home",
+      "box": {
+        "x": -53717,
+        "y": 12489.4912109375,
+        "width": 1080,
+        "height": 63.69231033325195
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "I211:6250;2260:88143",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Amount details > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562288 > Button",
+      "box": {
+        "x": -53672.69140625,
+        "y": 12315.076171875,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6530"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6530",
+      "instanceProperties": {
+        "Type": {
+          "value": "Primary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6250;2260:88143;1318:747",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Amount details > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -53672.69140625,
+        "y": 12315.076171875,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Text2#1318:10": {
+          "type": "TEXT",
+          "value": "Label"
+        },
+        "Right icon 24#240:20": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Right icon 12#240:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Right icon 16#240:12": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Left icon 12#240:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Left icon 16#240:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Show Right#1318:8": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Left#1318:6": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Left icon 24#240:16": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Pay ₹150"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6251",
+      "name": "Frame 1984079979",
+      "type": "FRAME",
+      "path": "Amount details > Frame 1984079979",
+      "box": {
+        "x": -53717,
+        "y": 10633,
+        "width": 1080,
+        "height": 299.0769348144531
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6252",
+      "name": "Header",
+      "type": "INSTANCE",
+      "path": "Amount details > Frame 1984079979 > Header",
+      "box": {
+        "x": -53717,
+        "y": 10633,
+        "width": 1080,
+        "height": 299.0769348144531
+      },
+      "instanceProperties": {
+        "Select Icon 2#3887:9": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3240",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "b60e33f964d5bd95c5fd856b0f290be09516617c"
+            }
+          ]
+        },
+        "Select Icon 1#3706:18": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:869",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "e34cd420c31b65793c6798862c55099fe6830b67"
+            }
+          ]
+        },
+        "Show Icon#3706:11": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Label#3575:3": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Type label here#3883:0": {
+          "type": "TEXT",
+          "value": "Payment Methods"
+        },
+        "Select Icon 3#3887:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3215",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "113f7aaeabb8439efb6334537768a53bef57d65b"
+            }
+          ]
+        },
+        "Type": {
+          "value": "Basic",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Transparent Bkg": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6252;3883:9437",
+      "name": "Arrow-Left-1-",
+      "type": "INSTANCE",
+      "path": "Amount details > Frame 1984079979 > Header > set > Arrow-Left-1-",
+      "box": {
+        "x": -53672.69140625,
+        "y": 10815.7685546875,
+        "width": 55.38461685180664,
+        "height": 55.38461685180664
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6253"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6253"
+    },
+    {
+      "id": "211:6254",
+      "name": "Gradient Bkg",
+      "type": "INSTANCE",
+      "path": "Select card style > Gradient Bkg",
+      "box": {
+        "x": -54917,
+        "y": 10633,
+        "width": 1080,
+        "height": 2337.230712890625
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6295",
+      "name": "Footer",
+      "type": "INSTANCE",
+      "path": "Select card style > Frame 1686562600 > Footer",
+      "box": {
+        "x": -54917,
+        "y": 12281.845703125,
+        "width": 1080,
+        "height": 271.3846130371094
+      },
+      "instanceProperties": {
+        "Footer": {
+          "value": "full width cta",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6295;580:698",
+      "name": "Home",
+      "type": "FRAME",
+      "path": "Select card style > Frame 1686562600 > Footer > Group 1686562524 > Group 1547754010 > Home",
+      "box": {
+        "x": -54917,
+        "y": 12489.4912109375,
+        "width": 1080,
+        "height": 63.69231033325195
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "I211:6295;2260:88143",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Select card style > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562288 > Button",
+      "box": {
+        "x": -54872.69140625,
+        "y": 12315.076171875,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6178"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6178",
+      "instanceProperties": {
+        "Type": {
+          "value": "Primary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6295;2260:88143;1318:747",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Select card style > Frame 1686562600 > Footer > Group 1686562524 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -54872.69140625,
+        "y": 12315.076171875,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Text2#1318:10": {
+          "type": "TEXT",
+          "value": "Label"
+        },
+        "Right icon 24#240:20": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Right icon 12#240:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Right icon 16#240:12": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Left icon 12#240:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Left icon 16#240:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Show Right#1318:8": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Left#1318:6": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Left icon 24#240:16": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:639",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "dcab1a290c6c2190329602b4b7ae311f37b633a0"
+            }
+          ]
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Continue"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6303",
+      "name": "Header",
+      "type": "INSTANCE",
+      "path": "Select card style > Header",
+      "box": {
+        "x": -54917,
+        "y": 10633,
+        "width": 1080,
+        "height": 299.0769348144531
+      },
+      "instanceProperties": {
+        "Select Icon 2#3887:9": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3240",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "b60e33f964d5bd95c5fd856b0f290be09516617c"
+            }
+          ]
+        },
+        "Select Icon 1#3706:18": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:869",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "e34cd420c31b65793c6798862c55099fe6830b67"
+            }
+          ]
+        },
+        "Show Icon#3706:11": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Label#3575:3": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Type label here#3883:0": {
+          "type": "TEXT",
+          "value": "Payment Methods"
+        },
+        "Select Icon 3#3887:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3215",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "113f7aaeabb8439efb6334537768a53bef57d65b"
+            }
+          ]
+        },
+        "Type": {
+          "value": "Basic",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Transparent Bkg": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "I211:6303;3883:9437",
+      "name": "Arrow-Left-1-",
+      "type": "INSTANCE",
+      "path": "Select card style > Header > set > Arrow-Left-1-",
+      "box": {
+        "x": -54872.69140625,
+        "y": 10815.7685546875,
+        "width": 55.38461685180664,
+        "height": 55.38461685180664
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6137"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6137"
+    },
+    {
+      "id": "211:6304",
+      "name": "Success enabled",
+      "type": "FRAME",
+      "path": "Success enabled",
+      "box": {
+        "x": -48917,
+        "y": 10633,
+        "width": 1080,
+        "height": 1920
+      },
+      "interactions": [
+        {
+          "trigger": "AFTER_TIMEOUT",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6499"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6499"
+    },
+    {
+      "id": "211:6326",
+      "name": "Dark",
+      "type": "INSTANCE",
+      "path": "Success enabled > Dark",
+      "box": {
+        "x": -48917,
+        "y": 10702.23046875,
+        "width": 1080.0001220703125,
+        "height": 1095.2308349609375
+      },
+      "interactions": [
+        {
+          "trigger": "AFTER_TIMEOUT",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "CHANGE_TO",
+              "destination": "211:3320"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:3320",
+      "instanceProperties": {
+        "Property 1": {
+          "value": "Frame 1686562521",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6355",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320947 > Key / Primary",
+      "box": {
+        "x": -50015.87109375,
+        "y": 11932.5380859375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6356",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320947 > Key / Primary",
+      "box": {
+        "x": -50015.87109375,
+        "y": 12071,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6357",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320947 > Key / Primary",
+      "box": {
+        "x": -50015.87109375,
+        "y": 12209.4609375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6358",
+      "name": "Key / Function",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320947 > Key / Function",
+      "box": {
+        "x": -50015.87109375,
+        "y": 12347.9228515625,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Icon",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6360",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320948 > Key / Primary",
+      "box": {
+        "x": -49716.79296875,
+        "y": 11932.5380859375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6361",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320948 > Key / Primary",
+      "box": {
+        "x": -49716.79296875,
+        "y": 12071,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6362",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320948 > Key / Primary",
+      "box": {
+        "x": -49716.79296875,
+        "y": 12209.4609375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6363",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320948 > Key / Primary",
+      "box": {
+        "x": -49716.79296875,
+        "y": 12347.9228515625,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6365",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320949 > Key / Primary",
+      "box": {
+        "x": -49417.71875,
+        "y": 11932.5380859375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6366",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320949 > Key / Primary",
+      "box": {
+        "x": -49417.71875,
+        "y": 12071,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6367",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320949 > Key / Primary",
+      "box": {
+        "x": -49417.71875,
+        "y": 12209.4609375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6368",
+      "name": "Group 12934",
+      "type": "GROUP",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320949 > Group 12934",
+      "box": {
+        "x": -49417.71875,
+        "y": 12347.9228515625,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6304"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6304"
+    },
+    {
+      "id": "211:6369",
+      "name": "Key / Special Function",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562733 > Frame 427320950 > Frame 427320949 > Group 12934 > Key / Special Function",
+      "box": {
+        "x": -49417.71875,
+        "y": 12347.9228515625,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Tab",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6403",
+      "name": "Frame",
+      "type": "FRAME",
+      "path": "UPI PIN verification > Frame 427321017 > Frame 427321016 > Frame",
+      "box": {
+        "x": -49169.375,
+        "y": 10699.4609375,
+        "width": 66.46154022216797,
+        "height": 66.46154022216797
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6530"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6530"
+    },
+    {
+      "id": "211:6421",
+      "name": "Frame 427321015",
+      "type": "FRAME",
+      "path": "UPI PIN verification > Frame 427321015",
+      "box": {
+        "x": -51022.91015625,
+        "y": 11485.9228515625,
+        "width": 487.3846130371094,
+        "height": 164.76922607421875
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6339"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6339"
+    },
+    {
+      "id": "211:6435",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320947 > Key / Primary",
+      "box": {
+        "x": -51215.37109375,
+        "y": 11932.5380859375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6436",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320947 > Key / Primary",
+      "box": {
+        "x": -51215.37109375,
+        "y": 12071,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6437",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320947 > Key / Primary",
+      "box": {
+        "x": -51215.37109375,
+        "y": 12209.4609375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6438",
+      "name": "Key / Function",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320947 > Key / Function",
+      "box": {
+        "x": -51215.37109375,
+        "y": 12347.9228515625,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Icon",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6440",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320948 > Key / Primary",
+      "box": {
+        "x": -50916.29296875,
+        "y": 11932.5380859375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6441",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320948 > Key / Primary",
+      "box": {
+        "x": -50916.29296875,
+        "y": 12071,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6442",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320948 > Key / Primary",
+      "box": {
+        "x": -50916.29296875,
+        "y": 12209.4609375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6443",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320948 > Key / Primary",
+      "box": {
+        "x": -50916.29296875,
+        "y": 12347.9228515625,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6445",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320949 > Key / Primary",
+      "box": {
+        "x": -50617.21875,
+        "y": 11932.5380859375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6446",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320949 > Key / Primary",
+      "box": {
+        "x": -50617.21875,
+        "y": 12071,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6447",
+      "name": "Key / Primary",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320949 > Key / Primary",
+      "box": {
+        "x": -50617.21875,
+        "y": 12209.4609375,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letter",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6449",
+      "name": "Key / Special Function",
+      "type": "INSTANCE",
+      "path": "UPI PIN verification > Frame 1686562732 > Frame 427320950 > Frame 427320949 > Group 12934 > Key / Special Function",
+      "box": {
+        "x": -50617.21875,
+        "y": 12347.9228515625,
+        "width": 276.923095703125,
+        "height": 116.30769348144531
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Tab",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6483",
+      "name": "Frame",
+      "type": "FRAME",
+      "path": "UPI PIN verification > Frame 427321017 > Frame 427321016 > Frame",
+      "box": {
+        "x": -50369.375,
+        "y": 10699.4609375,
+        "width": 66.46154022216797,
+        "height": 66.46154022216797
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6530"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6530"
+    },
+    {
+      "id": "211:6524",
+      "name": "Frame 1686563088",
+      "type": "FRAME",
+      "path": "Payment successful > Frame 1686563088",
+      "box": {
+        "x": -47351.4609375,
+        "y": 11753,
+        "width": 348.923095703125,
+        "height": 98.30769348144531
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "211:6525",
+      "name": "Choice Chips",
+      "type": "INSTANCE",
+      "path": "Payment successful > Frame 1686563088 > Choice Chips",
+      "box": {
+        "x": -47351.4609375,
+        "y": 11753,
+        "width": 348.923095703125,
+        "height": 98.30769348144531
+      },
+      "instanceProperties": {
+        "Multi-select Chips": {
+          "value": "Active",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6526",
+      "name": "Component 40",
+      "type": "INSTANCE",
+      "path": "Payment successful > Component 40",
+      "box": {
+        "x": -47415.16796875,
+        "y": 11375.1533203125,
+        "width": 476.2461853027344,
+        "height": 67.15384674072266
+      },
+      "instanceProperties": {
+        "Property 1": {
+          "value": "1",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6527",
+      "name": "Header",
+      "type": "INSTANCE",
+      "path": "Payment successful > Header",
+      "box": {
+        "x": -47717,
+        "y": 10633,
+        "width": 1080,
+        "height": 121.84616088867188
+      },
+      "instanceProperties": {
+        "Select Icon 3#3887:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3238",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "113f7aaeabb8439efb6334537768a53bef57d65b"
+            }
+          ]
+        },
+        "Type label here#3883:0": {
+          "type": "TEXT",
+          "value": "Label"
+        },
+        "Select Icon 1#3706:18": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:869",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "e34cd420c31b65793c6798862c55099fe6830b67"
+            }
+          ]
+        },
+        "Show Label#3575:3": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Select Icon 2#3887:9": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3240",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "b60e33f964d5bd95c5fd856b0f290be09516617c"
+            }
+          ]
+        },
+        "Show Icon#3706:11": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Type": {
+          "value": "Basic",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Transparent Bkg": {
+          "value": "Yes",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6528",
+      "name": "Footer",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer",
+      "box": {
+        "x": -47717,
+        "y": 12110.6884765625,
+        "width": 1080,
+        "height": 442.54022216796875
+      },
+      "instanceProperties": {
+        "Footer": {
+          "value": "2 ctas with logos",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "I211:6528;4426:2964",
+      "name": "BHIM | Powered by UPI",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > BHIM | Powered by UPI",
+      "box": {
+        "x": -47261.63671875,
+        "y": 12110.6884765625,
+        "width": 169.27549743652344,
+        "height": 104.69404602050781
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Type": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6528;2260:88128",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Frame 1686562288 > Button",
+      "box": {
+        "x": -47672.69140625,
+        "y": 12323.3828125,
+        "width": 479.0769348144531,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Secondary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6528;2260:88128;1318:1369",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -47672.69140625,
+        "y": 12323.3828125,
+        "width": 479.0769348144531,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Right Icon#3413:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Left Icon#3413:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Show Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "UPI Help"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6528;2260:88133",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Frame 1686562288 > Button",
+      "box": {
+        "x": -47160.3828125,
+        "y": 12323.3828125,
+        "width": 479.0769348144531,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Primary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6528;2260:88133;1318:747",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -47160.3828125,
+        "y": 12323.3828125,
+        "width": 479.0769348144531,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Right Icon#3413:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Left Icon#3413:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Show Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Home"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6528;580:563",
+      "name": "Home",
+      "type": "FRAME",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Group 1547754010 > Home",
+      "box": {
+        "x": -47717,
+        "y": 12489.5361328125,
+        "width": 1080,
+        "height": 63.69231033325195
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6529",
+      "name": "Footer",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer",
+      "box": {
+        "x": -47717,
+        "y": 12110.1533203125,
+        "width": 1080,
+        "height": 442.54022216796875
+      },
+      "instanceProperties": {
+        "Footer": {
+          "value": "2 ctas with logos",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "I211:6529;4426:2964",
+      "name": "BHIM | Powered by UPI",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > BHIM | Powered by UPI",
+      "box": {
+        "x": -47261.63671875,
+        "y": 12110.1533203125,
+        "width": 169.27549743652344,
+        "height": 104.69404602050781
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Type": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6529;2260:88128",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Frame 1686562288 > Button",
+      "box": {
+        "x": -47672.69140625,
+        "y": 12322.84765625,
+        "width": 479.0769348144531,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Secondary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6529;2260:88128;1318:1369",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -47672.69140625,
+        "y": 12322.84765625,
+        "width": 479.0769348144531,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Right Icon#3413:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Left Icon#3413:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Show Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "UPI Help"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6529;2260:88133",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Frame 1686562288 > Button",
+      "box": {
+        "x": -47160.3828125,
+        "y": 12322.84765625,
+        "width": 479.0769348144531,
+        "height": 155.07693481445312
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6689"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6689",
+      "instanceProperties": {
+        "Type": {
+          "value": "Primary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6529;2260:88133;1318:747",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -47160.3828125,
+        "y": 12322.84765625,
+        "width": 479.0769348144531,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Right Icon#3413:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Left Icon#3413:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Show Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Home"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6529;580:563",
+      "name": "Home",
+      "type": "FRAME",
+      "path": "Payment successful > Footer > contrianer > Frame 1686562831 > Frame 1686562834 > Group 1547754010 > Home",
+      "box": {
+        "x": -47717,
+        "y": 12489.0009765625,
+        "width": 1080,
+        "height": 63.69231033325195
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "211:6530",
+      "name": "All Payment methods",
+      "type": "FRAME",
+      "path": "All Payment methods",
+      "box": {
+        "x": -52517,
+        "y": 10633,
+        "width": 1080,
+        "height": 1920
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:6531",
+      "name": "Gradient Bkg",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Gradient Bkg",
+      "box": {
+        "x": -52517,
+        "y": 10633,
+        "width": 1080,
+        "height": 2337.230712890625
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6552",
+      "name": "Frame 1984080069",
+      "type": "FRAME",
+      "path": "All Payment methods > Frame 1984080069",
+      "box": {
+        "x": -52482.69140625,
+        "y": 10966.384765625,
+        "width": 991.3846435546875,
+        "height": 2751.230712890625
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:6555",
+      "name": "Component 64",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562684 > Component 64",
+      "box": {
+        "x": -52482.69140625,
+        "y": 10966.384765625,
+        "width": 991.3846435546875,
+        "height": 54
+      },
+      "instanceProperties": {
+        "Show Label#3575:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Property 1": {
+          "value": "Left Align",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6557",
+      "name": "Bank accounts",
+      "type": "FRAME",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562684 > Frame 1984080035 > Bank accounts",
+      "box": {
+        "x": -52482.69140625,
+        "y": 11043.923828125,
+        "width": 991.3846435546875,
+        "height": 191.07691955566406
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6419"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6419"
+    },
+    {
+      "id": "211:6568",
+      "name": "Informative Chips",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562684 > Frame 1984080035 > Bank accounts > Frame 1686562663 > Informative Chips",
+      "box": {
+        "x": -51721.15234375,
+        "y": 11088.2314453125,
+        "width": 196.61538696289062,
+        "height": 60.92308044433594
+      },
+      "instanceProperties": {
+        "Icon Swap#2335:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:191",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "20d9667cbfc7c599681e14d12e3edd6f8ebc1110"
+            }
+          ]
+        },
+        "Icon swap#2260:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:185",
+          "preferredValues": []
+        },
+        "Icon#2260:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Icon#2335:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Informative Chips": {
+          "value": "Positive",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6580",
+      "name": "Informative Chips",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562684 > Frame 1984080035 > Bank accounts > Frame 1686562663 > Informative Chips",
+      "box": {
+        "x": -51721.15234375,
+        "y": 11301.4619140625,
+        "width": 196.61538696289062,
+        "height": 60.92308044433594
+      },
+      "instanceProperties": {
+        "Icon Swap#2335:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:191",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "20d9667cbfc7c599681e14d12e3edd6f8ebc1110"
+            }
+          ]
+        },
+        "Icon swap#2260:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:185",
+          "preferredValues": []
+        },
+        "Icon#2260:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Icon#2335:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Informative Chips": {
+          "value": "Positive",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6592",
+      "name": "Informative Chips",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562684 > Frame 1984080035 > Bank accounts > Frame 1686562663 > Informative Chips",
+      "box": {
+        "x": -51721.15234375,
+        "y": 11514.693359375,
+        "width": 196.61538696289062,
+        "height": 60.92308044433594
+      },
+      "instanceProperties": {
+        "Icon Swap#2335:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:191",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "20d9667cbfc7c599681e14d12e3edd6f8ebc1110"
+            }
+          ]
+        },
+        "Icon swap#2260:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:185",
+          "preferredValues": []
+        },
+        "Icon#2260:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Icon#2335:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Informative Chips": {
+          "value": "Positive",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6605",
+      "name": "Component 62",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562682 > Component 62",
+      "box": {
+        "x": -52482.69140625,
+        "y": 11938.384765625,
+        "width": 991.3846435546875,
+        "height": 54
+      },
+      "instanceProperties": {
+        "Show Label#3575:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Property 1": {
+          "value": "Left Align",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6616",
+      "name": "Informative Chips",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562682 > Bank accounts > Frame 1686562663 > Informative Chips",
+      "box": {
+        "x": -51721.15234375,
+        "y": 12058.8466796875,
+        "width": 196.61538696289062,
+        "height": 60.92308044433594
+      },
+      "instanceProperties": {
+        "Icon Swap#2335:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:191",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "20d9667cbfc7c599681e14d12e3edd6f8ebc1110"
+            }
+          ]
+        },
+        "Icon swap#2260:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:185",
+          "preferredValues": []
+        },
+        "Icon#2260:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Icon#2335:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Informative Chips": {
+          "value": "Positive",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6627",
+      "name": "Informative Chips",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562682 > Bank accounts > Frame 1686562663 > Informative Chips",
+      "box": {
+        "x": -51721.15234375,
+        "y": 12272.0771484375,
+        "width": 196.61538696289062,
+        "height": 60.92308044433594
+      },
+      "instanceProperties": {
+        "Icon Swap#2335:7": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:191",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "20d9667cbfc7c599681e14d12e3edd6f8ebc1110"
+            }
+          ]
+        },
+        "Icon swap#2260:3": {
+          "type": "INSTANCE_SWAP",
+          "value": "204:185",
+          "preferredValues": []
+        },
+        "Icon#2260:2": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Icon#2335:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Informative Chips": {
+          "value": "Positive",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6640",
+      "name": "Component 64",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562681 > Component 64",
+      "box": {
+        "x": -52482.69140625,
+        "y": 12695.76953125,
+        "width": 991.3846435546875,
+        "height": 54
+      },
+      "instanceProperties": {
+        "Show Label#3575:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Property 1": {
+          "value": "Left Align",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6665",
+      "name": "Component 64",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Frame 1984080069 > Frame 1686562919 > Frame 1686562685 > Component 64",
+      "box": {
+        "x": -52482.69140625,
+        "y": 13239.923828125,
+        "width": 991.3846435546875,
+        "height": 54
+      },
+      "instanceProperties": {
+        "Show Label#3575:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Property 1": {
+          "value": "Left Align",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6688",
+      "name": "Header",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Header",
+      "box": {
+        "x": -52517,
+        "y": 10633,
+        "width": 1080,
+        "height": 299.0769348144531
+      },
+      "instanceProperties": {
+        "Select Icon 2#3887:9": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3240",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "b60e33f964d5bd95c5fd856b0f290be09516617c"
+            }
+          ]
+        },
+        "Select Icon 1#3706:18": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:869",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "e34cd420c31b65793c6798862c55099fe6830b67"
+            }
+          ]
+        },
+        "Show Label#3575:3": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Type label here#3883:0": {
+          "type": "TEXT",
+          "value": "Payment Methods"
+        },
+        "Show Icon#3706:11": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Select Icon 3#3887:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3215",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "113f7aaeabb8439efb6334537768a53bef57d65b"
+            }
+          ]
+        },
+        "Type": {
+          "value": "Title + Action",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Transparent Bkg": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "scrollBehavior": "FIXED"
+    },
+    {
+      "id": "I211:6688;3883:9418",
+      "name": "Arrow-Left-1-",
+      "type": "INSTANCE",
+      "path": "All Payment methods > Header > set > Frame 1686562385 > Arrow-Left-1-",
+      "box": {
+        "x": -52472.69140625,
+        "y": 10815.7685546875,
+        "width": 55.38461685180664,
+        "height": 55.38461685180664
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6178"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6178"
+    },
+    {
+      "id": "211:6689",
+      "name": "Loading",
+      "type": "FRAME",
+      "path": "Loading",
+      "box": {
+        "x": -46517,
+        "y": 10633,
+        "width": 1080,
+        "height": 1920
+      },
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actions": [
+            {
+              "type": "NODE",
+              "navigation": "NAVIGATE",
+              "destination": "211:6706"
+            }
+          ]
+        }
+      ],
+      "transitionNodeID": "211:6706"
+    },
+    {
+      "id": "211:6690",
+      "name": "Keyboard - iPhone",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone",
+      "box": {
+        "x": -46517,
+        "y": 12619.328125,
+        "width": 1080,
+        "height": 923.3588256835938
+      },
+      "instanceProperties": {
+        "Email 2#118:14": {
+          "type": "TEXT",
+          "value": "Hide My Email"
+        },
+        "Email 1#118:7": {
+          "type": "TEXT",
+          "value": "name@email.com"
+        },
+        "Show Replace#113:1": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Bar#4257:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Mode": {
+          "value": "Light",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Type": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10673",
+      "name": "Autocorrection",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Bar > Autocorrection",
+      "box": {
+        "x": -46517,
+        "y": 12635.81640625,
+        "width": 1080,
+        "height": 107.17557525634766
+      },
+      "instanceProperties": {
+        "Option 3#119:11": {
+          "type": "TEXT",
+          "value": "to"
+        },
+        "Option 2#119:6": {
+          "type": "TEXT",
+          "value": "the"
+        },
+        "Option 1#119:1": {
+          "type": "TEXT",
+          "value": "“The”"
+        },
+        "Selection": {
+          "value": "1",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675",
+      "name": "Keyboard Layouts",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts",
+      "box": {
+        "x": -46517,
+        "y": 12764.9765625,
+        "width": 1080,
+        "height": 560.6107177734375
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Letters - Lowercase",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9528",
+      "name": "Space",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 4 > Space",
+      "box": {
+        "x": -46239.44140625,
+        "y": 13210.556640625,
+        "width": 524.885498046875,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Config": {
+          "value": "Default",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9529",
+      "name": "Return",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Return",
+      "box": {
+        "x": -45698.0703125,
+        "y": 13210.1669921875,
+        "width": 252.82443237304688,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Label#204:15": {
+          "type": "TEXT",
+          "value": "return"
+        },
+        "Blue Color": {
+          "value": "Off",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9530",
+      "name": "Keyboard Switch",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Keyboard Switch",
+      "box": {
+        "x": -46508.75390625,
+        "y": 13210.1669921875,
+        "width": 252.82443237304688,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#107:2": {
+          "type": "TEXT",
+          "value": "123"
+        },
+        "Type": {
+          "value": "Keyboard ABC",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9532",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 3 > Key",
+      "box": {
+        "x": -46346.6171875,
+        "y": 13062.16015625,
+        "width": 91.4721908569336,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "z"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9533",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 3 > Key",
+      "box": {
+        "x": -46238.65625,
+        "y": 13062.16015625,
+        "width": 91.4721908569336,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "x"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9534",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 3 > Key",
+      "box": {
+        "x": -46130.6953125,
+        "y": 13062.16015625,
+        "width": 91.4721908569336,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "c"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9535",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 3 > Key",
+      "box": {
+        "x": -46022.734375,
+        "y": 13062.16015625,
+        "width": 91.4721908569336,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "v"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9536",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 3 > Key",
+      "box": {
+        "x": -45914.7734375,
+        "y": 13062.16015625,
+        "width": 91.4721908569336,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "b"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9537",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 3 > Key",
+      "box": {
+        "x": -45806.8125,
+        "y": 13062.16015625,
+        "width": 91.4721908569336,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "n"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9538",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 3 > Key",
+      "box": {
+        "x": -45698.8515625,
+        "y": 13062.16015625,
+        "width": 91.4721908569336,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "m"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9539",
+      "name": "Delete Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Delete Key",
+      "box": {
+        "x": -45566.16015625,
+        "y": 13061.7705078125,
+        "width": 120.91603088378906,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#107:2": {
+          "type": "TEXT",
+          "value": "􀆛"
+        },
+        "Type": {
+          "value": "Delete",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9540",
+      "name": "Shift Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Shift Key",
+      "box": {
+        "x": -46508.75390625,
+        "y": 13061.7705078125,
+        "width": 120.91603088378906,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#107:2": {
+          "type": "TEXT",
+          "value": "S"
+        },
+        "Type": {
+          "value": "Shift",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9542",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -46453.79296875,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "a"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9543",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -46346.0078125,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "s"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9544",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -46238.21875,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "d"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9545",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -46130.43359375,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "f"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9546",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -46022.6484375,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "g"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9547",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -45914.86328125,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "h"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9548",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -45807.07421875,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "j"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9549",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -45699.2890625,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "k"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9550",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 2 > Key",
+      "box": {
+        "x": -45591.50390625,
+        "y": 12913.7626953125,
+        "width": 91.29771423339844,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "l"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9552",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -46508.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "q"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9553",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -46400.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "w"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9554",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -46292.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "e"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9555",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -46184.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "r"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9556",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -46076.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "t"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9557",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -45968.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "y"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9558",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -45860.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "u"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9559",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -45752.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "i"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9560",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -45644.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "o"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10675;4198:9561",
+      "name": "Key",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Keyboard Layouts > Row 1 > Key",
+      "box": {
+        "x": -45536.75390625,
+        "y": 12765.3662109375,
+        "width": 91.5114517211914,
+        "height": 115.41985321044922
+      },
+      "instanceProperties": {
+        "Key#106:5": {
+          "type": "TEXT",
+          "value": "p"
+        }
+      }
+    },
+    {
+      "id": "I211:6690;4198:10679",
+      "name": "Home Indicator",
+      "type": "INSTANCE",
+      "path": "Loading > Keyboard - iPhone > Home Indicator",
+      "box": {
+        "x": -46517,
+        "y": 13449.251953125,
+        "width": 1080,
+        "height": 93.43511962890625
+      },
+      "instanceProperties": {
+        "Device": {
+          "value": "iPhone",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Orientation": {
+          "value": "Portrait",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Mode": {
+          "value": "Light",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6692",
+      "name": "Header/General",
+      "type": "INSTANCE",
+      "path": "Loading > Frame 1686562599 > Header/General",
+      "box": {
+        "x": -46517,
+        "y": 10633,
+        "width": 1080,
+        "height": 120.91603088378906
+      },
+      "instanceProperties": {
+        "Select Icon 3#657:14": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3072",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "113f7aaeabb8439efb6334537768a53bef57d65b"
+            }
+          ]
+        },
+        "Select Icon 1#657:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:5298",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "e34cd420c31b65793c6798862c55099fe6830b67"
+            }
+          ]
+        },
+        "Select Icon 2#657:28": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:5300",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "56380dbf62f8d7658c35aa9b0c701fc8e745ff0b"
+            }
+          ]
+        },
+        "Show Label#3575:3": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Type": {
+          "value": "Title+Action icon",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Transparent  Bkg": {
+          "value": "Yes",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6707",
+      "name": "Frame 1984080073",
+      "type": "FRAME",
+      "path": "Card balance and add money  > Frame 1984080073",
+      "box": {
+        "x": -45283,
+        "y": 10922,
+        "width": 991.3846435546875,
+        "height": 1374
+      },
+      "overflowDirection": "VERTICAL_SCROLLING"
+    },
+    {
+      "id": "211:6761",
+      "name": "Gradient Bkg",
+      "type": "INSTANCE",
+      "path": "Card balance and add money  > Gradient Bkg",
+      "box": {
+        "x": -45317,
+        "y": 10633,
+        "width": 1080,
+        "height": 2337.230712890625
+      },
+      "instanceProperties": {
+        "Light/Dark": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6783",
+      "name": "Header",
+      "type": "INSTANCE",
+      "path": "Card balance and add money  > Frame 1984079979 > Header",
+      "box": {
+        "x": -45317,
+        "y": 10633,
+        "width": 1080,
+        "height": 299.0769348144531
+      },
+      "instanceProperties": {
+        "Select Icon 2#3887:9": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3240",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "b60e33f964d5bd95c5fd856b0f290be09516617c"
+            }
+          ]
+        },
+        "Select Icon 1#3706:18": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:869",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "e34cd420c31b65793c6798862c55099fe6830b67"
+            }
+          ]
+        },
+        "Show Icon#3706:11": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show Label#3575:3": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Type label here#3883:0": {
+          "type": "TEXT",
+          "value": "Payment Methods"
+        },
+        "Select Icon 3#3887:0": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:3215",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "113f7aaeabb8439efb6334537768a53bef57d65b"
+            }
+          ]
+        },
+        "Type": {
+          "value": "Basic",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Transparent Bkg": {
+          "value": "No",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6788",
+      "name": "Button",
+      "type": "INSTANCE",
+      "path": "Card balance and add money  > Footer > Group 1686562524 > Frame 1686562832 > Frame 1686562288 > Button",
+      "box": {
+        "x": -45272.69140625,
+        "y": 12323.615234375,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Type": {
+          "value": "Primary",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "State": {
+          "value": "Disabled",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I211:6788;1318:885",
+      "name": ".Button/master",
+      "type": "INSTANCE",
+      "path": "Card balance and add money  > Footer > Group 1686562524 > Frame 1686562832 > Frame 1686562288 > Button > .Button/master",
+      "box": {
+        "x": -45272.69140625,
+        "y": 12323.615234375,
+        "width": 991.3846435546875,
+        "height": 155.07693481445312
+      },
+      "instanceProperties": {
+        "Right Icon#3413:8": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Left Icon#3413:4": {
+          "type": "INSTANCE_SWAP",
+          "value": "211:878",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "8e5cac6b50a5ed2ce9c0c181de50a973bb1f8205"
+            }
+          ]
+        },
+        "Show Left Icon#1318:2": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show Right Icon#1318:1": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Text#1318:4": {
+          "type": "TEXT",
+          "value": "Add Money"
+        },
+        "Size": {
+          "value": "Large",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "211:6790",
+      "name": "Home",
+      "type": "FRAME",
+      "path": "Card balance and add money  > Footer > Group 1686562524 > Frame 1686562832 > Group 1547754010 > Home",
+      "box": {
+        "x": -45317,
+        "y": 12489.7685546875,
+        "width": 1080,
+        "height": 63.69230651855469
+      },
+      "scrollBehavior": "FIXED"
+    }
+  ]
+}

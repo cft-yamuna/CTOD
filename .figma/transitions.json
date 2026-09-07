@@ -1,0 +1,416 @@
+[
+  {
+    "from": "terms",
+    "el": "vuesax/linear/arrow-right",
+    "elId": "I211:5488;2712:826",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "intro",
+    "transition": null
+  },
+  {
+    "from": "terms",
+    "el": "Button",
+    "elId": "I211:5489;2260:88143",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "cities",
+    "transition": null
+  },
+  {
+    "from": "terms",
+    "el": "Arrow-Left-1-",
+    "elId": "211:5497",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "home",
+    "transition": null
+  },
+  {
+    "from": "intro",
+    "el": "vuesax/linear/arrow-right",
+    "elId": "I211:5537;2688:1936",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "terms",
+    "transition": null
+  },
+  {
+    "from": "intro",
+    "el": "Arrow-Left-1-",
+    "elId": "211:5553",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "home",
+    "transition": null
+  },
+  {
+    "from": "home",
+    "el": "Component 53",
+    "elId": "211:5562",
+    "trigger": "AFTER_TIMEOUT",
+    "timeout": 0.20000000298023224,
+    "nav": "CHANGE_TO",
+    "to": "211:944",
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_OUT"
+      },
+      "duration": 1.5
+    }
+  },
+  {
+    "from": "home",
+    "el": "Frame 1984078458",
+    "elId": "211:5572",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "intro",
+    "transition": null
+  },
+  {
+    "from": "cities",
+    "el": "Arrow-Left-1-",
+    "elId": "211:6063",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "terms",
+    "transition": null
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1984079978",
+    "elId": "211:6072",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "issuer",
+    "transition": null
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1686560857",
+    "elId": "211:6074",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1686560858",
+    "elId": "211:6081",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1686560859",
+    "elId": "211:6088",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1686560862",
+    "elId": "211:6095",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1686560860",
+    "elId": "211:6109",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1686560863",
+    "elId": "211:6116",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1686560864",
+    "elId": "211:6123",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "cities",
+    "el": "Frame 1686560865",
+    "elId": "211:6130",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "issuer",
+    "el": "Bank accounts",
+    "elId": "211:6160",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "cardstyle",
+    "transition": null
+  },
+  {
+    "from": "issuer",
+    "el": "Arrow-Left-1-",
+    "elId": "I211:6173;3883:9437",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "cities",
+    "transition": null
+  },
+  {
+    "from": "amount",
+    "el": "Frame 1686560858",
+    "elId": "211:6205",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "amount",
+    "el": "Frame 1686560859",
+    "elId": "211:6215",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "amount",
+    "el": "Frame 1686560860",
+    "elId": "211:6225",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "EASE_IN_AND_OUT"
+      },
+      "duration": 0.20000000298023224
+    }
+  },
+  {
+    "from": "amount",
+    "el": "Button",
+    "elId": "I211:6250;2260:88143",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "methods",
+    "transition": null
+  },
+  {
+    "from": "amount",
+    "el": "Arrow-Left-1-",
+    "elId": "I211:6252;3883:9437",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "cardstyle",
+    "transition": null
+  },
+  {
+    "from": "cardstyle",
+    "el": "Button",
+    "elId": "I211:6295;2260:88143",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "amount",
+    "transition": null
+  },
+  {
+    "from": "cardstyle",
+    "el": "Arrow-Left-1-",
+    "elId": "I211:6303;3883:9437",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "issuer",
+    "transition": null
+  },
+  {
+    "from": "success",
+    "el": "Success enabled",
+    "elId": "211:6304",
+    "trigger": "AFTER_TIMEOUT",
+    "timeout": 3,
+    "nav": "NAVIGATE",
+    "to": "paid",
+    "transition": null
+  },
+  {
+    "from": "success",
+    "el": "Dark",
+    "elId": "211:6326",
+    "trigger": "AFTER_TIMEOUT",
+    "timeout": 0.05000000074505806,
+    "nav": "CHANGE_TO",
+    "to": "211:3320",
+    "transition": {
+      "type": "SMART_ANIMATE",
+      "easing": {
+        "type": "LINEAR"
+      },
+      "duration": 1.399999976158142
+    }
+  },
+  {
+    "from": "upipin",
+    "el": "Group 12934",
+    "elId": "211:6368",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "success",
+    "transition": null
+  },
+  {
+    "from": "upipin",
+    "el": "Frame",
+    "elId": "211:6403",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "methods",
+    "transition": null
+  },
+  {
+    "from": "upipin2",
+    "el": "Frame 427321015",
+    "elId": "211:6421",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "upipin",
+    "transition": null
+  },
+  {
+    "from": "upipin2",
+    "el": "Frame",
+    "elId": "211:6483",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "methods",
+    "transition": null
+  },
+  {
+    "from": "paid",
+    "el": "Frame 1686563088",
+    "elId": "211:6524",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": null,
+    "transition": null
+  },
+  {
+    "from": "paid",
+    "el": "Button",
+    "elId": "I211:6529;2260:88133",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "loading",
+    "transition": null
+  },
+  {
+    "from": "methods",
+    "el": "Bank accounts",
+    "elId": "211:6557",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "upipin2",
+    "transition": null
+  },
+  {
+    "from": "methods",
+    "el": "Arrow-Left-1-",
+    "elId": "I211:6688;3883:9418",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "amount",
+    "transition": null
+  },
+  {
+    "from": "loading",
+    "el": "Loading",
+    "elId": "211:6689",
+    "trigger": "ON_CLICK",
+    "nav": "NAVIGATE",
+    "to": "balance",
+    "transition": null
+  }
+]

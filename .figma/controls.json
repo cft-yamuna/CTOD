@@ -1,0 +1,435 @@
+{
+  "terms": [
+    {
+      "id": "I211:5488;2712:826",
+      "name": "vuesax/linear/arrow-right",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "intro",
+      "left": 99,
+      "top": 1560,
+      "width": 89,
+      "height": 89
+    },
+    {
+      "id": "I211:5489;2260:88143",
+      "name": "Button",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "cities",
+      "left": 44,
+      "top": 1682,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "211:5497",
+      "name": "Arrow-Left-1-",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "home",
+      "left": 44,
+      "top": 183,
+      "width": 55,
+      "height": 55
+    }
+  ],
+  "intro": [
+    {
+      "id": "I211:5537;2688:1936",
+      "name": "vuesax/linear/arrow-right",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "terms",
+      "left": 99,
+      "top": 1560,
+      "width": 89,
+      "height": 89
+    },
+    {
+      "id": "211:5553",
+      "name": "Arrow-Left-1-",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "home",
+      "left": 44,
+      "top": 183,
+      "width": 55,
+      "height": 55
+    }
+  ],
+  "home": [
+    {
+      "id": "211:5562",
+      "name": "Component 53",
+      "trigger": "AFTER_TIMEOUT",
+      "nav": "CHANGE_TO",
+      "to": "211:944",
+      "left": 0,
+      "top": 0,
+      "width": 1080,
+      "height": 975
+    },
+    {
+      "id": "211:5572",
+      "name": "Frame 1984078458",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "intro",
+      "left": 83,
+      "top": 1565,
+      "width": 383,
+      "height": 133
+    }
+  ],
+  "cities": [
+    {
+      "id": "211:6063",
+      "name": "Arrow-Left-1-",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "terms",
+      "left": 44,
+      "top": 210,
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "211:6072",
+      "name": "Frame 1984079978",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "issuer",
+      "left": 0,
+      "top": 354,
+      "width": 1080,
+      "height": 1571
+    },
+    {
+      "id": "211:6074",
+      "name": "Frame 1686560857",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 44,
+      "top": 354,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "211:6081",
+      "name": "Frame 1686560858",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 44,
+      "top": 579,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "211:6088",
+      "name": "Frame 1686560859",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 44,
+      "top": 803,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "211:6095",
+      "name": "Frame 1686560862",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 44,
+      "top": 1027,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "211:6109",
+      "name": "Frame 1686560860",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 44,
+      "top": 1476,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "211:6116",
+      "name": "Frame 1686560863",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 44,
+      "top": 1700,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "211:6123",
+      "name": "Frame 1686560864",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 44,
+      "top": 1925,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "211:6130",
+      "name": "Frame 1686560865",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 44,
+      "top": 2149,
+      "width": 991,
+      "height": 155
+    }
+  ],
+  "issuer": [
+    {
+      "id": "211:6160",
+      "name": "Bank accounts",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "cardstyle",
+      "left": 44,
+      "top": 504,
+      "width": 991,
+      "height": 310
+    },
+    {
+      "id": "I211:6173;3883:9437",
+      "name": "Arrow-Left-1-",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "cities",
+      "left": 44,
+      "top": 183,
+      "width": 55,
+      "height": 55
+    }
+  ],
+  "amount": [
+    {
+      "id": "211:6205",
+      "name": "Frame 1686560858",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 78,
+      "top": 1493,
+      "width": 925,
+      "height": 155
+    },
+    {
+      "id": "211:6215",
+      "name": "Frame 1686560859",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 78,
+      "top": 1706,
+      "width": 925,
+      "height": 155
+    },
+    {
+      "id": "211:6225",
+      "name": "Frame 1686560860",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 78,
+      "top": 1919,
+      "width": 925,
+      "height": 116
+    },
+    {
+      "id": "I211:6250;2260:88143",
+      "name": "Button",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "methods",
+      "left": 44,
+      "top": 1682,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "I211:6252;3883:9437",
+      "name": "Arrow-Left-1-",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "cardstyle",
+      "left": 44,
+      "top": 183,
+      "width": 55,
+      "height": 55
+    }
+  ],
+  "cardstyle": [
+    {
+      "id": "I211:6295;2260:88143",
+      "name": "Button",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "amount",
+      "left": 44,
+      "top": 1682,
+      "width": 991,
+      "height": 155
+    },
+    {
+      "id": "I211:6303;3883:9437",
+      "name": "Arrow-Left-1-",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "issuer",
+      "left": 44,
+      "top": 183,
+      "width": 55,
+      "height": 55
+    }
+  ],
+  "success": [
+    {
+      "id": "211:6304",
+      "name": "Success enabled",
+      "trigger": "AFTER_TIMEOUT",
+      "nav": "NAVIGATE",
+      "to": "paid",
+      "left": 0,
+      "top": 0,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "211:6326",
+      "name": "Dark",
+      "trigger": "AFTER_TIMEOUT",
+      "nav": "CHANGE_TO",
+      "to": "211:3320",
+      "left": 0,
+      "top": 69,
+      "width": 1080,
+      "height": 1095
+    }
+  ],
+  "upipin": [
+    {
+      "id": "211:6368",
+      "name": "Group 12934",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "success",
+      "left": 699,
+      "top": 1715,
+      "width": 277,
+      "height": 116
+    },
+    {
+      "id": "211:6403",
+      "name": "Frame",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "methods",
+      "left": 948,
+      "top": 66,
+      "width": 66,
+      "height": 66
+    }
+  ],
+  "upipin2": [
+    {
+      "id": "211:6421",
+      "name": "Frame 427321015",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "upipin",
+      "left": 294,
+      "top": 853,
+      "width": 487,
+      "height": 165
+    },
+    {
+      "id": "211:6483",
+      "name": "Frame",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "methods",
+      "left": 948,
+      "top": 66,
+      "width": 66,
+      "height": 66
+    }
+  ],
+  "paid": [
+    {
+      "id": "211:6524",
+      "name": "Frame 1686563088",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": null,
+      "left": 366,
+      "top": 1120,
+      "width": 349,
+      "height": 98
+    },
+    {
+      "id": "I211:6529;2260:88133",
+      "name": "Button",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "loading",
+      "left": 557,
+      "top": 1690,
+      "width": 479,
+      "height": 155
+    }
+  ],
+  "methods": [
+    {
+      "id": "211:6557",
+      "name": "Bank accounts",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "upipin2",
+      "left": 34,
+      "top": 411,
+      "width": 991,
+      "height": 191
+    },
+    {
+      "id": "I211:6688;3883:9418",
+      "name": "Arrow-Left-1-",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "amount",
+      "left": 44,
+      "top": 183,
+      "width": 55,
+      "height": 55
+    }
+  ],
+  "loading": [
+    {
+      "id": "211:6689",
+      "name": "Loading",
+      "trigger": "ON_CLICK",
+      "nav": "NAVIGATE",
+      "to": "balance",
+      "left": 0,
+      "top": 0,
+      "width": 1080,
+      "height": 1920
+    }
+  ]
+}

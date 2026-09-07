@@ -1,0 +1,14 @@
+const { chromium } = await import('file:///C:/Users/iamne/Desktop/figma-agent/node_modules/playwright/index.mjs');
+const b = await chromium.launch();
+const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
+const errs = [];
+p.on('pageerror', e => errs.push('pageerror: ' + e.message));
+p.on('console', m => { if (m.type() === 'error') errs.push('console: ' + m.text()); });
+await p.goto(process.argv[2], { waitUntil: 'networkidle' });
+await p.waitForTimeout(600);
+await p.screenshot({ path: process.argv[3] });
+console.log('title:', await p.title());
+console.log('body data-mode:', await p.evaluate(() => document.body.dataset.mode));
+console.log('hit buttons:', await p.evaluate(() => document.querySelectorAll('.hit').length));
+console.log('errors:', errs.length ? errs.join(' | ') : 'none');
+await b.close();
