@@ -1,0 +1,269 @@
+/* ---------------------------------------------------------------------------
+   The three V2 screens that are not plates.
+
+   Everything here is prefixed `v2-` and nothing here overrides V1. `styles.css`
+   is loaded globally by `main.tsx` for both builds and still owns the stage
+   primitives these screens stand on - `.plate`, `.layer`, `.layer-clip`, `.hit`
+   - so this file adds only what V2 draws that V1 does not, at V2's own
+   measured geometry. V1's `.pin-*`, `.home-*` and `.loading-*` rules are still
+   in `styles.css` and are still V1's: V2 redrew all three screens and none of
+   those numbers survived the redraw intact.
+
+   Every length is a design-time pixel at the fixed 1080x1920 stage. The stage
+   scales; nothing in here does.
+   -------------------------------------------------------------------------*/
+
+/* ---------------------------------------------------------------------------
+   UPI PIN - the six dots.
+
+   Measured off #254:4833 (zero digits) and #254:12843 (six), which differ in
+   exactly six ellipses and nothing else: fill goes from none to #26387e and
+   the ring from #6e6e72 to #26387e as each digit lands. The dot the NEXT digit
+   will fill already carries the blue ring in the artwork, which is why there
+   are three states here and not two.
+
+   The dots themselves are SVG, and their geometry and colours live in
+   `PinScreen.tsx`. Only the strip that covers the printed ones is here.
+   -------------------------------------------------------------------------*/
+
+/* The plate paints six dots of its own. They are covered before the live ones
+   are drawn - a printed dot and a live one a pixel apart reads as blur, not as
+   a bug. The band is flat #ffffff for 16px above, 15px below and 14px past
+   both ends of the row (counted off the export), so one rectangle does the job
+   six circles in perfect register would otherwise have to. */
+.v2-pin-strip {
+  position: absolute;
+  left: 280px;
+  top: 840px;
+  width: 516px;
+  height: 73px;
+  background: #ffffff;
+  pointer-events: none;
+}
+
+/* The six live dots, drawn as SVG circles over the covered strip. They are
+   SVG and not bordered divs because Chrome snaps `border-width` to whole
+   device pixels and Figma's ring is 2.769px: the bordered version printed a
+   visibly lighter ring than the plate it stands on. Colours, radii and the
+   three states are all in `PinScreen.tsx`, next to the geometry they belong
+   to; nothing about them is stylable from here. */
+.v2-pin-dots {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+/* ---------------------------------------------------------------------------
+   Loading - the ring fills, it does not spin.
+
+   V1's loader was a static arc on a grey track and the only honest thing to do
+   with it was turn it. V2's is a different component altogether: instance
+   #254:19356 of set #254:839 "Loader", whose three variants are Progression=0%
+   (#254:840), 50% (#254:846) and 100% (#254:852), chained
+   0% --0.05s--> 50% --0.001s--> 100% --0.05s--> 0%, both middle legs
+   SMART_ANIMATE 1000ms LINEAR and the closing one instant. That is a
+   DETERMINATE ring: it fills clockwise from twelve o'clock and starts over.
+
+   Both legs are 1000ms for 50% each, so the two of them are one continuous
+   linear ramp. The cycle is 0.05 + 1 + 0.001 + 1 + 0.05 = 2101ms, against the
+   frame's own declared 2000ms timeout - the designer sized the fill to the
+   wait, and the app leaves 101ms before the ring would restart. It loops
+   anyway, because the component does and because a loader that stops is a
+   loader that looks hung.
+
+   `pathLength="100"` on the circle normalises its length, so the two numbers
+   below stay 100 and 0 whatever the measured radius turns out to be. The
+   geometry lives in `LoadingScreen.tsx` and only there.
+   -------------------------------------------------------------------------*/
+.v2-loading-ring {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.v2-loading-arc {
+  animation: v2-loading-fill 2101ms linear infinite;
+  will-change: stroke-dashoffset;
+}
+
+@keyframes v2-loading-fill {
+  0%, 2.380%    { stroke-dashoffset: 100; }   /* the 50ms hold at empty */
+  97.620%, 100% { stroke-dashoffset: 0; }     /* the 50ms hold at full */
+}
+
+/* ---------------------------------------------------------------------------
+   Home's background animation.
+
+   V2 does NOT redraw this. Both home frames instance the same component V1
+   built against - #254:1024 and #254:58072 are both cid `211:941`, both
+   1080x974.77, both carrying Ellipse 1935 at (432, 625.85) 1032.92sq #b29bff
+   and Ellipse 1936 at (-432, 548.31) 841.85sq #ffacf7 at 0.3 with LAYER_BLUR
+   653.54 - and both declare the same AFTER_TIMEOUT 0.2s CHANGE_TO #211:944,
+   SMART_ANIMATE 1.5s. So the keyframes below are V1's, unchanged, and the
+   diff-verified numbers come across with them.
+
+   Four variants, each holding 0.2s then animating to the next:
+   #211:941 -> 944 -> 947 -> 950 -> back. Three legs are SMART_ANIMATE (1.5s,
+   1.5s, 3s, ease-out); the closing leg is DISSOLVE (2.2s), which cross-fades
+   rather than moves - hence two stacked pairs rather than one, because that
+   leg cannot be a geometry tween like the other three. Cycle 9s.
+
+   Use the INSTANCE's colours, not the component's. The component sits on
+   #0b0b0b with green and orange blobs (`.figma/anim-keyframes.json`), and
+   building from those renders a black home screen.
+   -------------------------------------------------------------------------*/
+.v2-home-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1080px;
+  height: 974.77px;
+  overflow: hidden;          /* the instance clips its content */
+  background: #ffffff;
+  pointer-events: none;
+}
+
+.v2-home-blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  /* Figma layer blur 653.54. CSS blur() takes the Gaussian sigma, which is
+     half of it. Close, not identical, and it is the whole of home's residual
+     diff. */
+  filter: blur(326.77px);
+  /* Transform and opacity only. The keyframes were measured as
+     left/top/width/height and converted to translate()/scale() about each
+     blob's own centre: animating the box would relayout and repaint two
+     ~1400px blurred elements every frame, which on a kiosk panel is the
+     difference between a smooth loop and a stuttering one. */
+  will-change: transform;
+}
+
+/* Keyframe-1 geometry is the base box; every stop is a transform off it. */
+.v2-home-blob-a {
+  background: #b29bff;                       /* Ellipse 1935 */
+  left: 432px; top: 625.85px;
+  width: 1032.92px; height: 1032.92px;
+}
+.v2-home-blob-b {
+  background: #ffacf7;                       /* Ellipse 1936 */
+  left: -432px; top: 548.31px;
+  width: 841.85px; height: 841.85px;
+}
+
+/* Pair A walks all four keyframes, then fades out across the dissolve. */
+.v2-home-pair-a { animation: v2-home-dissolve-out 9s linear infinite; }
+/* Pair B holds keyframe 1 and fades in underneath it. At the loop boundary
+   both pairs show keyframe 1, so the swap back is invisible. */
+.v2-home-pair-b { animation: v2-home-dissolve-in 9s linear infinite; }
+
+.v2-home-pair-a, .v2-home-pair-b { position: absolute; inset: 0; }
+
+@keyframes v2-home-dissolve-out {
+  0%,     75.556% { opacity: 1; }
+  100%            { opacity: 0; }
+}
+@keyframes v2-home-dissolve-in {
+  0%,     75.556% { opacity: 0; }
+  100%            { opacity: 1; }
+}
+
+/* Stops are the four variants at 0.2s hold + leg duration:
+   0.2s, 1.7s, 1.9s, 3.4s, 3.6s, 6.6s, 6.8s of a 9s cycle. */
+@keyframes v2-home-blob-a-move {
+  0%,  2.222%  { transform: translate(0, 0) scale(1);                          animation-timing-function: ease-out; }
+  18.889%      { transform: translate(235.80px, -226.77px) scale(1.37110); }
+  21.111%      { transform: translate(235.80px, -226.77px) scale(1.37110);      animation-timing-function: ease-out; }
+  37.778%      { transform: translate(213.05px, -865.90px) scale(1.14383); }
+  40%          { transform: translate(213.05px, -865.90px) scale(1.14383);      animation-timing-function: ease-out; }
+  73.333%,
+  100%         { transform: translate(-919.76px, -777.92px) scale(1.28212); }
+}
+
+@keyframes v2-home-blob-b-move {
+  0%,  2.222%  { transform: translate(0, 0) scale(1);                          animation-timing-function: ease-out; }
+  18.889%      { transform: translate(282.59px, 289.20px) scale(1.37109); }
+  21.111%      { transform: translate(282.59px, 289.20px) scale(1.37109);       animation-timing-function: ease-out; }
+  37.778%      { transform: translate(474.45px, 161.34px) scale(1.27289); }
+  40%          { transform: translate(474.45px, 161.34px) scale(1.27289);       animation-timing-function: ease-out; }
+  73.333%,
+  100%         { transform: translate(681.99px, 236.64px) scale(1.69122); }
+}
+
+.v2-home-pair-a .v2-home-blob-a { animation: v2-home-blob-a-move 9s linear infinite; }
+.v2-home-pair-a .v2-home-blob-b { animation: v2-home-blob-b-move 9s linear infinite; }
+
+/* Home below the animated region: one crop of the plate, positioned by pulling
+   the full image up by exactly the height of the animated instance. Exact by
+   construction, and it removes the three worst-behaved layers - two groups
+   that export several times taller than the frame, and a shadowed sheet - from
+   the offset problem entirely. */
+.v2-home-below {
+  position: absolute;
+  left: 0;
+  top: 974.77px;
+  width: 1080px;
+  height: 945.23px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.v2-home-below-img {
+  position: absolute;
+  left: 0;
+  top: -974.77px;
+  width: 1080px;
+  height: 1920px;
+  display: block;
+}
+
+/* ---------------------------------------------------------------------------
+   Mouse-mode outlines for the twelve keypad keys.
+
+   Same look as `styles.css`'s `.dev-hit`, but gated on the `mouse` prop rather
+   than on `body[data-mode]`: the pad is handed the flag directly, and hanging
+   its overlays off an attribute another file sets is a dependency it does not
+   need. Pointer events stay off so the transparent button underneath still
+   takes the click.
+   -------------------------------------------------------------------------*/
+.v2-dev-hit {
+  position: absolute;
+  outline: 2px dashed rgba(0, 160, 255, 0.7);
+  outline-offset: -2px;
+  pointer-events: none;
+}
+
+.v2-dev-chip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 3px 9px;
+  font: 500 20px/1.25 ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: nowrap;
+  color: #fff;
+  background: rgba(0, 78, 140, 0.85);
+}
+
+/* A scrolling screen has no full-frame plate to sit on - the frame's own fill
+   is the ground, and the content scrolls above it. Sized to the stage rather
+   than to the viewport box so nothing shows through at the edges. */
+.v2-scroll-bg {
+  position: absolute;
+  inset: 0;
+}
+
+/* The header and the footer/CTA band, pinned over the scrolling content the
+   way Figma pins them. Positioned in frame pixels like everything else. */
+.v2-chrome {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* A region put back over a plate borrowed from another state - the issuer's
+   card on `balance`, the issuer's name on `paid`. Above the plate and below
+   every hit target, so it changes the picture and nothing else. */
+.v2-patch {
+  position: absolute;
+  pointer-events: none;
+}

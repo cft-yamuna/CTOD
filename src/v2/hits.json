@@ -1,0 +1,465 @@
+{
+  "$meta": {
+    "file": "jk3u8GQ1wxKd3Ge5hEPLaJ",
+    "section": "254:858",
+    "sectionName": "SCALED UP FINAL PROTOTYPE- V2",
+    "frames": 614,
+    "declaredEdges": 2064,
+    "designSize": [1080, 1920],
+    "templates": 13,
+    "generatedFrom": [".figma/v2/edges.json", ".figma/v2/states.json", ".figma/v2/frames.json", "raw Figma node dump"],
+    "coordinates": "frame-relative pixels at 1080x1920, exactly as declared in the prototype.",
+    "scrolledRule": "`scrolled: true` means the node is a DESCENDANT of the template's overflowDirection container - decided by tree ancestry, never by top>1920. The home button (top 1793) and the back arrow (top 182) are fixed chrome and are never scrolled, and the Amount CTA at top 2718 IS scrolled.",
+    "kinds": {
+      "nav": "plain move to another template",
+      "state": "changes state; may stay on the same template",
+      "global": "home button / back arrow",
+      "inert": "declared box with a null destination, or a printed control with no interaction at all"
+    }
+  },
+
+  "global": {
+    "home": {
+      "left": 479, "top": 1793, "width": 123, "height": 123, "to": "unlocked",
+      "node": "254:1493", "componentName": "Frame 1984080080",
+      "present": ["home", "homeCard", "intro", "introAccepted", "issuer", "amount", "methods", "pin", "success", "paid", "loading", "balance"],
+      "absent": ["unlocked"],
+      "variance": { "479,1793": 568, "479,1794": 40, "479,1797": 2 },
+      "variantNote": "top=1793 on 568 frames, 1794 on the 40 Card-balance landing frames and the 30 selected-balance frames, 1797 on introAccepted (254:898). Use 1793 everywhere; the drift is <=4px inside a 123px box."
+    },
+    "back": {
+      "left": 44, "top": 182, "width": 55, "height": 55, "componentName": "Arrow-Left-1-",
+      "present": ["intro", "introAccepted", "issuer", "amount", "methods", "balance/unselected", "balance/selected"],
+      "absent": ["unlocked", "home", "homeCard", "pin", "success", "paid", "loading", "balance/landing"],
+      "variance": { "44,182": 104, "44,183": 2 },
+      "variantNote": "top=183 on intro (254:1014) and introAccepted (254:933); 182 on the other 104. The 40 Card-balance landing frames PRINT the arrow (254:20070, 254:21614) with no interaction.",
+      "pinEquivalent": {
+        "label": "Close (X)", "left": 948, "top": 66, "width": 66, "height": 66,
+        "to": "methods", "node": "254:4897",
+        "note": "pin has no 55x55 back arrow; the sheet's close X is its back, declared on all 360 frames"
+      }
+    }
+  },
+
+  "backTargets": {
+    "unlocked": null,
+    "home": null,
+    "homeCard": null,
+    "intro": { "to": "home", "node": "254:1014" },
+    "introAccepted": { "to": "home", "node": "254:933" },
+    "issuer": { "to": "introAccepted", "node": "254:1613" },
+    "amount": { "to": "issuer", "node": "254:1741", "frames": 22 },
+    "methods": {
+      "by": "entry",
+      "cases": { "amount": "amount", "balance": "balance" },
+      "observed": { "amount": 15, "balance": 30 },
+      "nodes": { "amount": "254:16552", "balance": "254:47137" },
+      "note": "back returns to whichever template opened methods; the balance case lands on the `selected` variant"
+    },
+    "pin": { "to": "methods", "via": "close X @(948,66,66,66)", "node": "254:4897" },
+    "success": null,
+    "paid": null,
+    "loading": null,
+    "balance": {
+      "by": "leg",
+      "cases": { "setup": "home", "recharge": "homeCard" },
+      "observed": { "home": 30, "homeCard": 6 },
+      "nodes": { "setup": "254:21122", "recharge": "254:51999" },
+      "note": "declared only on the 36 wired frames; the 40 landing frames print it dead. Note the designer sends back to home/homeCard, NOT to balance/unselected."
+    }
+  },
+
+  "templates": {
+    "unlocked": {
+      "node": "254:51878", "frames": 1, "scroll": false,
+      "chrome": { "home": false, "back": false },
+      "hits": [
+        { "label": "Card Issuance (ON-THE-GO logo tile)", "left": 314, "top": 1191, "width": 164, "height": 164, "kind": "state", "to": "home", "node": "254:51888", "set": { "leg": "setup", "balance": 0, "issuer": null, "amount": null } },
+        { "label": "Balance Recharge tile", "left": 549, "top": 1191, "width": 271, "height": 298, "kind": "state", "to": "homeCard", "node": "254:51893", "set": { "leg": "recharge", "balance": 50, "issuer": "pinelabs", "amount": null } }
+      ],
+      "inert": [
+        { "label": "Card Issuance tile body - only its 164x164 logo is wired (designer slip; the sibling tile is wired whole)", "left": 260, "top": 1191, "width": 271, "height": 298, "node": "254:51887" },
+        { "label": "ON-THE-GO logo inside the Balance Recharge tile", "left": 603, "top": 1191, "width": 164, "height": 164, "node": "254:51894" }
+      ]
+    },
+
+    "home": {
+      "node": "254:1023", "frames": 1, "leg": "setup",
+      "scroll": {
+        "node": "254:1023", "direction": "VERTICAL_SCROLLING",
+        "viewport": { "x": 0, "y": 0, "w": 1080, "h": 1920 },
+        "contentW": 4095, "contentH": 4878, "contentX": -432, "contentY": 0,
+        "carousel": { "node": "254:1319", "name": "Frame 1686562866", "direction": "HORIZONTAL_SCROLLING", "viewport": { "x": 44, "y": 482, "w": 1036, "h": 177 }, "contentW": 3620, "contentH": 253, "contentX": 44, "contentY": 479 },
+        "otherCarousels": [
+          { "node": "254:1151", "viewport": { "x": 43, "y": 1902, "w": 994, "h": 408 }, "contentW": 2530 },
+          { "node": "254:1102", "viewport": { "x": 44, "y": 3622, "w": 991, "h": 493 }, "contentW": 1746 }
+        ],
+        "note": "the frame itself scrolls; both wired boxes are fixed chrome and neither is inside a scroll container"
+      },
+      "hits": [
+        { "label": "ON-THE-GO Transit Card chip", "left": 83, "top": 1565, "width": 383, "height": 133, "kind": "nav", "to": "intro", "node": "254:1034" },
+        { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:1493" }
+      ],
+      "inert": [],
+      "timer": { "node": "254:1024", "name": "Component 53", "ms": 200, "nav": "CHANGE_TO", "transition": "SMART_ANIMATE", "durationMs": 1500, "box": [0, 0, 1080, 975], "note": "4-variant background component set; a variant swap, not a screen change" }
+    },
+
+    "homeCard": {
+      "node": "254:58071", "frames": 1, "leg": "recharge",
+      "scroll": {
+        "node": "254:58071", "direction": "VERTICAL_SCROLLING",
+        "viewport": { "x": 0, "y": 0, "w": 1080, "h": 1920 },
+        "contentW": 4095, "contentH": 4878,
+        "carousel": { "node": "254:58367", "name": "Frame 1686562866", "direction": "HORIZONTAL_SCROLLING", "viewport": { "x": 44, "y": 482, "w": 1036, "h": 177 }, "contentW": 3620, "contentH": 253 }
+      },
+      "hits": [
+        { "label": "ON-THE-GO Transit Card chip", "left": 83, "top": 1565, "width": 383, "height": 133, "kind": "nav", "to": "balance", "toVariant": "unselected", "node": "254:58082", "set": { "leg": "recharge", "balance": 50, "amount": null } },
+        { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:58541" }
+      ],
+      "inert": [],
+      "timer": { "node": "254:58072", "name": "Component 53", "ms": 200, "nav": "CHANGE_TO", "transition": "SMART_ANIMATE", "durationMs": 1500, "box": [0, 0, 1080, 975] }
+    },
+
+    "intro": {
+      "node": "254:941", "frames": 1,
+      "scroll": { "node": "254:942", "name": "Frame 1984080067", "direction": "VERTICAL_SCROLLING", "viewport": { "x": 0, "y": 304, "w": 1080, "h": 1249 }, "contentW": 1080, "contentH": 1668, "contentY": 304, "contentBottom": 1972, "note": "no wired box is inside it - checkbox, CTA, back and home are all fixed chrome" },
+      "hits": [
+        { "label": "Accept terms checkbox", "left": 99, "top": 1520, "width": 89, "height": 89, "kind": "nav", "to": "introAccepted", "node": "I254:973;2688:1936", "set": { "termsAccepted": true } },
+        { "label": "Back", "left": 44, "top": 183, "width": 55, "height": 55, "kind": "global", "to": "home", "node": "254:1014" },
+        { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:982" }
+      ],
+      "inert": [
+        { "label": "Buy your RuPay ON-THE-GO card (CTA drawn, unwired until the terms box is ticked)", "left": 44, "top": 1623, "width": 991, "height": 155, "node": "254:978" },
+        { "label": "See all the supported cities", "left": 78, "top": 1654, "width": 925, "height": 248, "node": "254:966", "scrolled": true }
+      ]
+    },
+
+    "introAccepted": {
+      "node": "254:860", "frames": 1,
+      "scroll": { "node": "254:861", "name": "Frame 1984080068", "direction": "VERTICAL_SCROLLING", "viewport": { "x": 0, "y": 304, "w": 1080, "h": 1249 }, "contentW": 1080, "contentH": 1668, "contentY": 304, "contentBottom": 1972 },
+      "hits": [
+        { "label": "Un-accept terms checkbox", "left": 99, "top": 1520, "width": 89, "height": 89, "kind": "nav", "to": "intro", "node": "I254:892;2712:826", "set": { "termsAccepted": false } },
+        { "label": "Buy your RuPay ON-THE-GO card", "left": 44, "top": 1623, "width": 991, "height": 155, "kind": "nav", "to": "issuer", "node": "254:905" },
+        { "label": "Back", "left": 44, "top": 183, "width": 55, "height": 55, "kind": "global", "to": "home", "node": "254:933" },
+        { "label": "Home", "left": 479, "top": 1797, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:898", "note": "declared at top=1797 here, 1793 on every other frame" }
+      ],
+      "inert": [
+        { "label": "See all the supported cities", "left": 78, "top": 1654, "width": 925, "height": 248, "node": "254:885", "scrolled": true }
+      ]
+    },
+
+    "issuer": {
+      "node": "254:1550", "frames": 1, "scroll": false,
+      "hits": [
+        { "label": "Bharat Yatra by Pine Labs", "left": 44, "top": 504, "width": 991, "height": 249, "kind": "state", "to": "amount", "node": "254:1573", "set": { "issuer": "pinelabs", "amount": null } },
+        { "label": "Indian Overseas Bank", "left": 44, "top": 797, "width": 991, "height": 249, "kind": "state", "to": "amount", "node": "254:1577", "set": { "issuer": "iob", "amount": null } },
+        { "label": "RBL", "left": 44, "top": 1090, "width": 991, "height": 249, "kind": "state", "to": "amount", "node": "254:1581", "set": { "issuer": "rbl", "amount": null } },
+        { "label": "Back", "left": 44, "top": 182, "width": 55, "height": 55, "kind": "global", "to": "introAccepted", "node": "254:1613" },
+        { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:1622" }
+      ],
+      "inert": [
+        { "label": "More issuers coming soon", "left": 44, "top": 1383, "width": 991, "height": 62, "node": "254:1585" }
+      ]
+    },
+
+    "amount": {
+      "node": "254:1628", "frames": 22, "uniquePlates": 18,
+      "orphans": ["254:1743", "254:1858", "254:2318", "254:2433"],
+      "scroll": {
+        "node": "254:1629", "name": "Frame 1984080071", "direction": "VERTICAL_SCROLLING",
+        "viewport": { "x": 0, "y": 299, "w": 1080, "h": 1490 },
+        "contentW": 1080, "contentH": 2716, "contentX": 0, "contentY": 299, "contentBottom": 3015,
+        "note": "the container's child Frame 1984080072 reports h=1800 (bottom 2099) and under-reports; the union of descendants runs to frame-y 3015. All five chips and the Pay CTA are inside it."
+      },
+      "invariant": "identical box set on all 22 frames (verified: 6 signatures differing only by which chip is currently selected and whether the CTA is wired)",
+      "hits": [
+        { "label": "Rs100", "left": 78, "top": 1982, "width": 147, "height": 102, "kind": "state", "node": "254:1661", "set": { "amount": 100 }, "scrolled": true },
+        { "label": "Rs200", "left": 265, "top": 1982, "width": 153, "height": 102, "kind": "state", "node": "254:1663", "set": { "amount": 200 }, "scrolled": true },
+        { "label": "Rs300", "left": 458, "top": 1982, "width": 155, "height": 102, "kind": "state", "node": "254:1665", "set": { "amount": 300 }, "scrolled": true },
+        { "label": "Rs400", "left": 653, "top": 1982, "width": 155, "height": 102, "kind": "state", "node": "254:1667", "set": { "amount": 400 }, "scrolled": true },
+        { "label": "Rs500", "left": 848, "top": 1982, "width": 154, "height": 102, "kind": "state", "node": "254:1669", "set": { "amount": 500 }, "scrolled": true },
+        { "label": "Pay Amount", "left": 44, "top": 2718, "width": 991, "height": 155, "kind": "nav", "to": "methods", "node": "254:2262", "scrolled": true, "enabledWhen": "amount !== null", "note": "declared on the 17 frames that carry a selection; printed disabled (254:1687) on the 5 that do not" },
+        { "label": "Back", "left": 44, "top": 182, "width": 55, "height": 55, "kind": "global", "to": "issuer", "node": "254:1741" },
+        { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:1712" }
+      ],
+      "inert": [
+        { "label": "Issuance Fee / Rs50 row", "left": 78, "top": 1493, "width": 925, "height": 155, "node": "254:1644", "scrolled": true, "declared": true, "note": "declared ON_CLICK with a null destination, on all 22 frames" },
+        { "label": "Total Amount row", "left": 78, "top": 2545, "width": 925, "height": 116, "node": "254:1680", "scrolled": true, "declared": true, "note": "declared ON_CLICK with a null destination, on all 22 frames" },
+        { "label": "Add custom amount (label)", "left": 78, "top": 2151, "width": 438, "height": 62, "node": "254:1673", "scrolled": true },
+        { "label": "Add custom amount field - drawn with a caret already in it, nothing to type into", "left": 125, "top": 2293, "width": 831, "height": 115, "node": "254:1675", "scrolled": true },
+        { "label": "Pay Amount, disabled state", "left": 44, "top": 2718, "width": 991, "height": 155, "node": "254:1687", "scrolled": true },
+        { "label": "the already-selected chip - the prototype drops its edge, so re-tapping it is a no-op", "left": null, "top": null, "width": null, "height": null, "node": "254:2236 (Rs100 on 254:2203, example)" }
+      ]
+    },
+
+    "methods": {
+      "frames": 45, "uniquePlates": 1,
+      "invariant": "exactly one wired row, one back, one home on all 45 frames; the only difference between the two variants is a 10px x offset",
+      "variants": {
+        "fromAmount": {
+          "node": "254:16368", "frames": 15,
+          "scroll": {
+            "node": "254:16390", "name": "Frame 1984080069", "direction": "VERTICAL_SCROLLING",
+            "viewport": { "x": 34, "y": 333, "w": 991, "h": 2751 },
+            "contentW": 991, "contentH": 2751, "contentY": 333, "contentBottom": 3084,
+            "outer": { "node": "254:16368", "direction": "VERTICAL_SCROLLING", "viewport": { "x": 0, "y": 0, "w": 1080, "h": 1920 } },
+            "note": "here the inner container is as tall as its content, so the ROOT frame is what actually scrolls"
+          },
+          "hits": [
+            { "label": "UPI 1 / XX5678 / DEFAULT", "left": 34, "top": 411, "width": 991, "height": 191, "kind": "nav", "to": "pin", "node": "254:16395", "scrolled": true },
+            { "label": "Back", "left": 44, "top": 182, "width": 55, "height": 55, "kind": "global", "to": "amount", "node": "254:16552" },
+            { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:16559" }
+          ]
+        },
+        "fromBalance": {
+          "node": "254:46953", "frames": 30,
+          "scroll": {
+            "node": "254:46975", "name": "Frame 1984080058", "direction": "VERTICAL_SCROLLING",
+            "viewport": { "x": 44, "y": 333, "w": 991, "h": 1587 },
+            "contentW": 991, "contentH": 2751, "contentY": 333, "contentBottom": 3084
+          },
+          "hits": [
+            { "label": "UPI 1 / XX5678 / DEFAULT", "left": 44, "top": 411, "width": 991, "height": 191, "kind": "nav", "to": "pin", "node": "254:46980", "scrolled": true },
+            { "label": "Back", "left": 44, "top": 182, "width": 55, "height": 55, "kind": "global", "to": "balance", "toVariant": "selected", "node": "254:47137" },
+            { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:47144" }
+          ]
+        }
+      },
+      "inert": [
+        { "label": "UPI 2 / XX5678", "left": 34, "top": 624, "width": 991, "height": 191, "node": "254:16407", "scrolled": true },
+        { "label": "UPI 3 / XX5678", "left": 34, "top": 837, "width": 991, "height": 191, "node": "254:16419", "scrolled": true },
+        { "label": "Add new Credit on UPI account", "left": 34, "top": 1051, "width": 991, "height": 188, "node": "254:16431", "scrolled": true },
+        { "label": "Credit Card 1 / XX6789", "left": 34, "top": 1382, "width": 991, "height": 191, "node": "254:16444", "scrolled": true },
+        { "label": "Debit Card 1 / XX6789", "left": 34, "top": 1595, "width": 991, "height": 191, "node": "254:16455", "scrolled": true },
+        { "label": "Add new RuPay card", "left": 34, "top": 1808, "width": 991, "height": 188, "node": "254:16466", "scrolled": true },
+        { "label": "Bank 1 / xx2453 (net banking)", "left": 34, "top": 2139, "width": 991, "height": 191, "node": "254:16479", "scrolled": true },
+        { "label": "Add new bank account (net banking)", "left": 34, "top": 2352, "width": 991, "height": 188, "node": "254:16491", "scrolled": true },
+        { "label": "Bank 1 / xx2453 (wallet)", "left": 34, "top": 2683, "width": 991, "height": 191, "node": "254:16504", "scrolled": true },
+        { "label": "Add new bank account (wallet)", "left": 34, "top": 2896, "width": 991, "height": 188, "node": "254:16515", "scrolled": true }
+      ],
+      "inertNote": "node ids are from the fromAmount plate (254:16368); on fromBalance the same rows sit 10px right, at left=44"
+    },
+
+    "pin": {
+      "node": "254:14178", "frames": 360, "uniquePlates": 1, "scroll": false,
+      "invariant": "keypad and dot geometry byte-identical on all 360 frames (verified across every frame in the family)",
+      "prompt": { "label": "Enter your UPI PIN", "left": 341, "top": 734, "width": 393, "height": 54, "node": "254:14182" },
+      "keypadGeometry": {
+        "cols": [102, 401, 700], "rows": [1169, 1307, 1445, 1584],
+        "keyW": 277, "keyH": 116, "colPitch": 299, "rowPitch": 138, "lastRowPitch": 139,
+        "block": { "left": 102, "top": 1169, "width": 875, "height": 532, "node": "254:14192" },
+        "sheet": { "left": -1, "top": 1125, "width": 1080, "height": 665, "node": "254:14191" }
+      },
+      "dotGeometry": {
+        "count": 6, "top": 854, "size": 44, "lefts": [294, 383, 471, 560, 649, 737], "pitch": 88.6,
+        "emptyFill": "#D9D9D9", "filledFill": "#26387E",
+        "containerNode": "254:14183",
+        "nodes": ["254:14184", "254:14185", "254:14186", "254:14187", "254:14188", "254:14189"]
+      },
+      "dwell": {
+        "ms": 400, "trigger": "AFTER_TIMEOUT", "from": "254:12843", "to": "254:14178",
+        "note": "all six dots are ALREADY filled on the 6th-digit frame 254:12843. The 400ms does not fill anything: it releases the pressed highlight on the '6' key and arms Next."
+      },
+      "submit": { "label": "Next", "left": 700, "top": 1584, "width": 277, "height": 116, "node": "254:14207", "name": "Group 12934", "to": "success" },
+      "hits": [
+        { "label": "1", "left": 102, "top": 1169, "width": 277, "height": 116, "kind": "state", "node": "254:14194", "set": { "pinDigit": "1" } },
+        { "label": "2", "left": 401, "top": 1169, "width": 277, "height": 116, "kind": "state", "node": "254:14199", "set": { "pinDigit": "2" } },
+        { "label": "3", "left": 700, "top": 1169, "width": 277, "height": 116, "kind": "state", "node": "254:14204", "set": { "pinDigit": "3" } },
+        { "label": "4", "left": 102, "top": 1307, "width": 277, "height": 116, "kind": "state", "node": "254:14195", "set": { "pinDigit": "4" } },
+        { "label": "5", "left": 401, "top": 1307, "width": 277, "height": 116, "kind": "state", "node": "254:14200", "set": { "pinDigit": "5" } },
+        { "label": "6", "left": 700, "top": 1307, "width": 277, "height": 116, "kind": "state", "node": "254:14205", "set": { "pinDigit": "6" } },
+        { "label": "7", "left": 102, "top": 1445, "width": 277, "height": 116, "kind": "state", "node": "254:14196", "set": { "pinDigit": "7" } },
+        { "label": "8", "left": 401, "top": 1445, "width": 277, "height": 116, "kind": "state", "node": "254:14201", "set": { "pinDigit": "8" } },
+        { "label": "9", "left": 700, "top": 1445, "width": 277, "height": 116, "kind": "state", "node": "254:14206", "set": { "pinDigit": "9" } },
+        { "label": "Key / Function (blank)", "left": 102, "top": 1584, "width": 277, "height": 116, "kind": "inert", "node": "254:14197", "note": "no interaction on any of the 360 frames; treat as backspace or leave dead" },
+        { "label": "0", "left": 401, "top": 1584, "width": 277, "height": 116, "kind": "state", "node": "254:14202", "set": { "pinDigit": "0" } },
+        { "label": "Next", "left": 700, "top": 1584, "width": 277, "height": 116, "kind": "nav", "to": "success", "node": "254:14207", "enabledWhen": "6 digits entered AND the 400ms dwell has elapsed" },
+        { "label": "Close (X) - acts as back", "left": 948, "top": 66, "width": 66, "height": 66, "kind": "global", "to": "methods", "node": "254:4897" },
+        { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:4916" }
+      ],
+      "inert": [
+        { "label": "Key / Function (bottom-left, blank)", "left": 102, "top": 1584, "width": 277, "height": 116, "node": "254:14197", "note": "carries no interaction on any of the 360 frames" }
+      ],
+      "storyboard": {
+        "note": "the 360 frames are 8 steps x 45 payment contexts. The designer types 1-2-3-4-5-6. Not built - the app types a real PIN; listed only so a step can be traced back to source.",
+        "steps": [
+          { "step": 0, "frame": "254:4833", "key": "1", "box": [102, 1169, 277, 116], "node": "254:4849" },
+          { "step": 1, "frame": "254:6168", "key": "2", "box": [401, 1169, 277, 116], "node": "254:6189" },
+          { "step": 2, "frame": "254:7503", "key": "3", "box": [700, 1169, 277, 116], "node": "254:7529" },
+          { "step": 3, "frame": "254:8838", "key": "4", "box": [102, 1307, 277, 116], "node": "254:8855" },
+          { "step": 4, "frame": "254:10173", "key": "5", "box": [401, 1307, 277, 116], "node": "254:10195" },
+          { "step": 5, "frame": "254:11508", "key": "6", "box": [700, 1307, 277, 116], "node": "254:11535" },
+          { "step": 6, "frame": "254:12843", "key": null, "trigger": "AFTER_TIMEOUT 400ms", "to": "254:14178" },
+          { "step": 7, "frame": "254:14178", "key": "Next", "box": [700, 1584, 277, 116], "node": "254:14207", "to": "254:4158 (success)" }
+        ]
+      }
+    },
+
+    "success": {
+      "node": "254:4158", "frames": 45, "uniquePlates": 1, "scroll": false,
+      "invariant": "identical box set on all 45 frames",
+      "hits": [
+        { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:4197" }
+      ],
+      "inert": [],
+      "timer": { "ms": 1850, "to": "paid", "trigger": "AFTER_TIMEOUT", "nav": "NAVIGATE", "node": "254:4158", "box": [0, 0, 1080, 1920] },
+      "animation": { "node": "254:4180", "name": "Dark", "ms": 50, "nav": "CHANGE_TO", "transition": "SMART_ANIMATE", "durationMs": 1400, "box": [0, 69, 1080, 1095], "note": "the tick draw-on; not in the docs timing table" }
+    },
+
+    "paid": {
+      "frames": 45, "uniquePlates": 25, "scroll": false,
+      "invariant": "one Home CTA, one More details, one home button on all 45; only the More details y moves between variants",
+      "variants": {
+        "firstPayment": {
+          "node": "254:15513", "frames": 15,
+          "amountRule": "50 + selected (150..550)",
+          "banks": ["Pine Labs", "Indian Overseas Bank", "RBL Bank"],
+          "hits": [
+            { "label": "Home (CTA)", "left": 557, "top": 1623, "width": 479, "height": 155, "kind": "nav", "to": "loading", "node": "254:15560" },
+            { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:15564" }
+          ],
+          "inert": [
+            { "label": "More details", "left": 366, "top": 1060, "width": 349, "height": 98, "node": "254:15538", "declared": true, "note": "declared ON_CLICK with a null destination on all 15" },
+            { "label": "UPI Help", "left": 44, "top": 1623, "width": 479, "height": 155, "node": "254:15559" },
+            { "label": "Share screenshot", "left": 366, "top": 1193, "width": 321, "height": 266, "node": "254:15531" }
+          ]
+        },
+        "topUp": {
+          "node": "254:45528", "frames": 30,
+          "amountRule": "selected (100..500)",
+          "banks": ["Pine Labs"],
+          "hits": [
+            { "label": "Home (CTA)", "left": 557, "top": 1623, "width": 479, "height": 155, "kind": "nav", "to": "balance", "toVariant": "unselected", "node": "254:45575", "set": { "balance": "balance + amount", "amount": null } },
+            { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:45579" }
+          ],
+          "inert": [
+            { "label": "More details", "left": 366, "top": 1171, "width": 349, "height": 98, "node": "254:45553", "declared": true, "note": "declared ON_CLICK with a null destination on all 30" },
+            { "label": "UPI Help", "left": 44, "top": 1623, "width": 479, "height": 155, "node": "254:45574" },
+            { "label": "Share screenshot", "left": 380, "top": 1475, "width": 321, "height": 266, "node": "254:45546" }
+          ]
+        }
+      }
+    },
+
+    "loading": {
+      "node": "254:19323", "frames": 15, "uniquePlates": 1, "scroll": false,
+      "invariant": "identical box set on all 15 frames",
+      "hits": [
+        { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:19361" }
+      ],
+      "inert": [],
+      "timer": { "ms": 2000, "to": "balance", "trigger": "AFTER_TIMEOUT", "nav": "NAVIGATE", "node": "254:19323", "box": [0, 0, 1080, 1920], "transition": "SMART_ANIMATE", "transitionDurationMs": 1022 },
+      "animation": { "node": "254:19356", "name": "Loader", "ms": 50, "nav": "CHANGE_TO", "transition": "SMART_ANIMATE", "durationMs": 1000, "box": [404, 741, 275, 275], "note": "the rotating arc; not in the docs timing table" }
+    },
+
+    "balance": {
+      "frames": 76, "uniquePlates": 51,
+      "chipRow": {
+        "positions": { "unselected": 1624, "selected": 1142, "landing_fromLoading": 1605, "landing_fromPaid": 1598 },
+        "delta": 482,
+        "mechanism": "SCROLL, not a moved component. The selected frames are the same content pre-scrolled: 37/37 matched nodes under the panel shift by a uniform dy (histogram {-483: 30, -482: 7}) with identical names, sizes and tree paths, and the scroll container itself is deleted. The app should keep one chip row and scroll the panel by 482 - it must NOT move the row."
+      },
+      "variants": {
+        "unselected": {
+          "node": "254:21023", "frames": 6, "chipTop": 1624, "selected": null,
+          "scroll": { "node": "254:21024", "name": "Frame 1984080057", "direction": "VERTICAL_SCROLLING", "viewport": { "x": 44, "y": 299, "w": 991, "h": 1350 }, "contentX": 32, "contentY": 282, "contentW": 1016, "contentH": 1881, "contentBottom": 2163, "scrollTop": 0 },
+          "reachedFrom": ["loading (Pine Labs branch only)", "homeCard", "paid/topUp (state-level, see notes)"],
+          "hits": [
+            { "label": "Rs100", "left": 77, "top": 1624, "width": 147, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:21046", "set": { "amount": 100 }, "scrolled": true },
+            { "label": "Rs200", "left": 264, "top": 1624, "width": 153, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:21048", "set": { "amount": 200 }, "scrolled": true },
+            { "label": "Rs300", "left": 457, "top": 1624, "width": 155, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:21050", "set": { "amount": 300 }, "scrolled": true },
+            { "label": "Rs400", "left": 653, "top": 1624, "width": 155, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:21052", "set": { "amount": 400 }, "scrolled": true },
+            { "label": "Rs500", "left": 848, "top": 1624, "width": 154, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:21054", "set": { "amount": 500 }, "scrolled": true },
+            { "label": "Back", "left": 44, "top": 182, "width": 55, "height": 55, "kind": "global", "toByLeg": { "setup": "home", "recharge": "homeCard" }, "node": "254:21122" },
+            { "label": "Home", "left": 479, "top": 1793, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:21092" }
+          ],
+          "inert": [
+            { "label": "Add Money (drawn disabled; content y=1623 is below the 1649 viewport bottom, so it is off-screen until the panel scrolls)", "left": 44, "top": 1623, "width": 991, "height": 155, "node": "254:21088" },
+            { "label": "Add custom amount (label)", "left": 77, "top": 1793, "width": 438, "height": 62, "node": "254:21058", "scrolled": true },
+            { "label": "Add custom amount field", "left": 124, "top": 1936, "width": 831, "height": 115, "node": "254:21060", "scrolled": true },
+            { "label": "View Card Details", "left": 428, "top": 965, "width": 289, "height": 47, "node": "254:21030", "scrolled": true },
+            { "label": "Refresh", "left": 936, "top": 1109, "width": 123, "height": 40, "node": "254:21034", "scrolled": true }
+          ]
+        },
+        "selected": {
+          "node": "254:24103", "frames": 30, "chipTop": 1142,
+          "scroll": { "preScrolled": true, "scrollTop": 482, "viewport": { "x": 44, "y": 299, "w": 991, "h": 1350 }, "contentX": 32, "contentY": -200, "contentW": 1016, "contentH": 1881, "note": "the frame carries NO overflowDirection node at all - the panel is flattened at scrollTop 482. The card art starts at frame-y -184 (254:24105), above the frame edge." },
+          "hits": [
+            { "label": "Rs100", "left": 77, "top": 1142, "width": 147, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:24125", "set": { "amount": 100 }, "scrolled": true, "note": "edge absent when this chip is the current selection" },
+            { "label": "Rs200", "left": 265, "top": 1142, "width": 153, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:24127", "set": { "amount": 200 }, "scrolled": true },
+            { "label": "Rs300", "left": 458, "top": 1142, "width": 155, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:24129", "set": { "amount": 300 }, "scrolled": true },
+            { "label": "Rs400", "left": 653, "top": 1142, "width": 155, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:24131", "set": { "amount": 400 }, "scrolled": true },
+            { "label": "Rs500", "left": 848, "top": 1142, "width": 154, "height": 102, "kind": "state", "to": "balance", "toVariant": "selected", "node": "254:24133", "set": { "amount": 500 }, "scrolled": true },
+            { "label": "Add Money", "left": 44, "top": 1623, "width": 991, "height": 155, "kind": "nav", "to": "methods", "node": "254:24176" },
+            { "label": "Back", "left": 44, "top": 182, "width": 55, "height": 55, "kind": "global", "toByLeg": { "setup": "home", "recharge": "homeCard" }, "node": "254:24201" },
+            { "label": "Home", "left": 479, "top": 1794, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:24169" }
+          ],
+          "inert": [
+            { "label": "Add custom amount (label)", "left": 77, "top": 1310, "width": 438, "height": 62, "node": "254:24137", "scrolled": true },
+            { "label": "Add custom amount field", "left": 124, "top": 1453, "width": 831, "height": 115, "node": "254:24139", "scrolled": true },
+            { "label": "View Card Details", "left": 429, "top": 482, "width": 289, "height": 47, "node": "254:24109", "scrolled": true },
+            { "label": "Refresh", "left": 936, "top": 626, "width": 123, "height": 40, "node": "254:24113", "scrolled": true },
+            { "label": "the already-selected chip - its edge is dropped, so re-tapping it is a no-op", "left": 77, "top": 1142, "width": 147, "height": 102, "node": "254:24125" }
+          ]
+        },
+        "landing": {
+          "frames": 40, "wired": false,
+          "chipTop": { "fromLoading": 1605, "fromPaid": 1598 },
+          "nodes": { "fromLoading": "254:19983 (IOB) / 254:20087 (RBL)", "fromPaid": "254:21528" },
+          "scroll": {
+            "fromLoading": { "node": "254:19984", "name": "Frame 1984080073", "viewport": { "x": 44, "y": 299, "w": 991, "h": 1313 }, "contentX": 32, "contentY": 282, "contentW": 1016, "contentH": 1861, "contentBottom": 2143 },
+            "fromPaid": { "node": "254:21529", "name": "Frame 1984080062", "viewport": { "x": 44, "y": 299, "w": 991, "h": 1360 }, "contentX": 32, "contentY": 282, "contentW": 1016, "contentH": 1854, "contentBottom": 2136 }
+          },
+          "hits": [
+            { "label": "Home", "left": 479, "top": 1794, "width": 123, "height": 123, "kind": "global", "to": "unlocked", "node": "254:20081" }
+          ],
+          "inert": [
+            { "label": "all five amount chips (printed, no interaction)", "left": 77, "top": 1605, "width": 925, "height": 102, "node": "254:20007 (fromLoading) / 254:21551 (fromPaid, top=1598)" },
+            { "label": "Add Money", "left": 44, "top": 1623, "width": 991, "height": 155, "node": "254:20076 / 254:21620" },
+            { "label": "Back arrow (printed, no interaction)", "left": 44, "top": 182, "width": 55, "height": 55, "node": "254:20070 / 254:21614" }
+          ],
+          "note": "genuine dead ends in the prototype - the home button is their only live target. Do NOT build this as a template: map every balance value onto unselected/selected instead."
+        }
+      }
+    }
+  },
+
+  "timers": {
+    "success": { "ms": 1850, "to": "paid", "note": "declared on all 45 Success enabled frames" },
+    "loading": { "ms": 2000, "to": "balance", "note": "declared on all 15 Loading frames; replaces V1's 2600ms" },
+    "pin": { "ms": 400, "note": "dwell after the 6th digit - releases the pressed key and arms Next. The dots are already filled before it fires." },
+    "home": { "ms": 200, "nav": "CHANGE_TO", "transition": "SMART_ANIMATE", "durationMs": 1500, "note": "4-variant background component set, on home and homeCard" },
+    "successTick": { "ms": 50, "nav": "CHANGE_TO", "transition": "SMART_ANIMATE", "durationMs": 1400, "node": "254:4180", "note": "the tick draw-on; not in the docs timing table" },
+    "loadingRing": { "ms": 50, "nav": "CHANGE_TO", "transition": "SMART_ANIMATE", "durationMs": 1000, "node": "254:19356", "note": "the rotating arc; not in the docs timing table" }
+  },
+
+  "arithmetic": {
+    "amount": {
+      "rule": "total = 50 + selected",
+      "verified": "18/18 states in states.amount plus all 4 orphans: null -> Rs50, 100 -> Rs150, 200 -> Rs250, 300 -> Rs350, 400 -> Rs450, 500 -> Rs550",
+      "chips": [100, 200, 300, 400, 500],
+      "cta": { "label": "Pay Amount", "enabledWhen": "amount !== null", "disabledPlateNode": "254:1687", "wiredOn": 17, "printedDisabledOn": 5 },
+      "note": "the Rs50 is the one-time issuance fee and is NOT loaded onto the card: after the first payment the balance equals the SELECTED amount, not the total."
+    },
+    "balance": {
+      "firstPayment": "pay 50 + a  ->  balance = a          (a in 100..500 -> balance 100..500)",
+      "topUp": "pay a       ->  balance = balance + a",
+      "rechargeLeg": "card starts at 50; pay a -> balance = 50 + a  (150..550)",
+      "reachableInPrototype": [50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 700, 800, 900, 1000],
+      "distinctBalanceValues": 16,
+      "enumeratedCeiling": 1000,
+      "printedCap": 2000,
+      "capEvidence": "every Card balance plate prints 'Current balance: RsB  You can only add Rs(2000-B) more to your card' - Rs1,900 at B=100 (254:19983) through Rs1,000 at B=1000 (254:24000). The Amount details plates print 'Rs2,000 more' at B=0. headroom = 2000 - balance holds on all 76 balance frames and all 22 amount frames.",
+      "atTheCap": "Rs1000 is only how far the designer enumerated - exactly one top-up from the highest first payment (500 + 500). The artwork's own rule is headroom = 2000 - balance. An implementation should compute balance + amount, offer only chips <= headroom, and disable Add Money when headroom is 0 - it should not stop at 1000.",
+      "deadEnds": "40 of the 76 Card balance frames declare nothing but the home button (templates.balance.variants.landing). They are unwired rather than designed dead ends: the same balance values also exist as fully wired frames (e.g. balance 200 is dead on 254:20191/254:21528 and live on 254:21124)."
+    }
+  },
+
+  "graphNotes": {
+    "unreachableFrames": ["254:1743", "254:1858"],
+    "orphanCluster": "254:1743 (IOB, nothing selected) -> 254:2318 (IOB, Rs100 selected); 254:1858 (RBL, nothing selected) -> 254:2433 (RBL, Rs100 selected). Only 1743 and 1858 have no incoming edge; 2318 and 2433 are reachable only from them, so all four sit off the flow.",
+    "topUpLoopIsPineLabsOnly": "loading routes the Pine Labs branch to the wired balance frames (254:21023, 21124, 21225, 21326, 21427) and the IOB and RBL branches to dead-end landings (IOB 254:19983/20191/20399/20607/20815, RBL 254:20087/20295/20503/20711/20919). Every wired balance frame carries Pinelabs-GPAY card art.",
+    "cardArtDimension": "the Card balance family carries a third artwork dimension - IOB / RBL / Pinelabs card art - that states.json does not record. IOB and RBL art appears only on the 10 first-payment landing frames.",
+    "edgeCoverage": { "total": 2064, "onClick": 1897, "afterTimeout": 167, "navigate": 2002, "changeTo": 62, "nullDestination": 89 }
+  }
+}

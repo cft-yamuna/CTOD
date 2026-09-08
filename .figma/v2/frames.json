@@ -1,0 +1,4300 @@
+[
+ {
+  "id": "254:860",
+  "name": "Introduction to ON-THE-GO accept terms",
+  "section": "Setup",
+  "x": -18654,
+  "y": -24943
+ },
+ {
+  "id": "254:941",
+  "name": "Introduction to ON-THE-GO",
+  "section": "Setup",
+  "x": -19854,
+  "y": -24943
+ },
+ {
+  "id": "254:1023",
+  "name": "Home ON-THE-GO entry",
+  "section": "Setup",
+  "x": -21054,
+  "y": -24943
+ },
+ {
+  "id": "254:1550",
+  "name": "Choose card issuer",
+  "section": "Setup",
+  "x": -17405,
+  "y": -24943
+ },
+ {
+  "id": "254:1628",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -16156,
+  "y": -24943
+ },
+ {
+  "id": "254:1743",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -16156,
+  "y": 41685
+ },
+ {
+  "id": "254:1858",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -16156,
+  "y": 59117
+ },
+ {
+  "id": "254:1973",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -990,
+  "y": 41685
+ },
+ {
+  "id": "254:2088",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -990,
+  "y": 59117
+ },
+ {
+  "id": "254:2203",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -14956,
+  "y": -24943
+ },
+ {
+  "id": "254:2318",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -14956,
+  "y": 41685
+ },
+ {
+  "id": "254:2433",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -14956,
+  "y": 59117
+ },
+ {
+  "id": "254:2548",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 41685
+ },
+ {
+  "id": "254:2663",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 59117
+ },
+ {
+  "id": "254:2778",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -14956,
+  "y": -12033
+ },
+ {
+  "id": "254:2893",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 44723
+ },
+ {
+  "id": "254:3008",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 62155
+ },
+ {
+  "id": "254:3123",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -14956,
+  "y": 1361
+ },
+ {
+  "id": "254:3238",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 47928
+ },
+ {
+  "id": "254:3353",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 65360
+ },
+ {
+  "id": "254:3468",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -14891,
+  "y": 14169
+ },
+ {
+  "id": "254:3583",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 51133
+ },
+ {
+  "id": "254:3698",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 68565
+ },
+ {
+  "id": "254:3813",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": -14891,
+  "y": 27489
+ },
+ {
+  "id": "254:3928",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 54338
+ },
+ {
+  "id": "254:4043",
+  "name": "Amount details",
+  "section": "Setup",
+  "x": 210,
+  "y": 71770
+ },
+ {
+  "id": "254:4158",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": -3179,
+  "y": -24943
+ },
+ {
+  "id": "254:4203",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 41685
+ },
+ {
+  "id": "254:4248",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 59117
+ },
+ {
+  "id": "254:4293",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": -3179,
+  "y": -12033
+ },
+ {
+  "id": "254:4338",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 44723
+ },
+ {
+  "id": "254:4383",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 62155
+ },
+ {
+  "id": "254:4428",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": -3179,
+  "y": 1361
+ },
+ {
+  "id": "254:4473",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 47928
+ },
+ {
+  "id": "254:4518",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 65360
+ },
+ {
+  "id": "254:4563",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": -3114,
+  "y": 14169
+ },
+ {
+  "id": "254:4608",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 51133
+ },
+ {
+  "id": "254:4653",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 68565
+ },
+ {
+  "id": "254:4698",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": -3114,
+  "y": 27489
+ },
+ {
+  "id": "254:4743",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 54338
+ },
+ {
+  "id": "254:4788",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 11987,
+  "y": 71770
+ },
+ {
+  "id": "254:4833",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -12556,
+  "y": -24943
+ },
+ {
+  "id": "254:4922",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 41685
+ },
+ {
+  "id": "254:5011",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 59117
+ },
+ {
+  "id": "254:5100",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -12556,
+  "y": -12033
+ },
+ {
+  "id": "254:5189",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 44723
+ },
+ {
+  "id": "254:5278",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 62155
+ },
+ {
+  "id": "254:5367",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -12556,
+  "y": 1361
+ },
+ {
+  "id": "254:5456",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 47928
+ },
+ {
+  "id": "254:5545",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 65360
+ },
+ {
+  "id": "254:5634",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -12491,
+  "y": 14169
+ },
+ {
+  "id": "254:5723",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 51133
+ },
+ {
+  "id": "254:5812",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 68565
+ },
+ {
+  "id": "254:5901",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -12491,
+  "y": 27489
+ },
+ {
+  "id": "254:5990",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 54338
+ },
+ {
+  "id": "254:6079",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 2610,
+  "y": 71770
+ },
+ {
+  "id": "254:6168",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -11356,
+  "y": -24943
+ },
+ {
+  "id": "254:6257",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 41685
+ },
+ {
+  "id": "254:6346",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 59117
+ },
+ {
+  "id": "254:6435",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -11356,
+  "y": -12033
+ },
+ {
+  "id": "254:6524",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 44723
+ },
+ {
+  "id": "254:6613",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 62155
+ },
+ {
+  "id": "254:6702",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -11356,
+  "y": 1361
+ },
+ {
+  "id": "254:6791",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 47928
+ },
+ {
+  "id": "254:6880",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 65360
+ },
+ {
+  "id": "254:6969",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -11291,
+  "y": 14169
+ },
+ {
+  "id": "254:7058",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 51133
+ },
+ {
+  "id": "254:7147",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 68565
+ },
+ {
+  "id": "254:7236",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -11291,
+  "y": 27489
+ },
+ {
+  "id": "254:7325",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 54338
+ },
+ {
+  "id": "254:7414",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 3810,
+  "y": 71770
+ },
+ {
+  "id": "254:7503",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -10156,
+  "y": -24943
+ },
+ {
+  "id": "254:7592",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 41685
+ },
+ {
+  "id": "254:7681",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 59117
+ },
+ {
+  "id": "254:7770",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -10156,
+  "y": -12033
+ },
+ {
+  "id": "254:7859",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 44723
+ },
+ {
+  "id": "254:7948",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 62155
+ },
+ {
+  "id": "254:8037",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -10156,
+  "y": 1361
+ },
+ {
+  "id": "254:8126",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 47928
+ },
+ {
+  "id": "254:8215",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 65360
+ },
+ {
+  "id": "254:8304",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -10091,
+  "y": 14169
+ },
+ {
+  "id": "254:8393",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 51133
+ },
+ {
+  "id": "254:8482",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 68565
+ },
+ {
+  "id": "254:8571",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -10091,
+  "y": 27489
+ },
+ {
+  "id": "254:8660",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 54338
+ },
+ {
+  "id": "254:8749",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5010,
+  "y": 71770
+ },
+ {
+  "id": "254:8838",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -9035,
+  "y": -24943
+ },
+ {
+  "id": "254:8927",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 41685
+ },
+ {
+  "id": "254:9016",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 59117
+ },
+ {
+  "id": "254:9105",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -9035,
+  "y": -12033
+ },
+ {
+  "id": "254:9194",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 44723
+ },
+ {
+  "id": "254:9283",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 62155
+ },
+ {
+  "id": "254:9372",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -9035,
+  "y": 1361
+ },
+ {
+  "id": "254:9461",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 47928
+ },
+ {
+  "id": "254:9550",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 65360
+ },
+ {
+  "id": "254:9639",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -8970,
+  "y": 14169
+ },
+ {
+  "id": "254:9728",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 51133
+ },
+ {
+  "id": "254:9817",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 68565
+ },
+ {
+  "id": "254:9906",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -8970,
+  "y": 27489
+ },
+ {
+  "id": "254:9995",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 54338
+ },
+ {
+  "id": "254:10084",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6131,
+  "y": 71770
+ },
+ {
+  "id": "254:10173",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -7871,
+  "y": -24943
+ },
+ {
+  "id": "254:10262",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 41685
+ },
+ {
+  "id": "254:10351",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 59117
+ },
+ {
+  "id": "254:10440",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -7871,
+  "y": -12033
+ },
+ {
+  "id": "254:10529",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 44723
+ },
+ {
+  "id": "254:10618",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 62155
+ },
+ {
+  "id": "254:10707",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -7871,
+  "y": 1361
+ },
+ {
+  "id": "254:10796",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 47928
+ },
+ {
+  "id": "254:10885",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 65360
+ },
+ {
+  "id": "254:10974",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -7806,
+  "y": 14169
+ },
+ {
+  "id": "254:11063",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 51133
+ },
+ {
+  "id": "254:11152",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 68565
+ },
+ {
+  "id": "254:11241",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -7806,
+  "y": 27489
+ },
+ {
+  "id": "254:11330",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 54338
+ },
+ {
+  "id": "254:11419",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7295,
+  "y": 71770
+ },
+ {
+  "id": "254:11508",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -6707,
+  "y": -24943
+ },
+ {
+  "id": "254:11597",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 41685
+ },
+ {
+  "id": "254:11686",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 59117
+ },
+ {
+  "id": "254:11775",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -6707,
+  "y": -12033
+ },
+ {
+  "id": "254:11864",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 44723
+ },
+ {
+  "id": "254:11953",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 62155
+ },
+ {
+  "id": "254:12042",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -6707,
+  "y": 1361
+ },
+ {
+  "id": "254:12131",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 47928
+ },
+ {
+  "id": "254:12220",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 65360
+ },
+ {
+  "id": "254:12309",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -6642,
+  "y": 14169
+ },
+ {
+  "id": "254:12398",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 51133
+ },
+ {
+  "id": "254:12487",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 68565
+ },
+ {
+  "id": "254:12576",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -6642,
+  "y": 27489
+ },
+ {
+  "id": "254:12665",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 54338
+ },
+ {
+  "id": "254:12754",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8459,
+  "y": 71770
+ },
+ {
+  "id": "254:12843",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -5543,
+  "y": -24943
+ },
+ {
+  "id": "254:12932",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 41685
+ },
+ {
+  "id": "254:13021",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 59117
+ },
+ {
+  "id": "254:13110",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -5543,
+  "y": -12033
+ },
+ {
+  "id": "254:13199",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 44723
+ },
+ {
+  "id": "254:13288",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 62155
+ },
+ {
+  "id": "254:13377",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -5543,
+  "y": 1361
+ },
+ {
+  "id": "254:13466",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 47928
+ },
+ {
+  "id": "254:13555",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 65360
+ },
+ {
+  "id": "254:13644",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -5478,
+  "y": 14169
+ },
+ {
+  "id": "254:13733",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 51133
+ },
+ {
+  "id": "254:13822",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 68565
+ },
+ {
+  "id": "254:13911",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -5478,
+  "y": 27489
+ },
+ {
+  "id": "254:14000",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 54338
+ },
+ {
+  "id": "254:14089",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9623,
+  "y": 71770
+ },
+ {
+  "id": "254:14178",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -4379,
+  "y": -24943
+ },
+ {
+  "id": "254:14267",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 41685
+ },
+ {
+  "id": "254:14356",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 59117
+ },
+ {
+  "id": "254:14445",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -4379,
+  "y": -12033
+ },
+ {
+  "id": "254:14534",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 44723
+ },
+ {
+  "id": "254:14623",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 62155
+ },
+ {
+  "id": "254:14712",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -4379,
+  "y": 1361
+ },
+ {
+  "id": "254:14801",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 47928
+ },
+ {
+  "id": "254:14890",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 65360
+ },
+ {
+  "id": "254:14979",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -4314,
+  "y": 14169
+ },
+ {
+  "id": "254:15068",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 51133
+ },
+ {
+  "id": "254:15157",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 68565
+ },
+ {
+  "id": "254:15246",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": -4314,
+  "y": 27489
+ },
+ {
+  "id": "254:15335",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 54338
+ },
+ {
+  "id": "254:15424",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 10787,
+  "y": 71770
+ },
+ {
+  "id": "254:15513",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": -1979,
+  "y": -24943
+ },
+ {
+  "id": "254:15570",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 41685
+ },
+ {
+  "id": "254:15627",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 59117
+ },
+ {
+  "id": "254:15684",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": -1979,
+  "y": -12033
+ },
+ {
+  "id": "254:15741",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 44723
+ },
+ {
+  "id": "254:15798",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 62155
+ },
+ {
+  "id": "254:15855",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": -1979,
+  "y": 1361
+ },
+ {
+  "id": "254:15912",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 47928
+ },
+ {
+  "id": "254:15969",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 65360
+ },
+ {
+  "id": "254:16026",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": -1914,
+  "y": 14169
+ },
+ {
+  "id": "254:16083",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 51133
+ },
+ {
+  "id": "254:16140",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 68565
+ },
+ {
+  "id": "254:16197",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": -1914,
+  "y": 27489
+ },
+ {
+  "id": "254:16254",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 54338
+ },
+ {
+  "id": "254:16311",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 13187,
+  "y": 71770
+ },
+ {
+  "id": "254:16368",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": -13756,
+  "y": -24943
+ },
+ {
+  "id": "254:16565",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 41685
+ },
+ {
+  "id": "254:16762",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 59117
+ },
+ {
+  "id": "254:16959",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": -13756,
+  "y": -12033
+ },
+ {
+  "id": "254:17156",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 44723
+ },
+ {
+  "id": "254:17353",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 62155
+ },
+ {
+  "id": "254:17550",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": -13756,
+  "y": 1361
+ },
+ {
+  "id": "254:17747",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 47928
+ },
+ {
+  "id": "254:17944",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 65360
+ },
+ {
+  "id": "254:18141",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": -13691,
+  "y": 14169
+ },
+ {
+  "id": "254:18338",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 51133
+ },
+ {
+  "id": "254:18535",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 68565
+ },
+ {
+  "id": "254:18732",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": -13691,
+  "y": 27489
+ },
+ {
+  "id": "254:18929",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 54338
+ },
+ {
+  "id": "254:19126",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 1410,
+  "y": 71770
+ },
+ {
+  "id": "254:19323",
+  "name": "Loading",
+  "section": "Setup",
+  "x": -779,
+  "y": -24943
+ },
+ {
+  "id": "254:19367",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 41685
+ },
+ {
+  "id": "254:19411",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 59117
+ },
+ {
+  "id": "254:19455",
+  "name": "Loading",
+  "section": "Setup",
+  "x": -779,
+  "y": -12033
+ },
+ {
+  "id": "254:19499",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 44723
+ },
+ {
+  "id": "254:19543",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 62155
+ },
+ {
+  "id": "254:19587",
+  "name": "Loading",
+  "section": "Setup",
+  "x": -779,
+  "y": 1361
+ },
+ {
+  "id": "254:19631",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 47928
+ },
+ {
+  "id": "254:19675",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 65360
+ },
+ {
+  "id": "254:19719",
+  "name": "Loading",
+  "section": "Setup",
+  "x": -714,
+  "y": 14169
+ },
+ {
+  "id": "254:19763",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 51133
+ },
+ {
+  "id": "254:19807",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 68565
+ },
+ {
+  "id": "254:19851",
+  "name": "Loading",
+  "section": "Setup",
+  "x": -714,
+  "y": 27489
+ },
+ {
+  "id": "254:19895",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 54338
+ },
+ {
+  "id": "254:19939",
+  "name": "Loading",
+  "section": "Setup",
+  "x": 14387,
+  "y": 71770
+ },
+ {
+  "id": "254:19983",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 41685
+ },
+ {
+  "id": "254:20087",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 59117
+ },
+ {
+  "id": "254:20191",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 44723
+ },
+ {
+  "id": "254:20295",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 62155
+ },
+ {
+  "id": "254:20399",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 47928
+ },
+ {
+  "id": "254:20503",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 65360
+ },
+ {
+  "id": "254:20607",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 51133
+ },
+ {
+  "id": "254:20711",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 68565
+ },
+ {
+  "id": "254:20815",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 54338
+ },
+ {
+  "id": "254:20919",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15587,
+  "y": 71770
+ },
+ {
+  "id": "254:21023",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 458,
+  "y": -24919
+ },
+ {
+  "id": "254:21124",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 458,
+  "y": -12033
+ },
+ {
+  "id": "254:21225",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 458,
+  "y": 1361
+ },
+ {
+  "id": "254:21326",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 458,
+  "y": 14169
+ },
+ {
+  "id": "254:21427",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 458,
+  "y": 27489
+ },
+ {
+  "id": "254:21528",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -24919
+ },
+ {
+  "id": "254:21631",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -12033
+ },
+ {
+  "id": "254:21734",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 1361
+ },
+ {
+  "id": "254:21837",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 14169
+ },
+ {
+  "id": "254:21940",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 27489
+ },
+ {
+  "id": "254:22043",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -22464
+ },
+ {
+  "id": "254:22146",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -9578
+ },
+ {
+  "id": "254:22249",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 3816
+ },
+ {
+  "id": "254:22352",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 16624
+ },
+ {
+  "id": "254:22455",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 29944
+ },
+ {
+  "id": "254:22558",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -19790
+ },
+ {
+  "id": "254:22661",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -6904
+ },
+ {
+  "id": "254:22764",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 6490
+ },
+ {
+  "id": "254:22867",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 19298
+ },
+ {
+  "id": "254:22970",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 32618
+ },
+ {
+  "id": "254:23073",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -17448
+ },
+ {
+  "id": "254:23176",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -4562
+ },
+ {
+  "id": "254:23279",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 8832
+ },
+ {
+  "id": "254:23382",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 21640
+ },
+ {
+  "id": "254:23485",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 34960
+ },
+ {
+  "id": "254:23588",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -15106
+ },
+ {
+  "id": "254:23691",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": -2220
+ },
+ {
+  "id": "254:23794",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 11174
+ },
+ {
+  "id": "254:23897",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 23982
+ },
+ {
+  "id": "254:24000",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 15799,
+  "y": 37302
+ },
+ {
+  "id": "254:24103",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -24919
+ },
+ {
+  "id": "254:24203",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -12033
+ },
+ {
+  "id": "254:24303",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 1361
+ },
+ {
+  "id": "254:24403",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 14169
+ },
+ {
+  "id": "254:24503",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 27489
+ },
+ {
+  "id": "254:24603",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -22464
+ },
+ {
+  "id": "254:24703",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -9578
+ },
+ {
+  "id": "254:24803",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 3816
+ },
+ {
+  "id": "254:24903",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 16624
+ },
+ {
+  "id": "254:25003",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 29944
+ },
+ {
+  "id": "254:25103",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -19790
+ },
+ {
+  "id": "254:25203",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -6904
+ },
+ {
+  "id": "254:25303",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 6490
+ },
+ {
+  "id": "254:25403",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 19298
+ },
+ {
+  "id": "254:25503",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 32618
+ },
+ {
+  "id": "254:25603",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -17448
+ },
+ {
+  "id": "254:25703",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -4562
+ },
+ {
+  "id": "254:25803",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 8832
+ },
+ {
+  "id": "254:25903",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 21640
+ },
+ {
+  "id": "254:26003",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 34960
+ },
+ {
+  "id": "254:26103",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -15106
+ },
+ {
+  "id": "254:26203",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": -2220
+ },
+ {
+  "id": "254:26303",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 11174
+ },
+ {
+  "id": "254:26403",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 23982
+ },
+ {
+  "id": "254:26503",
+  "name": "Card balance and add money ",
+  "section": "Setup",
+  "x": 1658,
+  "y": 37302
+ },
+ {
+  "id": "254:26603",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -24919
+ },
+ {
+  "id": "254:26692",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -12033
+ },
+ {
+  "id": "254:26781",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 1361
+ },
+ {
+  "id": "254:26870",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 14169
+ },
+ {
+  "id": "254:26959",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 27489
+ },
+ {
+  "id": "254:27048",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -22464
+ },
+ {
+  "id": "254:27137",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -9578
+ },
+ {
+  "id": "254:27226",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 3816
+ },
+ {
+  "id": "254:27315",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 16624
+ },
+ {
+  "id": "254:27404",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 29944
+ },
+ {
+  "id": "254:27493",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -19790
+ },
+ {
+  "id": "254:27582",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -6904
+ },
+ {
+  "id": "254:27671",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 6490
+ },
+ {
+  "id": "254:27760",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 19298
+ },
+ {
+  "id": "254:27849",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 32618
+ },
+ {
+  "id": "254:27938",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -17448
+ },
+ {
+  "id": "254:28027",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -4562
+ },
+ {
+  "id": "254:28116",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 8832
+ },
+ {
+  "id": "254:28205",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 21640
+ },
+ {
+  "id": "254:28294",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 34960
+ },
+ {
+  "id": "254:28383",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -15106
+ },
+ {
+  "id": "254:28472",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": -2220
+ },
+ {
+  "id": "254:28561",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 11174
+ },
+ {
+  "id": "254:28650",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 23982
+ },
+ {
+  "id": "254:28739",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 4058,
+  "y": 37302
+ },
+ {
+  "id": "254:28828",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -24919
+ },
+ {
+  "id": "254:28917",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -12033
+ },
+ {
+  "id": "254:29006",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 1361
+ },
+ {
+  "id": "254:29095",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 14169
+ },
+ {
+  "id": "254:29184",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 27489
+ },
+ {
+  "id": "254:29273",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -22464
+ },
+ {
+  "id": "254:29362",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -9578
+ },
+ {
+  "id": "254:29451",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 3816
+ },
+ {
+  "id": "254:29540",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 16624
+ },
+ {
+  "id": "254:29629",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 29944
+ },
+ {
+  "id": "254:29718",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -19790
+ },
+ {
+  "id": "254:29807",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -6904
+ },
+ {
+  "id": "254:29896",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 6490
+ },
+ {
+  "id": "254:29985",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 19298
+ },
+ {
+  "id": "254:30074",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 32618
+ },
+ {
+  "id": "254:30163",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -17448
+ },
+ {
+  "id": "254:30252",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -4562
+ },
+ {
+  "id": "254:30341",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 8832
+ },
+ {
+  "id": "254:30430",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 21640
+ },
+ {
+  "id": "254:30519",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 34960
+ },
+ {
+  "id": "254:30608",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -15106
+ },
+ {
+  "id": "254:30697",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": -2220
+ },
+ {
+  "id": "254:30786",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 11174
+ },
+ {
+  "id": "254:30875",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 23982
+ },
+ {
+  "id": "254:30964",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 5258,
+  "y": 37302
+ },
+ {
+  "id": "254:31053",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -24919
+ },
+ {
+  "id": "254:31142",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -12033
+ },
+ {
+  "id": "254:31231",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 1361
+ },
+ {
+  "id": "254:31320",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 14169
+ },
+ {
+  "id": "254:31409",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 27489
+ },
+ {
+  "id": "254:31498",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -22464
+ },
+ {
+  "id": "254:31587",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -9578
+ },
+ {
+  "id": "254:31676",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 3816
+ },
+ {
+  "id": "254:31765",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 16624
+ },
+ {
+  "id": "254:31854",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 29944
+ },
+ {
+  "id": "254:31943",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -19790
+ },
+ {
+  "id": "254:32032",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -6904
+ },
+ {
+  "id": "254:32121",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 6490
+ },
+ {
+  "id": "254:32210",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 19298
+ },
+ {
+  "id": "254:32299",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 32618
+ },
+ {
+  "id": "254:32388",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -17448
+ },
+ {
+  "id": "254:32477",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -4562
+ },
+ {
+  "id": "254:32566",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 8832
+ },
+ {
+  "id": "254:32655",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 21640
+ },
+ {
+  "id": "254:32744",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 34960
+ },
+ {
+  "id": "254:32833",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -15106
+ },
+ {
+  "id": "254:32922",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": -2220
+ },
+ {
+  "id": "254:33011",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 11174
+ },
+ {
+  "id": "254:33100",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 23982
+ },
+ {
+  "id": "254:33189",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 6458,
+  "y": 37302
+ },
+ {
+  "id": "254:33278",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -24919
+ },
+ {
+  "id": "254:33367",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -12033
+ },
+ {
+  "id": "254:33456",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 1361
+ },
+ {
+  "id": "254:33545",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 14169
+ },
+ {
+  "id": "254:33634",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 27489
+ },
+ {
+  "id": "254:33723",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -22464
+ },
+ {
+  "id": "254:33812",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -9578
+ },
+ {
+  "id": "254:33901",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 3816
+ },
+ {
+  "id": "254:33990",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 16624
+ },
+ {
+  "id": "254:34079",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 29944
+ },
+ {
+  "id": "254:34168",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -19790
+ },
+ {
+  "id": "254:34257",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -6904
+ },
+ {
+  "id": "254:34346",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 6490
+ },
+ {
+  "id": "254:34435",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 19298
+ },
+ {
+  "id": "254:34524",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 32618
+ },
+ {
+  "id": "254:34613",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -17448
+ },
+ {
+  "id": "254:34702",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -4562
+ },
+ {
+  "id": "254:34791",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 8832
+ },
+ {
+  "id": "254:34880",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 21640
+ },
+ {
+  "id": "254:34969",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 34960
+ },
+ {
+  "id": "254:35058",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -15106
+ },
+ {
+  "id": "254:35147",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": -2220
+ },
+ {
+  "id": "254:35236",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 11174
+ },
+ {
+  "id": "254:35325",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 23982
+ },
+ {
+  "id": "254:35414",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 7579,
+  "y": 37302
+ },
+ {
+  "id": "254:35503",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -24919
+ },
+ {
+  "id": "254:35592",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -12033
+ },
+ {
+  "id": "254:35681",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 1361
+ },
+ {
+  "id": "254:35770",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 14169
+ },
+ {
+  "id": "254:35859",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 27489
+ },
+ {
+  "id": "254:35948",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -22464
+ },
+ {
+  "id": "254:36037",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -9578
+ },
+ {
+  "id": "254:36126",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 3816
+ },
+ {
+  "id": "254:36215",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 16624
+ },
+ {
+  "id": "254:36304",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 29944
+ },
+ {
+  "id": "254:36393",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -19790
+ },
+ {
+  "id": "254:36482",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -6904
+ },
+ {
+  "id": "254:36571",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 6490
+ },
+ {
+  "id": "254:36660",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 19298
+ },
+ {
+  "id": "254:36749",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 32618
+ },
+ {
+  "id": "254:36838",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -17448
+ },
+ {
+  "id": "254:36927",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -4562
+ },
+ {
+  "id": "254:37016",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 8832
+ },
+ {
+  "id": "254:37105",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 21640
+ },
+ {
+  "id": "254:37194",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 34960
+ },
+ {
+  "id": "254:37283",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -15106
+ },
+ {
+  "id": "254:37372",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": -2220
+ },
+ {
+  "id": "254:37461",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 11174
+ },
+ {
+  "id": "254:37550",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 23982
+ },
+ {
+  "id": "254:37639",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 8743,
+  "y": 37302
+ },
+ {
+  "id": "254:37728",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -24919
+ },
+ {
+  "id": "254:37817",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -12033
+ },
+ {
+  "id": "254:37906",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 1361
+ },
+ {
+  "id": "254:37995",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 14169
+ },
+ {
+  "id": "254:38084",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 27489
+ },
+ {
+  "id": "254:38173",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -22464
+ },
+ {
+  "id": "254:38262",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -9578
+ },
+ {
+  "id": "254:38351",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 3816
+ },
+ {
+  "id": "254:38440",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 16624
+ },
+ {
+  "id": "254:38529",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 29944
+ },
+ {
+  "id": "254:38618",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -19790
+ },
+ {
+  "id": "254:38707",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -6904
+ },
+ {
+  "id": "254:38796",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 6490
+ },
+ {
+  "id": "254:38885",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 19298
+ },
+ {
+  "id": "254:38974",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 32618
+ },
+ {
+  "id": "254:39063",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -17448
+ },
+ {
+  "id": "254:39152",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -4562
+ },
+ {
+  "id": "254:39241",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 8832
+ },
+ {
+  "id": "254:39330",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 21640
+ },
+ {
+  "id": "254:39419",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 34960
+ },
+ {
+  "id": "254:39508",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -15106
+ },
+ {
+  "id": "254:39597",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": -2220
+ },
+ {
+  "id": "254:39686",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 11174
+ },
+ {
+  "id": "254:39775",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 23982
+ },
+ {
+  "id": "254:39864",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 9907,
+  "y": 37302
+ },
+ {
+  "id": "254:39953",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -24919
+ },
+ {
+  "id": "254:40042",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -12033
+ },
+ {
+  "id": "254:40131",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 1361
+ },
+ {
+  "id": "254:40220",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 14169
+ },
+ {
+  "id": "254:40309",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 27489
+ },
+ {
+  "id": "254:40398",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -22464
+ },
+ {
+  "id": "254:40487",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -9578
+ },
+ {
+  "id": "254:40576",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 3816
+ },
+ {
+  "id": "254:40665",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 16624
+ },
+ {
+  "id": "254:40754",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 29944
+ },
+ {
+  "id": "254:40843",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -19790
+ },
+ {
+  "id": "254:40932",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -6904
+ },
+ {
+  "id": "254:41021",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 6490
+ },
+ {
+  "id": "254:41110",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 19298
+ },
+ {
+  "id": "254:41199",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 32618
+ },
+ {
+  "id": "254:41288",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -17448
+ },
+ {
+  "id": "254:41377",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -4562
+ },
+ {
+  "id": "254:41466",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 8832
+ },
+ {
+  "id": "254:41555",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 21640
+ },
+ {
+  "id": "254:41644",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 34960
+ },
+ {
+  "id": "254:41733",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -15106
+ },
+ {
+  "id": "254:41822",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": -2220
+ },
+ {
+  "id": "254:41911",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 11174
+ },
+ {
+  "id": "254:42000",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 23982
+ },
+ {
+  "id": "254:42089",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 11071,
+  "y": 37302
+ },
+ {
+  "id": "254:42178",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -24919
+ },
+ {
+  "id": "254:42267",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -12033
+ },
+ {
+  "id": "254:42356",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 1361
+ },
+ {
+  "id": "254:42445",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 14169
+ },
+ {
+  "id": "254:42534",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 27489
+ },
+ {
+  "id": "254:42623",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -22464
+ },
+ {
+  "id": "254:42712",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -9578
+ },
+ {
+  "id": "254:42801",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 3816
+ },
+ {
+  "id": "254:42890",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 16624
+ },
+ {
+  "id": "254:42979",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 29944
+ },
+ {
+  "id": "254:43068",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -19790
+ },
+ {
+  "id": "254:43157",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -6904
+ },
+ {
+  "id": "254:43246",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 6490
+ },
+ {
+  "id": "254:43335",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 19298
+ },
+ {
+  "id": "254:43424",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 32618
+ },
+ {
+  "id": "254:43513",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -17448
+ },
+ {
+  "id": "254:43602",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -4562
+ },
+ {
+  "id": "254:43691",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 8832
+ },
+ {
+  "id": "254:43780",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 21640
+ },
+ {
+  "id": "254:43869",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 34960
+ },
+ {
+  "id": "254:43958",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -15106
+ },
+ {
+  "id": "254:44047",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": -2220
+ },
+ {
+  "id": "254:44136",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 11174
+ },
+ {
+  "id": "254:44225",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 23982
+ },
+ {
+  "id": "254:44314",
+  "name": "UPI PIN verification",
+  "section": "Setup",
+  "x": 12235,
+  "y": 37302
+ },
+ {
+  "id": "254:44403",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -24919
+ },
+ {
+  "id": "254:44448",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -12033
+ },
+ {
+  "id": "254:44493",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 1361
+ },
+ {
+  "id": "254:44538",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 14169
+ },
+ {
+  "id": "254:44583",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 27489
+ },
+ {
+  "id": "254:44628",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -22464
+ },
+ {
+  "id": "254:44673",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -9578
+ },
+ {
+  "id": "254:44718",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 3816
+ },
+ {
+  "id": "254:44763",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 16624
+ },
+ {
+  "id": "254:44808",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 29944
+ },
+ {
+  "id": "254:44853",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -19790
+ },
+ {
+  "id": "254:44898",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -6904
+ },
+ {
+  "id": "254:44943",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 6490
+ },
+ {
+  "id": "254:44988",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 19298
+ },
+ {
+  "id": "254:45033",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 32618
+ },
+ {
+  "id": "254:45078",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -17448
+ },
+ {
+  "id": "254:45123",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -4562
+ },
+ {
+  "id": "254:45168",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 8832
+ },
+ {
+  "id": "254:45213",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 21640
+ },
+ {
+  "id": "254:45258",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 34960
+ },
+ {
+  "id": "254:45303",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -15106
+ },
+ {
+  "id": "254:45348",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": -2220
+ },
+ {
+  "id": "254:45393",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 11174
+ },
+ {
+  "id": "254:45438",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 23982
+ },
+ {
+  "id": "254:45483",
+  "name": "Success enabled",
+  "section": "Setup",
+  "x": 13399,
+  "y": 37302
+ },
+ {
+  "id": "254:45528",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -24919
+ },
+ {
+  "id": "254:45585",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -12033
+ },
+ {
+  "id": "254:45642",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 1361
+ },
+ {
+  "id": "254:45699",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 14169
+ },
+ {
+  "id": "254:45756",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 27489
+ },
+ {
+  "id": "254:45813",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -22464
+ },
+ {
+  "id": "254:45870",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -9578
+ },
+ {
+  "id": "254:45927",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 3816
+ },
+ {
+  "id": "254:45984",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 16624
+ },
+ {
+  "id": "254:46041",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 29944
+ },
+ {
+  "id": "254:46098",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -19790
+ },
+ {
+  "id": "254:46155",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -6904
+ },
+ {
+  "id": "254:46212",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 6490
+ },
+ {
+  "id": "254:46269",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 19298
+ },
+ {
+  "id": "254:46326",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 32618
+ },
+ {
+  "id": "254:46383",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -17448
+ },
+ {
+  "id": "254:46440",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -4562
+ },
+ {
+  "id": "254:46497",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 8832
+ },
+ {
+  "id": "254:46554",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 21640
+ },
+ {
+  "id": "254:46611",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 34960
+ },
+ {
+  "id": "254:46668",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -15106
+ },
+ {
+  "id": "254:46725",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": -2220
+ },
+ {
+  "id": "254:46782",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 11174
+ },
+ {
+  "id": "254:46839",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 23982
+ },
+ {
+  "id": "254:46896",
+  "name": "Payment successful",
+  "section": "Setup",
+  "x": 14599,
+  "y": 37302
+ },
+ {
+  "id": "254:46953",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -24919
+ },
+ {
+  "id": "254:47150",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -12033
+ },
+ {
+  "id": "254:47347",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 1361
+ },
+ {
+  "id": "254:47544",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 14169
+ },
+ {
+  "id": "254:47741",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 27489
+ },
+ {
+  "id": "254:47938",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -22464
+ },
+ {
+  "id": "254:48135",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -9578
+ },
+ {
+  "id": "254:48332",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 3816
+ },
+ {
+  "id": "254:48529",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 16624
+ },
+ {
+  "id": "254:48726",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 29944
+ },
+ {
+  "id": "254:48923",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -19790
+ },
+ {
+  "id": "254:49120",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -6904
+ },
+ {
+  "id": "254:49317",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 6490
+ },
+ {
+  "id": "254:49514",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 19298
+ },
+ {
+  "id": "254:49711",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 32618
+ },
+ {
+  "id": "254:49908",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -17448
+ },
+ {
+  "id": "254:50105",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -4562
+ },
+ {
+  "id": "254:50302",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 8832
+ },
+ {
+  "id": "254:50499",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 21640
+ },
+ {
+  "id": "254:50696",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 34960
+ },
+ {
+  "id": "254:50893",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -15106
+ },
+ {
+  "id": "254:51090",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": -2220
+ },
+ {
+  "id": "254:51287",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 11174
+ },
+ {
+  "id": "254:51484",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 23982
+ },
+ {
+  "id": "254:51681",
+  "name": "All Payment methods",
+  "section": "Setup",
+  "x": 2858,
+  "y": 37302
+ },
+ {
+  "id": "254:51878",
+  "name": "Device Unlocked",
+  "section": "SCALED UP FINAL PROTOTYPE- V2",
+  "x": -22449,
+  "y": -23555
+ },
+ {
+  "id": "254:51900",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 19473,
+  "y": -25043
+ },
+ {
+  "id": "254:52001",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 34814,
+  "y": -25043
+ },
+ {
+  "id": "254:52104",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 34814,
+  "y": -22588
+ },
+ {
+  "id": "254:52207",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 34814,
+  "y": -19914
+ },
+ {
+  "id": "254:52310",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 34814,
+  "y": -17572
+ },
+ {
+  "id": "254:52413",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 34814,
+  "y": -15230
+ },
+ {
+  "id": "254:52516",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 20673,
+  "y": -25043
+ },
+ {
+  "id": "254:52616",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 20673,
+  "y": -22588
+ },
+ {
+  "id": "254:52716",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 20673,
+  "y": -19914
+ },
+ {
+  "id": "254:52816",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 20673,
+  "y": -17572
+ },
+ {
+  "id": "254:52916",
+  "name": "Card balance and add money ",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 20673,
+  "y": -15230
+ },
+ {
+  "id": "254:53016",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 23073,
+  "y": -25043
+ },
+ {
+  "id": "254:53105",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 23073,
+  "y": -22588
+ },
+ {
+  "id": "254:53194",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 23073,
+  "y": -19914
+ },
+ {
+  "id": "254:53283",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 23073,
+  "y": -17572
+ },
+ {
+  "id": "254:53372",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 23073,
+  "y": -15230
+ },
+ {
+  "id": "254:53461",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 24273,
+  "y": -25043
+ },
+ {
+  "id": "254:53550",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 24273,
+  "y": -22588
+ },
+ {
+  "id": "254:53639",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 24273,
+  "y": -19914
+ },
+ {
+  "id": "254:53728",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 24273,
+  "y": -17572
+ },
+ {
+  "id": "254:53817",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 24273,
+  "y": -15230
+ },
+ {
+  "id": "254:53906",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 25473,
+  "y": -25043
+ },
+ {
+  "id": "254:53995",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 25473,
+  "y": -22588
+ },
+ {
+  "id": "254:54084",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 25473,
+  "y": -19914
+ },
+ {
+  "id": "254:54173",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 25473,
+  "y": -17572
+ },
+ {
+  "id": "254:54262",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 25473,
+  "y": -15230
+ },
+ {
+  "id": "254:54351",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 26594,
+  "y": -25043
+ },
+ {
+  "id": "254:54440",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 26594,
+  "y": -22588
+ },
+ {
+  "id": "254:54529",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 26594,
+  "y": -19914
+ },
+ {
+  "id": "254:54618",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 26594,
+  "y": -17572
+ },
+ {
+  "id": "254:54707",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 26594,
+  "y": -15230
+ },
+ {
+  "id": "254:54796",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 27758,
+  "y": -25043
+ },
+ {
+  "id": "254:54885",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 27758,
+  "y": -22588
+ },
+ {
+  "id": "254:54974",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 27758,
+  "y": -19914
+ },
+ {
+  "id": "254:55063",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 27758,
+  "y": -17572
+ },
+ {
+  "id": "254:55152",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 27758,
+  "y": -15230
+ },
+ {
+  "id": "254:55241",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 28922,
+  "y": -25043
+ },
+ {
+  "id": "254:55330",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 28922,
+  "y": -22588
+ },
+ {
+  "id": "254:55419",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 28922,
+  "y": -19914
+ },
+ {
+  "id": "254:55508",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 28922,
+  "y": -17572
+ },
+ {
+  "id": "254:55597",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 28922,
+  "y": -15230
+ },
+ {
+  "id": "254:55686",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 30086,
+  "y": -25043
+ },
+ {
+  "id": "254:55775",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 30086,
+  "y": -22588
+ },
+ {
+  "id": "254:55864",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 30086,
+  "y": -19914
+ },
+ {
+  "id": "254:55953",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 30086,
+  "y": -17572
+ },
+ {
+  "id": "254:56042",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 30086,
+  "y": -15230
+ },
+ {
+  "id": "254:56131",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 31250,
+  "y": -25043
+ },
+ {
+  "id": "254:56220",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 31250,
+  "y": -22588
+ },
+ {
+  "id": "254:56309",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 31250,
+  "y": -19914
+ },
+ {
+  "id": "254:56398",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 31250,
+  "y": -17572
+ },
+ {
+  "id": "254:56487",
+  "name": "UPI PIN verification",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 31250,
+  "y": -15230
+ },
+ {
+  "id": "254:56576",
+  "name": "Success enabled",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 32414,
+  "y": -25043
+ },
+ {
+  "id": "254:56621",
+  "name": "Success enabled",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 32414,
+  "y": -22588
+ },
+ {
+  "id": "254:56666",
+  "name": "Success enabled",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 32414,
+  "y": -19914
+ },
+ {
+  "id": "254:56711",
+  "name": "Success enabled",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 32414,
+  "y": -17572
+ },
+ {
+  "id": "254:56756",
+  "name": "Success enabled",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 32414,
+  "y": -15230
+ },
+ {
+  "id": "254:56801",
+  "name": "Payment successful",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 33614,
+  "y": -25043
+ },
+ {
+  "id": "254:56858",
+  "name": "Payment successful",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 33614,
+  "y": -22588
+ },
+ {
+  "id": "254:56915",
+  "name": "Payment successful",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 33614,
+  "y": -19914
+ },
+ {
+  "id": "254:56972",
+  "name": "Payment successful",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 33614,
+  "y": -17572
+ },
+ {
+  "id": "254:57029",
+  "name": "Payment successful",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 33614,
+  "y": -15230
+ },
+ {
+  "id": "254:57086",
+  "name": "All Payment methods",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 21873,
+  "y": -25043
+ },
+ {
+  "id": "254:57283",
+  "name": "All Payment methods",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 21873,
+  "y": -22588
+ },
+ {
+  "id": "254:57480",
+  "name": "All Payment methods",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 21873,
+  "y": -19914
+ },
+ {
+  "id": "254:57677",
+  "name": "All Payment methods",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 21873,
+  "y": -17572
+ },
+ {
+  "id": "254:57874",
+  "name": "All Payment methods",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 21873,
+  "y": -15230
+ },
+ {
+  "id": "254:58071",
+  "name": "Home ON-THE-GO entry",
+  "section": "Bharat Yatra Balance recharge",
+  "x": 18306,
+  "y": -25043
+ }
+]

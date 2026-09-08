@@ -1,0 +1,5403 @@
+{
+ "generated": "2026-09-08T12:16:53.359Z",
+ "file": "jk3u8GQ1wxKd3Ge5hEPLaJ",
+ "section": "254:858",
+ "screens": {
+  "unlocked": {
+   "file": "/v2/screens/unlocked.png",
+   "node": "254:51878",
+   "w": 1080,
+   "h": 1920,
+   "sha": "86dbd9fed90b24a6c29b4aa713a1dd1f56466123a861865ab41f8f8defc75342",
+   "chrome": null
+  },
+  "home": {
+   "file": "/v2/screens/home.png",
+   "node": "254:1023",
+   "w": 1080,
+   "h": 1920,
+   "sha": "f83a26ddc8fc1329f6afa026c209d6b5b051697c43b590083d7dc916b07242e2",
+   "chrome": "homeFamily"
+  },
+  "homeCard": {
+   "file": "/v2/screens/homeCard.png",
+   "node": "254:58071",
+   "w": 1080,
+   "h": 1920,
+   "sha": "b07dc3f4899a5a4f019e5eb2b3c43d94b4411642fe1fe821fd70d3b1de8ee353",
+   "chrome": "homeCardFamily"
+  },
+  "intro": {
+   "file": "/v2/screens/intro.png",
+   "node": "254:941",
+   "w": 1080,
+   "h": 1920,
+   "sha": "a5206c5e8f9b2f24f053aaaf27b2ccc8e4db067a3bb7bf470200019b05792bcc",
+   "chrome": "introFamily",
+   "scroll": {
+    "content": "/v2/scroll/intro.png",
+    "contentNode": "254:943",
+    "contentName": "Frame 1984080065",
+    "container": "254:942",
+    "containerName": "Frame 1984080067",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 1668,
+    "sha": "81d8646ce58def507b0d8900945f74b435d3c6049459642642e669b7dcbd4508",
+    "viewport": {
+     "x": 0,
+     "y": 304,
+     "w": 1080,
+     "h": 1249
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 304,
+    "offsetX": 0,
+    "offsetY": 304,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 304,
+     "w": 1080,
+     "h": 1667.64
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 304,
+     "w": 1080,
+     "h": 1667.64
+    },
+    "heights": {
+     "png": 1668,
+     "layout": 1667.64,
+     "union": 1667.64
+    },
+    "heightMismatch": false,
+    "mismatchNote": null
+   }
+  },
+  "introAccepted": {
+   "file": "/v2/screens/introAccepted.png",
+   "node": "254:860",
+   "w": 1080,
+   "h": 1920,
+   "sha": "9526bec5cab322c385c41666315ccef1f8679e52bf8f016625d0a59f0312d7ed",
+   "chrome": "introAcceptedFamily",
+   "scroll": {
+    "content": "/v2/scroll/introAccepted.png",
+    "contentNode": "254:862",
+    "contentName": "Frame 1984080066",
+    "container": "254:861",
+    "containerName": "Frame 1984080068",
+    "containerClips": true,
+    "contentW": 1080,
+    "contentH": 1668,
+    "sha": "37da09600dcf0be681c150a7de13ba0ffc041c3952b6a72873aae98e1e8ea3c9",
+    "viewport": {
+     "x": 0,
+     "y": 303.77,
+     "w": 1080,
+     "h": 1249
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 303.77,
+    "offsetX": 0,
+    "offsetY": 303.77,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 303.77,
+     "w": 1080,
+     "h": 1667.64
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 303.77,
+     "w": 1080,
+     "h": 1667.64
+    },
+    "heights": {
+     "png": 1668,
+     "layout": 1667.64,
+     "union": 1667.64
+    },
+    "heightMismatch": false,
+    "mismatchNote": null
+   }
+  },
+  "issuer": {
+   "file": "/v2/screens/issuer.png",
+   "node": "254:1550",
+   "w": 1080,
+   "h": 1920,
+   "sha": "be88dfa6bdd1c089569d2335aa6bf2552bd4c0cbb29fdc319098e6359616707b",
+   "chrome": null
+  },
+  "methods": {
+   "file": "/v2/screens/methods.png",
+   "node": "254:16368",
+   "w": 1080,
+   "h": 1920,
+   "sha": "c32464880bf3bcd572e539611fc2098b75f393e715756f5f2b8da357d6c56bd2",
+   "chrome": "methodsFamily",
+   "scroll": {
+    "content": "/v2/scroll/methods.png",
+    "contentNode": "254:16391",
+    "contentName": "Frame 1686562919",
+    "container": "254:16390",
+    "containerName": "Frame 1984080069",
+    "containerClips": false,
+    "contentW": 1047,
+    "contentH": 2752,
+    "sha": "455b9c10b4c1a49826a041536889ea0045f2cc8b46a5d2fac94427c4ae445963",
+    "viewport": {
+     "x": 34.31,
+     "y": 333.38,
+     "w": 991.38,
+     "h": 1586.62
+    },
+    "viewportClamped": {
+     "rawContainerHeight": 2751.23,
+     "clampedTo": 1586.62
+    },
+    "contentX": 34.31,
+    "contentY": 333.38,
+    "offsetX": 6.62,
+    "offsetY": 333.38,
+    "contentInsetX": -27.69,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 34.31,
+     "y": 333.38,
+     "w": 991.38,
+     "h": 2751.23
+    },
+    "unionBox": {
+     "x": 34.31,
+     "y": 333.38,
+     "w": 991.38,
+     "h": 2751.23
+    },
+    "heights": {
+     "png": 2752,
+     "layout": 2751.23,
+     "union": 2751.23
+    },
+    "heightMismatch": false,
+    "mismatchNote": null
+   }
+  },
+  "pin": {
+   "file": "/v2/screens/pin.png",
+   "node": "254:4833",
+   "w": 1080,
+   "h": 1920,
+   "sha": "7b2e28874fb5b6267b7ce3027e020d764dc61dd45f90c42f12c264ea4e10c28b",
+   "chrome": null
+  },
+  "success": {
+   "file": "/v2/screens/success.png",
+   "node": "254:4158",
+   "w": 1080,
+   "h": 1920,
+   "sha": "f3947f7cf3820900c6737c9089f46c87ea3324e89b263589087a277d40e787f3",
+   "chrome": null
+  },
+  "loading": {
+   "file": "/v2/screens/loading.png",
+   "node": "254:19323",
+   "w": 1080,
+   "h": 1920,
+   "sha": "3adfab14a9ce5a45c723a721b23b10a2e262793b52ed0ce406b4aaf45ed4e986",
+   "chrome": null
+  },
+  "paid-pinelabs-150": {
+   "file": "/v2/screens/paid-pinelabs-150.png",
+   "node": "254:15513",
+   "w": 1080,
+   "h": 1920,
+   "sha": "1c9d244368cddb046f56b6d36e2ad6f5dcc59d09cfd65b50970db991204037e1",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 150
+  },
+  "paid-iob-150": {
+   "file": "/v2/screens/paid-iob-150.png",
+   "node": "254:15570",
+   "w": 1080,
+   "h": 1920,
+   "sha": "261609e002ec28a923876872081604b6f899a712670b9e5e33221d7c63aeb2ad",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Indian Overseas Bank",
+   "amount": 150
+  },
+  "paid-rbl-150": {
+   "file": "/v2/screens/paid-rbl-150.png",
+   "node": "254:15627",
+   "w": 1080,
+   "h": 1920,
+   "sha": "0473fa99483387c5e0587c6f833893087e2cfd293138aa0351daffbae73f64f1",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "RBL Bank",
+   "amount": 150
+  },
+  "paid-pinelabs-250": {
+   "file": "/v2/screens/paid-pinelabs-250.png",
+   "node": "254:15684",
+   "w": 1080,
+   "h": 1920,
+   "sha": "6a2a01a3ee7fcdd6ebca2eca68176b4330d7eb0a707291a6dd299735f0323e51",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 250
+  },
+  "paid-iob-250": {
+   "file": "/v2/screens/paid-iob-250.png",
+   "node": "254:15741",
+   "w": 1080,
+   "h": 1920,
+   "sha": "f4f418745d8440d45267f91a7c408c22d0a6751fb06c92420eb23dfda292df3c",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Indian Overseas Bank",
+   "amount": 250
+  },
+  "paid-rbl-250": {
+   "file": "/v2/screens/paid-rbl-250.png",
+   "node": "254:15798",
+   "w": 1080,
+   "h": 1920,
+   "sha": "712ea03ccbdc7c9c998963a14917f5ce7259bb3b6e6b70e16e40e4672eca2e90",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "RBL Bank",
+   "amount": 250
+  },
+  "paid-pinelabs-350": {
+   "file": "/v2/screens/paid-pinelabs-350.png",
+   "node": "254:15855",
+   "w": 1080,
+   "h": 1920,
+   "sha": "7610f3c99024892232ad32252f722f6ca55615249d8f0fb425f1622fa094c459",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 350
+  },
+  "paid-iob-350": {
+   "file": "/v2/screens/paid-iob-350.png",
+   "node": "254:15912",
+   "w": 1080,
+   "h": 1920,
+   "sha": "516a623863fc76668a939b7fe81e79f21a29b2077fa5cfddace667f750aa6962",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Indian Overseas Bank",
+   "amount": 350
+  },
+  "paid-rbl-350": {
+   "file": "/v2/screens/paid-rbl-350.png",
+   "node": "254:15969",
+   "w": 1080,
+   "h": 1920,
+   "sha": "724dbdad22d7f4566dfea949df62438fed3a6cecd330104a3fe632b0979d130c",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "RBL Bank",
+   "amount": 350
+  },
+  "paid-pinelabs-450": {
+   "file": "/v2/screens/paid-pinelabs-450.png",
+   "node": "254:16026",
+   "w": 1080,
+   "h": 1920,
+   "sha": "002a487fc8b5374eb4ea6c1f02aff6ab94752a7bbb9adf2af80432a8f280e55d",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 450
+  },
+  "paid-iob-450": {
+   "file": "/v2/screens/paid-iob-450.png",
+   "node": "254:16083",
+   "w": 1080,
+   "h": 1920,
+   "sha": "5d5d30e915b8434e81fa90e6ae76bde23b6ece98ba10405e5f8653dff351a3e7",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Indian Overseas Bank",
+   "amount": 450
+  },
+  "paid-rbl-450": {
+   "file": "/v2/screens/paid-rbl-450.png",
+   "node": "254:16140",
+   "w": 1080,
+   "h": 1920,
+   "sha": "9f5f144749dd65d96b665700807b776a2b7d9c8a2c8acb9507bbcbe009903d44",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "RBL Bank",
+   "amount": 450
+  },
+  "paid-pinelabs-550": {
+   "file": "/v2/screens/paid-pinelabs-550.png",
+   "node": "254:16197",
+   "w": 1080,
+   "h": 1920,
+   "sha": "86348c9299631e90a4bf6b66334aebdc79b31df59ac1389c5cebf3e50736c110",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 550
+  },
+  "paid-iob-550": {
+   "file": "/v2/screens/paid-iob-550.png",
+   "node": "254:16254",
+   "w": 1080,
+   "h": 1920,
+   "sha": "3e122b64f3be1f2b5d3c3702894c79411cc1195a3f95bb91839b2d409f517f9d",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Indian Overseas Bank",
+   "amount": 550
+  },
+  "paid-rbl-550": {
+   "file": "/v2/screens/paid-rbl-550.png",
+   "node": "254:16311",
+   "w": 1080,
+   "h": 1920,
+   "sha": "73b70668899bbf93693018f5d42984488f5a4f8d65bad08979067127f484e652",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "RBL Bank",
+   "amount": 550
+  },
+  "paid-pinelabs-100-setup": {
+   "file": "/v2/screens/paid-pinelabs-100-setup.png",
+   "node": "254:45528",
+   "w": 1080,
+   "h": 1920,
+   "sha": "61cdb4b46b40acd62fe3ba3cf54b4ffc4f7c280b33eefa624cbd40fa9a0a1081",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 100
+  },
+  "paid-pinelabs-200-setup": {
+   "file": "/v2/screens/paid-pinelabs-200-setup.png",
+   "node": "254:45813",
+   "w": 1080,
+   "h": 1920,
+   "sha": "8ea9a64f7424ef694d52ad4d4e3b7805de0f90d627b11ff0f0df8773e8e7d26f",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 200
+  },
+  "paid-pinelabs-300-setup": {
+   "file": "/v2/screens/paid-pinelabs-300-setup.png",
+   "node": "254:46098",
+   "w": 1080,
+   "h": 1920,
+   "sha": "fe75f7391e200d9d32f1dfa4bc461839e1d71dc186430a7c6b26f9e2824dabfb",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 300
+  },
+  "paid-pinelabs-400-setup": {
+   "file": "/v2/screens/paid-pinelabs-400-setup.png",
+   "node": "254:46383",
+   "w": 1080,
+   "h": 1920,
+   "sha": "ca72fba1655d476b12b20a36d26eff648dcab4fffbf4e47df384d5b8c671e525",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 400
+  },
+  "paid-pinelabs-500-setup": {
+   "file": "/v2/screens/paid-pinelabs-500-setup.png",
+   "node": "254:46668",
+   "w": 1080,
+   "h": 1920,
+   "sha": "5371136b6393df46a1aab5b6388e4e29bffa2d7d55e4f409f3a4166e5a8b7069",
+   "chrome": null,
+   "leg": "setup",
+   "bank": "Pine Labs",
+   "amount": 500
+  },
+  "paid-pinelabs-100-recharge": {
+   "file": "/v2/screens/paid-pinelabs-100-recharge.png",
+   "node": "254:56801",
+   "w": 1080,
+   "h": 1920,
+   "sha": "54fd1101ac1532de14057f765acd412c94fadc65c822520f83649f2a39a97a23",
+   "chrome": null,
+   "leg": "recharge",
+   "bank": "Pine Labs",
+   "amount": 100
+  },
+  "paid-pinelabs-200-recharge": {
+   "file": "/v2/screens/paid-pinelabs-200-recharge.png",
+   "node": "254:56858",
+   "w": 1080,
+   "h": 1920,
+   "sha": "a7de5fa1ed9ccf64b501d5d41b1dfc6ee7f6ce653223c9529f0c64037900077f",
+   "chrome": null,
+   "leg": "recharge",
+   "bank": "Pine Labs",
+   "amount": 200
+  },
+  "paid-pinelabs-300-recharge": {
+   "file": "/v2/screens/paid-pinelabs-300-recharge.png",
+   "node": "254:56915",
+   "w": 1080,
+   "h": 1920,
+   "sha": "403acf85a2558dc63f7abb32e461bfdf55636cff270e88d5057c717ee55d0511",
+   "chrome": null,
+   "leg": "recharge",
+   "bank": "Pine Labs",
+   "amount": 300
+  },
+  "paid-pinelabs-400-recharge": {
+   "file": "/v2/screens/paid-pinelabs-400-recharge.png",
+   "node": "254:56972",
+   "w": 1080,
+   "h": 1920,
+   "sha": "82b471b34e2d350487c85a84955c0718ff97026632afc15f51f5aa5bc92362cc",
+   "chrome": null,
+   "leg": "recharge",
+   "bank": "Pine Labs",
+   "amount": 400
+  },
+  "paid-pinelabs-500-recharge": {
+   "file": "/v2/screens/paid-pinelabs-500-recharge.png",
+   "node": "254:57029",
+   "w": 1080,
+   "h": 1920,
+   "sha": "0fba8f98007e65bd349bff9c38aee3b024c1dd8462b94ff9ad13b34caeed607a",
+   "chrome": null,
+   "leg": "recharge",
+   "bank": "Pine Labs",
+   "amount": 500
+  },
+  "amount-pinelabs-none": {
+   "file": "/v2/screens/amount-pinelabs-none.png",
+   "node": "254:1628",
+   "w": 1080,
+   "h": 1920,
+   "sha": "929cd85e426b646b8baed5b17d5b48ca4807bb6f8f10611e3bc3c0a05013e59f",
+   "chrome": "amountFamily",
+   "issuer": "pinelabs",
+   "selected": null,
+   "scroll": {
+    "content": "/v2/scroll/amount-pinelabs-none.png",
+    "contentNode": "254:1630",
+    "contentName": "Frame 1984080072",
+    "container": "254:1629",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "20f41f72a8bc64ba994b6d2fb93b494108c64a6711334ad2ad64a2785669b077",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-pinelabs-100": {
+   "file": "/v2/screens/amount-pinelabs-none.png",
+   "node": "254:2203",
+   "w": 1080,
+   "h": 1920,
+   "sha": "929cd85e426b646b8baed5b17d5b48ca4807bb6f8f10611e3bc3c0a05013e59f",
+   "chrome": "amountFamily",
+   "issuer": "pinelabs",
+   "selected": 100,
+   "aliasOf": "amount-pinelabs-none",
+   "scroll": {
+    "content": "/v2/scroll/amount-pinelabs-100.png",
+    "contentNode": "254:2205",
+    "contentName": "Frame 1984080072",
+    "container": "254:2204",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "7fa2219ab146a9874dc0726dd862556915bdd8a16529dfdd1dcb473b42abce7c",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-pinelabs-200": {
+   "file": "/v2/screens/amount-pinelabs-200.png",
+   "node": "254:2778",
+   "w": 1080,
+   "h": 1920,
+   "sha": "dced99f30aa12e8bae8528c9e21b3cf3cf96c52a4a7f8c033909cb0de06e9948",
+   "chrome": "amountFamily",
+   "issuer": "pinelabs",
+   "selected": 200,
+   "scroll": {
+    "content": "/v2/scroll/amount-pinelabs-200.png",
+    "contentNode": "254:2780",
+    "contentName": "Frame 1984080072",
+    "container": "254:2779",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "1a86b1fd37e9b7a62d76394fba75ce6973c00e230384b1e4e478b5e5020a500c",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-pinelabs-300": {
+   "file": "/v2/screens/amount-pinelabs-300.png",
+   "node": "254:3123",
+   "w": 1080,
+   "h": 1920,
+   "sha": "527c690cb07c843c1f141455be6c7db93b4dd0ac69bb11d602b6a565fb02be90",
+   "chrome": "amountFamily",
+   "issuer": "pinelabs",
+   "selected": 300,
+   "scroll": {
+    "content": "/v2/scroll/amount-pinelabs-300.png",
+    "contentNode": "254:3125",
+    "contentName": "Frame 1984080072",
+    "container": "254:3124",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "246ac0946724ed72676725feeae0b2842a19449a0ca01e4baeb07e3643ffd1db",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-pinelabs-400": {
+   "file": "/v2/screens/amount-pinelabs-200.png",
+   "node": "254:3468",
+   "w": 1080,
+   "h": 1920,
+   "sha": "dced99f30aa12e8bae8528c9e21b3cf3cf96c52a4a7f8c033909cb0de06e9948",
+   "chrome": "amountFamily",
+   "issuer": "pinelabs",
+   "selected": 400,
+   "aliasOf": "amount-pinelabs-200",
+   "scroll": {
+    "content": "/v2/scroll/amount-pinelabs-400.png",
+    "contentNode": "254:3470",
+    "contentName": "Frame 1984080072",
+    "container": "254:3469",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "e4360af8de3541b64c015b743ab2f2fc1c1bc7f580e9f789c2ab6ca494acfe7f",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-pinelabs-500": {
+   "file": "/v2/screens/amount-pinelabs-500.png",
+   "node": "254:3813",
+   "w": 1080,
+   "h": 1920,
+   "sha": "ceb1bbac0c70deeefa86d2533e078b844db3c54dab4f38b0a3622b089eae0c61",
+   "chrome": "amountFamily",
+   "issuer": "pinelabs",
+   "selected": 500,
+   "scroll": {
+    "content": "/v2/scroll/amount-pinelabs-500.png",
+    "contentNode": "254:3815",
+    "contentName": "Frame 1984080072",
+    "container": "254:3814",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "0169ef005bd2c145920c9d0ed9228cc1bc6b54005f3cbc23e249d233521a2db0",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-iob-none": {
+   "file": "/v2/screens/amount-iob-none.png",
+   "node": "254:1973",
+   "w": 1080,
+   "h": 1920,
+   "sha": "7a10fb0bc1e8f7490332c9e932dee0b52f864ac24a2ba73a33bc60b9a48ecea7",
+   "chrome": "amountFamily",
+   "issuer": "iob",
+   "selected": null,
+   "scroll": {
+    "content": "/v2/scroll/amount-iob-none.png",
+    "contentNode": "254:1975",
+    "contentName": "Frame 1984080072",
+    "container": "254:1974",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "fd1065abdad422d47e5c2bf69260d9d70b0a12be1bbff3daddacc8ac09afa767",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-iob-100": {
+   "file": "/v2/screens/amount-iob-100.png",
+   "node": "254:2548",
+   "w": 1080,
+   "h": 1920,
+   "sha": "30ea5ef41a99455c8e096dfe4cd50c59cb2376c68396340f1e0d2abe4fe80227",
+   "chrome": "amountFamily",
+   "issuer": "iob",
+   "selected": 100,
+   "scroll": {
+    "content": "/v2/scroll/amount-iob-100.png",
+    "contentNode": "254:2550",
+    "contentName": "Frame 1984080072",
+    "container": "254:2549",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "396191aa0591d4b4a3f3923ba543eb07a2e9575aa609227260f2b3643ebe02b4",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-iob-200": {
+   "file": "/v2/screens/amount-iob-100.png",
+   "node": "254:2893",
+   "w": 1080,
+   "h": 1920,
+   "sha": "30ea5ef41a99455c8e096dfe4cd50c59cb2376c68396340f1e0d2abe4fe80227",
+   "chrome": "amountFamily",
+   "issuer": "iob",
+   "selected": 200,
+   "aliasOf": "amount-iob-100",
+   "scroll": {
+    "content": "/v2/scroll/amount-iob-200.png",
+    "contentNode": "254:2895",
+    "contentName": "Frame 1984080072",
+    "container": "254:2894",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "53c316308356b781060d6f9cf9672407846a21e0b3da6b9d5ded7fe207203785",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-iob-300": {
+   "file": "/v2/screens/amount-iob-100.png",
+   "node": "254:3238",
+   "w": 1080,
+   "h": 1920,
+   "sha": "30ea5ef41a99455c8e096dfe4cd50c59cb2376c68396340f1e0d2abe4fe80227",
+   "chrome": "amountFamily",
+   "issuer": "iob",
+   "selected": 300,
+   "aliasOf": "amount-iob-100",
+   "scroll": {
+    "content": "/v2/scroll/amount-iob-300.png",
+    "contentNode": "254:3240",
+    "contentName": "Frame 1984080072",
+    "container": "254:3239",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "99a567cb0d1e7b4f95f9507538192683a930bdd97fc4f00963f57a6525897a3e",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-iob-400": {
+   "file": "/v2/screens/amount-iob-100.png",
+   "node": "254:3583",
+   "w": 1080,
+   "h": 1920,
+   "sha": "30ea5ef41a99455c8e096dfe4cd50c59cb2376c68396340f1e0d2abe4fe80227",
+   "chrome": "amountFamily",
+   "issuer": "iob",
+   "selected": 400,
+   "aliasOf": "amount-iob-100",
+   "scroll": {
+    "content": "/v2/scroll/amount-iob-400.png",
+    "contentNode": "254:3585",
+    "contentName": "Frame 1984080072",
+    "container": "254:3584",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "52048fc46df835f66457487ec78d15b2191a7416daba908d13feb3a2325c34e5",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-iob-500": {
+   "file": "/v2/screens/amount-iob-100.png",
+   "node": "254:3928",
+   "w": 1080,
+   "h": 1920,
+   "sha": "30ea5ef41a99455c8e096dfe4cd50c59cb2376c68396340f1e0d2abe4fe80227",
+   "chrome": "amountFamily",
+   "issuer": "iob",
+   "selected": 500,
+   "aliasOf": "amount-iob-100",
+   "scroll": {
+    "content": "/v2/scroll/amount-iob-500.png",
+    "contentNode": "254:3930",
+    "contentName": "Frame 1984080072",
+    "container": "254:3929",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "c38697cc1c3383b9f16a219adacbfda03700c2c15fbc3263d79aa7a75caaf1ed",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-rbl-none": {
+   "file": "/v2/screens/amount-rbl-none.png",
+   "node": "254:2088",
+   "w": 1080,
+   "h": 1920,
+   "sha": "b1a3c77ba46707091ecc88af6b8be660828229d34285416ed216de7456a2c71e",
+   "chrome": "amountFamily",
+   "issuer": "rbl",
+   "selected": null,
+   "scroll": {
+    "content": "/v2/scroll/amount-rbl-none.png",
+    "contentNode": "254:2090",
+    "contentName": "Frame 1984080072",
+    "container": "254:2089",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "74da8f789f7a5bdb74c1708e8be5769953d699d2fc56ae6b7cb855d43c7072c1",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-rbl-100": {
+   "file": "/v2/screens/amount-rbl-100.png",
+   "node": "254:2663",
+   "w": 1080,
+   "h": 1920,
+   "sha": "08d1c3b758fa617dc3ff84491554545a874c1f6d58eef16bf2aa3a23b2bbef83",
+   "chrome": "amountFamily",
+   "issuer": "rbl",
+   "selected": 100,
+   "scroll": {
+    "content": "/v2/scroll/amount-rbl-100.png",
+    "contentNode": "254:2665",
+    "contentName": "Frame 1984080072",
+    "container": "254:2664",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "0be8003f57d96a324053c6a00e11e04de65151eccb3ee16fc27df1516d28d010",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-rbl-200": {
+   "file": "/v2/screens/amount-rbl-100.png",
+   "node": "254:3008",
+   "w": 1080,
+   "h": 1920,
+   "sha": "08d1c3b758fa617dc3ff84491554545a874c1f6d58eef16bf2aa3a23b2bbef83",
+   "chrome": "amountFamily",
+   "issuer": "rbl",
+   "selected": 200,
+   "aliasOf": "amount-rbl-100",
+   "scroll": {
+    "content": "/v2/scroll/amount-rbl-200.png",
+    "contentNode": "254:3010",
+    "contentName": "Frame 1984080072",
+    "container": "254:3009",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "f233359bb9626360a298a39f0437586f9637f64f00f6df0c5c4d6e3860027a12",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-rbl-300": {
+   "file": "/v2/screens/amount-rbl-300.png",
+   "node": "254:3353",
+   "w": 1080,
+   "h": 1920,
+   "sha": "3db435b19dd2387ad56f9d38145f652b77fee47fede0cbb1578b74a31818f759",
+   "chrome": "amountFamily",
+   "issuer": "rbl",
+   "selected": 300,
+   "scroll": {
+    "content": "/v2/scroll/amount-rbl-300.png",
+    "contentNode": "254:3355",
+    "contentName": "Frame 1984080072",
+    "container": "254:3354",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "313eec5fb83e73158f10491fa8ee73c6cffdf4df6195d17e0c657c96143532b7",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-rbl-400": {
+   "file": "/v2/screens/amount-rbl-400.png",
+   "node": "254:3698",
+   "w": 1080,
+   "h": 1920,
+   "sha": "89df8c3dce7a9e461fbe6990839a0d9e9fe91e1e626289d4d6334a168703578e",
+   "chrome": "amountFamily",
+   "issuer": "rbl",
+   "selected": 400,
+   "scroll": {
+    "content": "/v2/scroll/amount-rbl-400.png",
+    "contentNode": "254:3700",
+    "contentName": "Frame 1984080072",
+    "container": "254:3699",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "e65bd3e5f51326fdb15fb5d359be17568f0c4ab2bd0f320a630cc9f1e6c1936f",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1490
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "amount-rbl-500": {
+   "file": "/v2/screens/amount-rbl-400.png",
+   "node": "254:4043",
+   "w": 1080,
+   "h": 1920,
+   "sha": "89df8c3dce7a9e461fbe6990839a0d9e9fe91e1e626289d4d6334a168703578e",
+   "chrome": "amountFamily",
+   "issuer": "rbl",
+   "selected": 500,
+   "aliasOf": "amount-rbl-400",
+   "scroll": {
+    "content": "/v2/scroll/amount-rbl-500.png",
+    "contentNode": "254:4045",
+    "contentName": "Frame 1984080072",
+    "container": "254:4044",
+    "containerName": "Frame 1984080071",
+    "containerClips": false,
+    "contentW": 1080,
+    "contentH": 2717,
+    "sha": "6fed04e93c22ee9585ac0cdc581b9b069672c32be3024f91fc32b31da1c85dac",
+    "viewport": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1494
+    },
+    "viewportClamped": null,
+    "contentX": 0,
+    "contentY": 299,
+    "offsetX": 0,
+    "offsetY": 299,
+    "contentInsetX": 0,
+    "contentInsetY": 0,
+    "layoutBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 1800
+    },
+    "unionBox": {
+     "x": 0,
+     "y": 299,
+     "w": 1080,
+     "h": 2716.08
+    },
+    "heights": {
+     "png": 2717,
+     "layout": 1800,
+     "union": 2716.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=2717 layout=1800 union=2716.08"
+   }
+  },
+  "balance-setup-iob-100-landing": {
+   "file": "/v2/screens/balance-setup-iob-100-landing.png",
+   "node": "254:19983",
+   "w": 1080,
+   "h": 1920,
+   "sha": "42c73d5cf5b0392417a0ef048d18200182bb9cdbc19f07e4b8384cc2bf25a698",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "iob",
+   "balance": 100,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:19983"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-iob-100-landing.png",
+    "contentNode": "254:19985",
+    "contentName": "Frame 1984080031",
+    "container": "254:19984",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "b8aebf56007a42120825d2624d6a1ab2392034585eca6a8520a89643f3653970",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1313
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-rbl-100-landing": {
+   "file": "/v2/screens/balance-setup-rbl-100-landing.png",
+   "node": "254:20087",
+   "w": 1080,
+   "h": 1920,
+   "sha": "639abba0b24169d25db5c8211a214ff70636071cb0041fbf01d59442c03c810e",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "rbl",
+   "balance": 100,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20087"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-rbl-100-landing.png",
+    "contentNode": "254:20089",
+    "contentName": "Frame 1984080031",
+    "container": "254:20088",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "2d4db1913a43128432ecb31763a2a9004a07b78dcc1caf9ae7da43d414aeb412",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1313
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-iob-200-landing": {
+   "file": "/v2/screens/balance-setup-iob-200-landing.png",
+   "node": "254:20191",
+   "w": 1080,
+   "h": 1920,
+   "sha": "17eaceee20650b821ad07be480041be5289c357122526842e2f853e2a7385844",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "iob",
+   "balance": 200,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20191"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-iob-200-landing.png",
+    "contentNode": "254:20193",
+    "contentName": "Frame 1984080031",
+    "container": "254:20192",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "25ac2253fd96fc15772e2435f018e67436ff4bf2a98b7742aa5d313094d1debe",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1313
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-rbl-200-landing": {
+   "file": "/v2/screens/balance-setup-rbl-200-landing.png",
+   "node": "254:20295",
+   "w": 1080,
+   "h": 1920,
+   "sha": "28e1b504527efbab881159011168409f19331a4015c07e26bdbd1e58884d0915",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "rbl",
+   "balance": 200,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20295"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-rbl-200-landing.png",
+    "contentNode": "254:20297",
+    "contentName": "Frame 1984080031",
+    "container": "254:20296",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "0225b048449b2e2507991c373cc7f6773a34a09278cc8d09d3f7b8b887943099",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1313
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-iob-300-landing": {
+   "file": "/v2/screens/balance-setup-iob-300-landing.png",
+   "node": "254:20399",
+   "w": 1080,
+   "h": 1920,
+   "sha": "2d43086642062baec9926b39d76df1f0419efe664f71d7155da6e920e3fce96c",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "iob",
+   "balance": 300,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20399"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-iob-300-landing.png",
+    "contentNode": "254:20401",
+    "contentName": "Frame 1984080031",
+    "container": "254:20400",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "3014f69543d035ba5b8d832cad92bbc92042a9e675e2bf83e785ab8ae4d74b09",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1306
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-rbl-300-landing": {
+   "file": "/v2/screens/balance-setup-rbl-300-landing.png",
+   "node": "254:20503",
+   "w": 1080,
+   "h": 1920,
+   "sha": "8eb274782e6b443cc842b17c8f32b210b6dfa54fc7577ccfed4fe293a2aa1bad",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "rbl",
+   "balance": 300,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20503"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-rbl-300-landing.png",
+    "contentNode": "254:20505",
+    "contentName": "Frame 1984080031",
+    "container": "254:20504",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "0eccac1f90a94e2bbe2c079fb468a94a0fcf56ba5c476dc0571640820bb4af7c",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1306
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-iob-400-landing": {
+   "file": "/v2/screens/balance-setup-iob-400-landing.png",
+   "node": "254:20607",
+   "w": 1080,
+   "h": 1920,
+   "sha": "bd92f4219945ff6b4ce6c72071b07025a070b86c0fc2f58e16826d414542ac88",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "iob",
+   "balance": 400,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20607"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-iob-400-landing.png",
+    "contentNode": "254:20609",
+    "contentName": "Frame 1984080031",
+    "container": "254:20608",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "e26b24f4a9c3370c041ac3414410f2ce1a79bfb9640d50fd75d6ffb411a4b4e0",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1313
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-rbl-400-landing": {
+   "file": "/v2/screens/balance-setup-rbl-400-landing.png",
+   "node": "254:20711",
+   "w": 1080,
+   "h": 1920,
+   "sha": "c1c61575369f7bfc23c5ed2c9755e92da9b1726ee811984f57cedf07013503fb",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "rbl",
+   "balance": 400,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20711"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-rbl-400-landing.png",
+    "contentNode": "254:20713",
+    "contentName": "Frame 1984080031",
+    "container": "254:20712",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "c246f325008b5484c3585df9c6298295b4703990d34f3dfb9a35214efddebf1f",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1313
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-iob-500-landing": {
+   "file": "/v2/screens/balance-setup-iob-500-landing.png",
+   "node": "254:20815",
+   "w": 1080,
+   "h": 1920,
+   "sha": "684d92d4073170aeb466cfa4b2c012969573c73ab3e9f25f2b26a0abed1eddd1",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "iob",
+   "balance": 500,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20815"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-iob-500-landing.png",
+    "contentNode": "254:20817",
+    "contentName": "Frame 1984080031",
+    "container": "254:20816",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "08476e276d5a2c371c7a98be0a54a22d3fcc9cb31be64adcfa744c407f3b0444",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1313
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-rbl-500-landing": {
+   "file": "/v2/screens/balance-setup-rbl-500-landing.png",
+   "node": "254:20919",
+   "w": 1080,
+   "h": 1920,
+   "sha": "09e1a49e3d06e6b5f5fbb43cbbb2a5116938581d67b05178989e9090d8e778ee",
+   "chrome": "balanceShortFamily",
+   "leg": "setup",
+   "issuer": "rbl",
+   "balance": 500,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:20919"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-rbl-500-landing.png",
+    "contentNode": "254:20921",
+    "contentName": "Frame 1984080031",
+    "container": "254:20920",
+    "containerName": "Frame 1984080073",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1845,
+    "sha": "9bb181b94f14b2f6946a142fe57f92ceada813cad69431c6b14a01e8cdc0e2a4",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1313
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1844.46
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1861.46
+    },
+    "heights": {
+     "png": 1845,
+     "layout": 1844.46,
+     "union": 1861.46
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1845 layout=1844.46 union=1861.46"
+   }
+  },
+  "balance-setup-pinelabs-100-none": {
+   "file": "/v2/screens/balance-setup-pinelabs-100-none.png",
+   "node": "254:21023",
+   "w": 1080,
+   "h": 1920,
+   "sha": "85362a99e017b30839a2cba08b7a9934418b6661704594e436ca4639f761eb33",
+   "chrome": "balanceNoneFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 100,
+   "selected": null,
+   "variant": "unselected",
+   "figmaFrames": [
+    "254:21023"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-100-none.png",
+    "contentNode": "254:21025",
+    "contentName": "Frame 1984080025",
+    "container": "254:21024",
+    "containerName": "Frame 1984080057",
+    "containerClips": false,
+    "contentW": 992,
+    "contentH": 1864,
+    "sha": "0dc95d7d2e50eac58e8709b4e13dfc5162b0d153904cb9c75f5831880d61f614",
+    "viewport": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1350
+    },
+    "viewportClamped": null,
+    "contentX": 31.81,
+    "contentY": 282,
+    "offsetX": 43.81,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1863.85
+    },
+    "unionBox": {
+     "x": 31.81,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1880.85
+    },
+    "heights": {
+     "png": 1864,
+     "layout": 1863.85,
+     "union": 1880.85
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1864 layout=1863.85 union=1880.85"
+   }
+  },
+  "balance-setup-pinelabs-200-none": {
+   "file": "/v2/screens/balance-setup-pinelabs-200-none.png",
+   "node": "254:21124",
+   "w": 1080,
+   "h": 1920,
+   "sha": "6fd4ed749fb48a0906c0b8944e9264ccbf97355da8fac979f1fa9c01c46fb29c",
+   "chrome": "balanceNoneFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 200,
+   "selected": null,
+   "variant": "unselected",
+   "figmaFrames": [
+    "254:21124"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-200-none.png",
+    "contentNode": "254:21126",
+    "contentName": "Frame 1984080025",
+    "container": "254:21125",
+    "containerName": "Frame 1984080057",
+    "containerClips": false,
+    "contentW": 992,
+    "contentH": 1864,
+    "sha": "7c6b8c21c523e198b07e7e00acb3e8bcf2d1c5d2f73ad3e622be6cbe83f9516a",
+    "viewport": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1350
+    },
+    "viewportClamped": null,
+    "contentX": 31.81,
+    "contentY": 282,
+    "offsetX": 43.81,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1863.85
+    },
+    "unionBox": {
+     "x": 31.81,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1880.85
+    },
+    "heights": {
+     "png": 1864,
+     "layout": 1863.85,
+     "union": 1880.85
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1864 layout=1863.85 union=1880.85"
+   }
+  },
+  "balance-setup-pinelabs-300-none": {
+   "file": "/v2/screens/balance-setup-pinelabs-300-none.png",
+   "node": "254:21225",
+   "w": 1080,
+   "h": 1920,
+   "sha": "519e51740644f0861ff3a29843c7ef6401c804d63deb5b26ebdbd44f970648cf",
+   "chrome": "balanceNoneFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 300,
+   "selected": null,
+   "variant": "unselected",
+   "figmaFrames": [
+    "254:21225"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-300-none.png",
+    "contentNode": "254:21227",
+    "contentName": "Frame 1984080025",
+    "container": "254:21226",
+    "containerName": "Frame 1984080057",
+    "containerClips": false,
+    "contentW": 992,
+    "contentH": 1864,
+    "sha": "77966e67acad10d472b9715782997d18281303e28cc8f5062777068aa52e1806",
+    "viewport": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1350
+    },
+    "viewportClamped": null,
+    "contentX": 31.81,
+    "contentY": 282,
+    "offsetX": 43.81,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1863.85
+    },
+    "unionBox": {
+     "x": 31.81,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1880.85
+    },
+    "heights": {
+     "png": 1864,
+     "layout": 1863.85,
+     "union": 1880.85
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1864 layout=1863.85 union=1880.85"
+   }
+  },
+  "balance-setup-pinelabs-400-none": {
+   "file": "/v2/screens/balance-setup-pinelabs-400-none.png",
+   "node": "254:21326",
+   "w": 1080,
+   "h": 1920,
+   "sha": "02f285cd0e9fa682fc90570dc9a5d89e3e9150f55ea0ed0bdfaf7b12ed02cac7",
+   "chrome": "balanceNoneFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 400,
+   "selected": null,
+   "variant": "unselected",
+   "figmaFrames": [
+    "254:21326"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-400-none.png",
+    "contentNode": "254:21328",
+    "contentName": "Frame 1984080025",
+    "container": "254:21327",
+    "containerName": "Frame 1984080057",
+    "containerClips": false,
+    "contentW": 992,
+    "contentH": 1864,
+    "sha": "8ef2f770b5867c189f961834fe9b97fb8db58cc23fa0868b89a6c2528128a7ef",
+    "viewport": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1350
+    },
+    "viewportClamped": null,
+    "contentX": 31.81,
+    "contentY": 282,
+    "offsetX": 43.81,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1863.85
+    },
+    "unionBox": {
+     "x": 31.81,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1880.85
+    },
+    "heights": {
+     "png": 1864,
+     "layout": 1863.85,
+     "union": 1880.85
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1864 layout=1863.85 union=1880.85"
+   }
+  },
+  "balance-setup-pinelabs-500-none": {
+   "file": "/v2/screens/balance-setup-pinelabs-500-none.png",
+   "node": "254:21427",
+   "w": 1080,
+   "h": 1920,
+   "sha": "e41577b2b6a370e5883cc2b9789ce6bb7c5bd7d86965177a95bc588b0401e0f9",
+   "chrome": "balanceNoneFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 500,
+   "selected": null,
+   "variant": "unselected",
+   "figmaFrames": [
+    "254:21427"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-500-none.png",
+    "contentNode": "254:21429",
+    "contentName": "Frame 1984080025",
+    "container": "254:21428",
+    "containerName": "Frame 1984080057",
+    "containerClips": false,
+    "contentW": 992,
+    "contentH": 1864,
+    "sha": "6229916fc2165d8458ca4917b26d1df008e531a0be8dd5c09898804484dc4f32",
+    "viewport": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1350
+    },
+    "viewportClamped": null,
+    "contentX": 31.81,
+    "contentY": 282,
+    "offsetX": 43.81,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1863.85
+    },
+    "unionBox": {
+     "x": 31.81,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1880.85
+    },
+    "heights": {
+     "png": 1864,
+     "layout": 1863.85,
+     "union": 1880.85
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1864 layout=1863.85 union=1880.85"
+   }
+  },
+  "balance-setup-pinelabs-200-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-200-landing.png",
+   "node": "254:21528",
+   "w": 1080,
+   "h": 1920,
+   "sha": "2ce80205bc5aacde8b31b60ec083107d5421575fd032b3d3ba5755f4275e55d3",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 200,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:21528"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-200-landing.png",
+    "contentNode": "254:21530",
+    "contentName": "Frame 1984080025",
+    "container": "254:21529",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "c5f17d62400cfb7eeb734219f8ba103f8629ffecedfe6d8bd91ca709e183bd2b",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-300-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-300-landing.png",
+   "node": "254:21631",
+   "w": 1080,
+   "h": 1920,
+   "sha": "90e668220256b7c344c14fcf6db62cb77cace0b539634f2f7fafb43ff67fa51f",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 300,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:21631",
+    "254:22043"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-300-landing.png",
+    "contentNode": "254:21633",
+    "contentName": "Frame 1984080025",
+    "container": "254:21632",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "f613972c20d10913a61346edda6fb11d89eed95d0a084f06b3e5d4e11fe250a7",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-400-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-400-landing.png",
+   "node": "254:21734",
+   "w": 1080,
+   "h": 1920,
+   "sha": "f5c727244deccfa0ae8d67445cb651d45a7779abad5b3c52f3b36377b1b8a0f3",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 400,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:21734",
+    "254:22146",
+    "254:22558"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-400-landing.png",
+    "contentNode": "254:21736",
+    "contentName": "Frame 1984080025",
+    "container": "254:21735",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "9f9dc9caed100d1b9e5e5d265a6d73cb63a77428bb2695938b83f3a5cfb0b79d",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-500-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-500-landing.png",
+   "node": "254:21837",
+   "w": 1080,
+   "h": 1920,
+   "sha": "879c95894268f3361ce802651e2f71aa798ad177f2486cbed16b689a52712da9",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 500,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:21837",
+    "254:22249",
+    "254:22661",
+    "254:23073"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-500-landing.png",
+    "contentNode": "254:21839",
+    "contentName": "Frame 1984080025",
+    "container": "254:21838",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "fcd48640594ceb43c904d1618896fc300c964f38c3a53915fc6a7126f24f6fb4",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-600-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-600-landing.png",
+   "node": "254:21940",
+   "w": 1080,
+   "h": 1920,
+   "sha": "77b9e827075f639a260df663fa1615b9d96fe8533c406c3d639c98ba0cff3f87",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 600,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:21940",
+    "254:22352",
+    "254:22764",
+    "254:23176",
+    "254:23588"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-600-landing.png",
+    "contentNode": "254:21942",
+    "contentName": "Frame 1984080025",
+    "container": "254:21941",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "7f5afccc3eae9a31c7a13e664ecfa132dbe27a124ca97c43abf675b117512a3a",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-700-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-700-landing.png",
+   "node": "254:22455",
+   "w": 1080,
+   "h": 1920,
+   "sha": "179bfbf8a689a20cd4ffbb639d690f7faaebc4d0f4c6bccb14c90062f71c80e1",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 700,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:22455",
+    "254:22867",
+    "254:23279",
+    "254:23691"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-700-landing.png",
+    "contentNode": "254:22457",
+    "contentName": "Frame 1984080025",
+    "container": "254:22456",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "55efbadb06c89d14b3e6ea50ed4aef769ba28803044ab01649a79fc4265f82aa",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-800-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-800-landing.png",
+   "node": "254:22970",
+   "w": 1080,
+   "h": 1920,
+   "sha": "6f78d2113e1f08803d120e5c4b62ec59060fdfea02aa705fdfdea809e53fbbc6",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 800,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:22970",
+    "254:23382",
+    "254:23794"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-800-landing.png",
+    "contentNode": "254:22972",
+    "contentName": "Frame 1984080025",
+    "container": "254:22971",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "0e052d8abe45e171f7340a542cc2406780b91ed0c3531918cf37dc64c5883416",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-900-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-900-landing.png",
+   "node": "254:23485",
+   "w": 1080,
+   "h": 1920,
+   "sha": "d953c5efa9fc87da888623dc837d5726a904e27be6abd21e4e9eabf2e00eb765",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 900,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:23485",
+    "254:23897"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-900-landing.png",
+    "contentNode": "254:23487",
+    "contentName": "Frame 1984080025",
+    "container": "254:23486",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "8b1d315ec562516c914bb14bc25639673ccd5e1bf4cda6dc195c104f6a9c3b0b",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-1000-landing": {
+   "file": "/v2/screens/balance-setup-pinelabs-1000-landing.png",
+   "node": "254:24000",
+   "w": 1080,
+   "h": 1920,
+   "sha": "5dcb89ccd8392f5cf5d7ab20296d91ededb163c104eef12a81cec8468b0524ef",
+   "chrome": "balanceTallFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 1000,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:24000"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-setup-pinelabs-1000-landing.png",
+    "contentNode": "254:24002",
+    "contentName": "Frame 1984080025",
+    "container": "254:24001",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "48e741e1346060889e69c31e30b6522690851c754d8b144308d566051d8b2f37",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-setup-pinelabs-100-100": {
+   "file": "/v2/screens/balance-setup-pinelabs-100-100.png",
+   "node": "254:24103",
+   "w": 1080,
+   "h": 1920,
+   "sha": "7ed6ef9fb7cc44f8b5b26cc8814ed0528bbcde95b260053684c38a515934a716",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 100,
+   "selected": 100,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24103"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24104",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-200-100": {
+   "file": "/v2/screens/balance-setup-pinelabs-200-100.png",
+   "node": "254:24203",
+   "w": 1080,
+   "h": 1920,
+   "sha": "446123cf5e59bb7b5838376186978359d5bc95f009df4aa5dee66e3065458dc8",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 200,
+   "selected": 100,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24203"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24204",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-300-100": {
+   "file": "/v2/screens/balance-setup-pinelabs-300-100.png",
+   "node": "254:24303",
+   "w": 1080,
+   "h": 1920,
+   "sha": "171092cfc16a527a03aed0f8cf8196542e43fa08ea8eb6eb9658cd5cedcf1cbd",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 300,
+   "selected": 100,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24303"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24304",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-400-100": {
+   "file": "/v2/screens/balance-setup-pinelabs-400-100.png",
+   "node": "254:24403",
+   "w": 1080,
+   "h": 1920,
+   "sha": "28c1ca8b86bea0924a237752d5b8ab9f44c35b1d31ae1e70d02f27d107f8d0c1",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 400,
+   "selected": 100,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24403"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24404",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-500-100": {
+   "file": "/v2/screens/balance-setup-pinelabs-500-100.png",
+   "node": "254:24503",
+   "w": 1080,
+   "h": 1920,
+   "sha": "f6e8455ed434c6c0f235adceb7cee909b7e56bab2da244678c799d1d73401215",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 500,
+   "selected": 100,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24503"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24504",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-100-200": {
+   "file": "/v2/screens/balance-setup-pinelabs-100-200.png",
+   "node": "254:24603",
+   "w": 1080,
+   "h": 1920,
+   "sha": "97055209b41c92505c3de0f22692f7729a05f0a831d978fbd8d622b8ca67729c",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 100,
+   "selected": 200,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24603"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24604",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-200-200": {
+   "file": "/v2/screens/balance-setup-pinelabs-200-200.png",
+   "node": "254:24703",
+   "w": 1080,
+   "h": 1920,
+   "sha": "c57b924faba9a739abdd84d71d3b8319db32e26367dbe53e0c2f56265c164d74",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 200,
+   "selected": 200,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24703"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24704",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-300-200": {
+   "file": "/v2/screens/balance-setup-pinelabs-300-200.png",
+   "node": "254:24803",
+   "w": 1080,
+   "h": 1920,
+   "sha": "043bcde223ba95a2f2d44f4b2b78789a4ac8281d521a97235c6da47ee7324589",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 300,
+   "selected": 200,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24803"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24804",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-400-200": {
+   "file": "/v2/screens/balance-setup-pinelabs-400-200.png",
+   "node": "254:24903",
+   "w": 1080,
+   "h": 1920,
+   "sha": "925f39004ab26b8231a7ebec4b7aeecc8b6a8078fdbb837905250b64bf865bf7",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 400,
+   "selected": 200,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:24903"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:24904",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-500-200": {
+   "file": "/v2/screens/balance-setup-pinelabs-500-200.png",
+   "node": "254:25003",
+   "w": 1080,
+   "h": 1920,
+   "sha": "0dec22ab68828842ea0e7506d67652efef4f713295f17f7b4b5f0681a6943ac3",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 500,
+   "selected": 200,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25003"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25004",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-100-300": {
+   "file": "/v2/screens/balance-setup-pinelabs-100-300.png",
+   "node": "254:25103",
+   "w": 1080,
+   "h": 1920,
+   "sha": "91ff3108ef56b7ce1dc08adf936fbd4b18581e1ef08c95a765bd5b07955d69ef",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 100,
+   "selected": 300,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25103"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25104",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-200-300": {
+   "file": "/v2/screens/balance-setup-pinelabs-200-300.png",
+   "node": "254:25203",
+   "w": 1080,
+   "h": 1920,
+   "sha": "cbc515670f5761b587df725ba29ed1d2082332bf6c98e98575d6d0d8d8982277",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 200,
+   "selected": 300,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25203"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25204",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-300-300": {
+   "file": "/v2/screens/balance-setup-pinelabs-300-300.png",
+   "node": "254:25303",
+   "w": 1080,
+   "h": 1920,
+   "sha": "558faadb4532f0332da89d5ee4368fb303dcb44d7c668786f12b07d9ef216251",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 300,
+   "selected": 300,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25303"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25304",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-400-300": {
+   "file": "/v2/screens/balance-setup-pinelabs-400-300.png",
+   "node": "254:25403",
+   "w": 1080,
+   "h": 1920,
+   "sha": "84b2ac22143febaa7ab3cdd5bd6e5bd0ec2a09f5abf4f9ffb3377afa8763e969",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 400,
+   "selected": 300,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25403"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25404",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-500-300": {
+   "file": "/v2/screens/balance-setup-pinelabs-500-300.png",
+   "node": "254:25503",
+   "w": 1080,
+   "h": 1920,
+   "sha": "f0d8a3f3952bbdce67d816889eb36dcc101ca52938f64681463f54fa4eda2c35",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 500,
+   "selected": 300,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25503"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25504",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-100-400": {
+   "file": "/v2/screens/balance-setup-pinelabs-100-400.png",
+   "node": "254:25603",
+   "w": 1080,
+   "h": 1920,
+   "sha": "16136e43d48352cd2d41988d7dbbbf4b4b05deaed0dd394c2a0aceff5ea30ef7",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 100,
+   "selected": 400,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25603"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25604",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-200-400": {
+   "file": "/v2/screens/balance-setup-pinelabs-200-400.png",
+   "node": "254:25703",
+   "w": 1080,
+   "h": 1920,
+   "sha": "4300fe737024843afe8bdf2f47a9e56a74ff0dc5060aa762544b8db4d7a8db30",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 200,
+   "selected": 400,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25703"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25704",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-300-400": {
+   "file": "/v2/screens/balance-setup-pinelabs-300-400.png",
+   "node": "254:25803",
+   "w": 1080,
+   "h": 1920,
+   "sha": "efa47fd545ffe21a74cbe58984c9fc546a9d80e5df5d1851605e8030c401ac21",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 300,
+   "selected": 400,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25803"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25804",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-400-400": {
+   "file": "/v2/screens/balance-setup-pinelabs-400-400.png",
+   "node": "254:25903",
+   "w": 1080,
+   "h": 1920,
+   "sha": "10c01963e7315d0fbd4afe1ca480699a52d3a8fe3a6c908fd170350d4ca3910d",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 400,
+   "selected": 400,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:25903"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:25904",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-500-400": {
+   "file": "/v2/screens/balance-setup-pinelabs-500-400.png",
+   "node": "254:26003",
+   "w": 1080,
+   "h": 1920,
+   "sha": "d932dd547a761ef36457709495acab37d3003f519f60227a8c9302c0fc779950",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 500,
+   "selected": 400,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:26003"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:26004",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-100-500": {
+   "file": "/v2/screens/balance-setup-pinelabs-100-500.png",
+   "node": "254:26103",
+   "w": 1080,
+   "h": 1920,
+   "sha": "e37624c377e7f7b8707c7e90bf59d3ee0b4e042a6879f5a26fb759ca03eec0c2",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 100,
+   "selected": 500,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:26103"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:26104",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-200-500": {
+   "file": "/v2/screens/balance-setup-pinelabs-200-500.png",
+   "node": "254:26203",
+   "w": 1080,
+   "h": 1920,
+   "sha": "204c9bd10c0076e7216df9fb8627b8a0cccbd1bb83a4d4aabc67de118109bb1c",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 200,
+   "selected": 500,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:26203"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:26204",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-300-500": {
+   "file": "/v2/screens/balance-setup-pinelabs-300-500.png",
+   "node": "254:26303",
+   "w": 1080,
+   "h": 1920,
+   "sha": "032c77b33e678153ae0aa6ad82ef31a303fbe2f6bf3a6c01e37aaf0f592ada58",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 300,
+   "selected": 500,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:26303"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:26304",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-400-500": {
+   "file": "/v2/screens/balance-setup-pinelabs-400-500.png",
+   "node": "254:26403",
+   "w": 1080,
+   "h": 1920,
+   "sha": "16d073e46d39b44368abc7586281cdcc25295a0cab8a608d7751065b640db800",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 400,
+   "selected": 500,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:26403"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:26404",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-setup-pinelabs-500-500": {
+   "file": "/v2/screens/balance-setup-pinelabs-500-500.png",
+   "node": "254:26503",
+   "w": 1080,
+   "h": 1920,
+   "sha": "fa82f0e699e1d768ffadf20d812f4df6f33232850631d1bf848ed9daab94b90d",
+   "chrome": "balanceSelectedFamily",
+   "leg": "setup",
+   "issuer": "pinelabs",
+   "balance": 500,
+   "selected": 500,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:26503"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:26504",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-recharge-pinelabs-50-none": {
+   "file": "/v2/screens/balance-recharge-pinelabs-50-none.png",
+   "node": "254:51900",
+   "w": 1080,
+   "h": 1920,
+   "sha": "f3df961be33ce8428f9341eeb5e11a6f3a7c8f1aa341679feaa13b96f99598c2",
+   "chrome": "balanceNoneFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 50,
+   "selected": null,
+   "variant": "unselected",
+   "figmaFrames": [
+    "254:51900"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-recharge-pinelabs-50-none.png",
+    "contentNode": "254:51902",
+    "contentName": "Frame 1984080025",
+    "container": "254:51901",
+    "containerName": "Frame 1984080057",
+    "containerClips": false,
+    "contentW": 992,
+    "contentH": 1864,
+    "sha": "b66cc8f6b4548a51cbd43fc133e66894293a1c89d551cc53841d3ec109ea257f",
+    "viewport": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1350
+    },
+    "viewportClamped": null,
+    "contentX": 31.81,
+    "contentY": 282,
+    "offsetX": 43.81,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 43.81,
+     "y": 299,
+     "w": 991.38,
+     "h": 1863.85
+    },
+    "unionBox": {
+     "x": 31.81,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1880.85
+    },
+    "heights": {
+     "png": 1864,
+     "layout": 1863.85,
+     "union": 1880.85
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1864 layout=1863.85 union=1880.85"
+   }
+  },
+  "balance-recharge-pinelabs-150-landing": {
+   "file": "/v2/screens/balance-recharge-pinelabs-150-landing.png",
+   "node": "254:52001",
+   "w": 1080,
+   "h": 1920,
+   "sha": "3fb6db9199b64ff4f46c71b168a6d61a73ed7b15ccc8bc9c98bdc9852e1e0883",
+   "chrome": "balanceTallFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 150,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:52001"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-recharge-pinelabs-150-landing.png",
+    "contentNode": "254:52003",
+    "contentName": "Frame 1984080025",
+    "container": "254:52002",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "0c52d8e654e48af1069fa3185a184bd997caecc950acc2a945c960dddffa0e8f",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-recharge-pinelabs-250-landing": {
+   "file": "/v2/screens/balance-recharge-pinelabs-250-landing.png",
+   "node": "254:52104",
+   "w": 1080,
+   "h": 1920,
+   "sha": "28110ee97a74a9110928e8eb24a5637eda81ca2f3a6bbf1927bb6da6e0330337",
+   "chrome": "balanceTallFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 250,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:52104"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-recharge-pinelabs-250-landing.png",
+    "contentNode": "254:52106",
+    "contentName": "Frame 1984080025",
+    "container": "254:52105",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "d32ea5a098f0b442f3b1fbfcd6a2a9160460845e832d8fa38e706cf45d5b2e9a",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-recharge-pinelabs-350-landing": {
+   "file": "/v2/screens/balance-recharge-pinelabs-350-landing.png",
+   "node": "254:52207",
+   "w": 1080,
+   "h": 1920,
+   "sha": "1ad9c63ed8dddc16de1d7a033b38bf840145641e75d7bbbbe17038af5f9ba301",
+   "chrome": "balanceTallFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 350,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:52207"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-recharge-pinelabs-350-landing.png",
+    "contentNode": "254:52209",
+    "contentName": "Frame 1984080025",
+    "container": "254:52208",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "6ea436d3a653c937b38d99c345323566aba441d8cde1c4032e0cb3af16b8c331",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-recharge-pinelabs-450-landing": {
+   "file": "/v2/screens/balance-recharge-pinelabs-450-landing.png",
+   "node": "254:52310",
+   "w": 1080,
+   "h": 1920,
+   "sha": "d736ef5a962a3c110ecf049ca58702a6a99e569ae631d634168f325ced0c9e7a",
+   "chrome": "balanceTallFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 450,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:52310"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-recharge-pinelabs-450-landing.png",
+    "contentNode": "254:52312",
+    "contentName": "Frame 1984080025",
+    "container": "254:52311",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "d2d00e75b3131975cc33482ab4e9d8e482297583a197ff21d72b9eb00c78d7c1",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-recharge-pinelabs-550-landing": {
+   "file": "/v2/screens/balance-recharge-pinelabs-550-landing.png",
+   "node": "254:52413",
+   "w": 1080,
+   "h": 1920,
+   "sha": "1452d870f976e2ecb1f55b1834a6f581c46b1c71b162331dfce3f0925eea7c01",
+   "chrome": "balanceTallFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 550,
+   "selected": null,
+   "variant": "landing",
+   "figmaFrames": [
+    "254:52413"
+   ],
+   "scroll": {
+    "content": "/v2/scroll/balance-recharge-pinelabs-550-landing.png",
+    "contentNode": "254:52415",
+    "contentName": "Frame 1984080025",
+    "container": "254:52414",
+    "containerName": "Frame 1984080062",
+    "containerClips": true,
+    "contentW": 992,
+    "contentH": 1838,
+    "sha": "c14c4799e391807a92caf99b9bfafe6c4498d4607bf5919e9eae72c81ad0031d",
+    "viewport": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1360
+    },
+    "viewportClamped": null,
+    "contentX": 32,
+    "contentY": 282,
+    "offsetX": 44,
+    "offsetY": 299,
+    "contentInsetX": 12,
+    "contentInsetY": 17,
+    "layoutBox": {
+     "x": 44,
+     "y": 299,
+     "w": 991.38,
+     "h": 1837.08
+    },
+    "unionBox": {
+     "x": 32,
+     "y": 282,
+     "w": 1026.69,
+     "h": 1854.08
+    },
+    "heights": {
+     "png": 1838,
+     "layout": 1837.08,
+     "union": 1854.08
+    },
+    "heightMismatch": true,
+    "mismatchNote": "png=1838 layout=1837.08 union=1854.08"
+   }
+  },
+  "balance-recharge-pinelabs-50-100": {
+   "file": "/v2/screens/balance-recharge-pinelabs-50-100.png",
+   "node": "254:52516",
+   "w": 1080,
+   "h": 1920,
+   "sha": "33ddba149cadf9d15df44133b76deb6d9ea3b65d5724b1837b3b26e30052cd17",
+   "chrome": "balanceSelectedFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 50,
+   "selected": 100,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:52516"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:52517",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-recharge-pinelabs-50-200": {
+   "file": "/v2/screens/balance-recharge-pinelabs-50-200.png",
+   "node": "254:52616",
+   "w": 1080,
+   "h": 1920,
+   "sha": "1fc9faf5511d020bff7504df220bf42868bcaec574f938899d6a36a1b0d5fd71",
+   "chrome": "balanceSelectedFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 50,
+   "selected": 200,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:52616"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:52617",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-recharge-pinelabs-50-300": {
+   "file": "/v2/screens/balance-recharge-pinelabs-50-300.png",
+   "node": "254:52716",
+   "w": 1080,
+   "h": 1920,
+   "sha": "b676a4023a903a3ae045364ab8a9f4f69436580007142f5a067660e88c63d061",
+   "chrome": "balanceSelectedFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 50,
+   "selected": 300,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:52716"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:52717",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-recharge-pinelabs-50-400": {
+   "file": "/v2/screens/balance-recharge-pinelabs-50-400.png",
+   "node": "254:52816",
+   "w": 1080,
+   "h": 1920,
+   "sha": "8bbc0a858d9b352e28e9e36e0de81fda34b98b919dae25b38bc668b122154447",
+   "chrome": "balanceSelectedFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 50,
+   "selected": 400,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:52816"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:52817",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  },
+  "balance-recharge-pinelabs-50-500": {
+   "file": "/v2/screens/balance-recharge-pinelabs-50-500.png",
+   "node": "254:52916",
+   "w": 1080,
+   "h": 1920,
+   "sha": "abb7d737d4a50d819e58289c51b57a568721fd09c8140eb9fdf4a062d6237784",
+   "chrome": "balanceSelectedFamily",
+   "leg": "recharge",
+   "issuer": "pinelabs",
+   "balance": 50,
+   "selected": 500,
+   "variant": "selected",
+   "figmaFrames": [
+    "254:52916"
+   ],
+   "preScrolled": true,
+   "scrollTop": 482,
+   "scroll": null,
+   "scrollable": false,
+   "clippedPanel": {
+    "node": "254:52917",
+    "name": "Frame 1984080023",
+    "box": {
+     "x": 44,
+     "y": 299,
+     "w": 992,
+     "h": 1349
+    },
+    "unionBox": {
+     "x": 32.31,
+     "y": -200.85,
+     "w": 1027,
+     "h": 1848.85
+    },
+    "note": "no VERTICAL_SCROLLING child - this state IS a scroll position; content top sits above the panel"
+   }
+  }
+ },
+ "chrome": {
+  "amountFamily": [
+   {
+    "role": "bg",
+    "node": "254:1688",
+    "hidden": true,
+    "fill": "#ffffff",
+    "note": "Gradient Bkg instance is visible:false on this family - the background is the frame fill #ffffff"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/amount-header.png",
+    "node": "254:1718",
+    "figmaName": "Header",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 299,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 298.15
+    },
+    "zIndex": 4,
+    "overlay": false,
+    "sha": "117eb6a8574ea16839d90439f87987d27b541a4c157a28389172a57a4bde6051"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/amount-footer.png",
+    "node": "254:1709",
+    "figmaName": "gestureThreeButtons",
+    "left": 0,
+    "top": 1789,
+    "width": 1080,
+    "height": 131,
+    "layoutBox": {
+     "x": 0,
+     "y": 1789,
+     "w": 1080,
+     "h": 130.83
+    },
+    "zIndex": 3,
+    "overlay": false,
+    "sha": "a59908d0cd2be554872ec92c5ddb6c7d3d81d7b73e34b33f7de24923a9840660"
+   }
+  ],
+  "methodsFamily": [
+   {
+    "role": "bg",
+    "node": "254:16369",
+    "hidden": true,
+    "fill": "#ffffff",
+    "note": "Gradient Bkg instance is visible:false on this family - the background is the frame fill #ffffff"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/methods-header.png",
+    "node": "254:16526",
+    "figmaName": "Header",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 299,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 298.15
+    },
+    "zIndex": 3,
+    "overlay": false,
+    "sha": "09b2be738da1c46a8252abc3f42816c748c49e8d4464cb5e34281e3b460c64b3"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/amount-footer.png",
+    "node": "254:16556",
+    "figmaName": "gestureThreeButtons",
+    "left": 0,
+    "top": 1789,
+    "width": 1080,
+    "height": 131,
+    "layoutBox": {
+     "x": 0,
+     "y": 1789,
+     "w": 1080,
+     "h": 130.83
+    },
+    "zIndex": 4,
+    "overlay": false,
+    "sha": "a59908d0cd2be554872ec92c5ddb6c7d3d81d7b73e34b33f7de24923a9840660",
+    "aliasOf": "amount-footer"
+   }
+  ],
+  "introFamily": [
+   {
+    "role": "bg",
+    "file": "/v2/chrome/intro-bg.png",
+    "node": "254:1022",
+    "figmaName": "Gradient Bkg",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 2338,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 2337.23
+    },
+    "zIndex": 3,
+    "overlay": true,
+    "sha": "5e05c30fa607bfc25e3f4f6b7c5d732b6048b4c1d55f0c5828f3ec4a23bd489d"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/intro-header.png",
+    "node": "254:988",
+    "figmaName": "Header",
+    "left": 0,
+    "top": 0.69,
+    "width": 1080,
+    "height": 299,
+    "layoutBox": {
+     "x": 0,
+     "y": 0.69,
+     "w": 1080,
+     "h": 298.15
+    },
+    "zIndex": 2,
+    "overlay": false,
+    "sha": "276173535ae4136e8e67461f8ce94232eb8fa7f804ad0395e13dc16424841baa"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/intro-footer.png",
+    "node": "254:972",
+    "figmaName": "Frame 1686562600",
+    "left": 0,
+    "top": 1520.23,
+    "width": 1080,
+    "height": 400,
+    "layoutBox": {
+     "x": 0,
+     "y": 1520.23,
+     "w": 1080,
+     "h": 400
+    },
+    "zIndex": 1,
+    "overlay": false,
+    "sha": "d2db021ee1fc35d3a26be52eba20172b44da20d571729ff7df682fe7532df252"
+   }
+  ],
+  "introAcceptedFamily": [
+   {
+    "role": "bg",
+    "file": "/v2/chrome/intro-bg.png",
+    "node": "254:906",
+    "figmaName": "Gradient Bkg",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 2338,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 2337.23
+    },
+    "zIndex": 2,
+    "overlay": true,
+    "sha": "5e05c30fa607bfc25e3f4f6b7c5d732b6048b4c1d55f0c5828f3ec4a23bd489d",
+    "aliasOf": "intro-bg"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/introAccepted-header.png",
+    "node": "254:907",
+    "figmaName": "Header",
+    "left": 0,
+    "top": 0.69,
+    "width": 1080,
+    "height": 299,
+    "layoutBox": {
+     "x": 0,
+     "y": 0.69,
+     "w": 1080,
+     "h": 298.15
+    },
+    "zIndex": 3,
+    "overlay": false,
+    "sha": "3ce336d212cf789c87c73348b45e75dac76b9e799c079f3e60b2f724a578952f"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/introAccepted-footer.png",
+    "node": "254:891",
+    "figmaName": "Frame 1686562600",
+    "left": 0,
+    "top": 1520.23,
+    "width": 1080,
+    "height": 404,
+    "layoutBox": {
+     "x": 0,
+     "y": 1520.23,
+     "w": 1080,
+     "h": 400
+    },
+    "zIndex": 1,
+    "overlay": false,
+    "sha": "831020f4eddd7bfb66fd7b0f5b6c608035c6155be0ea87df8587a78a9a1ca824"
+   }
+  ],
+  "balanceShortFamily": [
+   {
+    "role": "bg",
+    "node": "254:20025",
+    "hidden": true,
+    "fill": "#ffffff",
+    "note": "Gradient Bkg instance is visible:false on this family - the background is the frame fill #ffffff"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/balanceShort-header.png",
+    "node": "254:20046",
+    "figmaName": "Frame 1984079979",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 299,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 298.15
+    },
+    "zIndex": 3,
+    "overlay": false,
+    "sha": "99ace52f0de2ed9625f502657ff7cc87b1d86de3656a61239330fbbed2ce5a63"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/balanceShort-footer.png",
+    "node": "254:20072",
+    "figmaName": "Footer",
+    "left": 0,
+    "top": 1612.4,
+    "width": 1080,
+    "height": 309,
+    "layoutBox": {
+     "x": 0,
+     "y": 1612.4,
+     "w": 1080,
+     "h": 308.06
+    },
+    "zIndex": 4,
+    "overlay": false,
+    "sha": "254eb129a767634ed2a6928194d9b19ec46288207baa253a7272142bc25c266b"
+   }
+  ],
+  "balanceNoneFamily": [
+   {
+    "role": "bg",
+    "node": "254:21063",
+    "hidden": true,
+    "fill": "#ffffff",
+    "note": "Gradient Bkg instance is visible:false on this family - the background is the frame fill #ffffff"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/balanceNone-header.png",
+    "node": "254:21098",
+    "figmaName": "Frame 1984079979",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 299,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 298.15
+    },
+    "zIndex": 4,
+    "overlay": false,
+    "sha": "f03d3d232ba56e69b22b4414b7007ab8a0bc43bc8d8cafb39acaf67179beee4e"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/balanceNone-footer.png",
+    "node": "254:21084",
+    "figmaName": "Footer",
+    "left": 0,
+    "top": 1611.62,
+    "width": 1080,
+    "height": 309,
+    "layoutBox": {
+     "x": 0,
+     "y": 1648.7,
+     "w": 1080,
+     "h": 271.38
+    },
+    "zIndex": 3,
+    "overlay": false,
+    "sha": "b48a8d9cf4e67e2f258120eb4cf3e412c36684832c49abf10968b9b7a93bc6e3"
+   }
+  ],
+  "balanceTallFamily": [
+   {
+    "role": "bg",
+    "node": "254:21981",
+    "hidden": true,
+    "fill": "#ffffff",
+    "note": "Gradient Bkg instance is visible:false on this family - the background is the frame fill #ffffff"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/balanceTall-header.png",
+    "node": "254:22002",
+    "figmaName": "Frame 1984079979",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 299,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 298.15
+    },
+    "zIndex": 3,
+    "overlay": false,
+    "sha": "422131a924457f322c27f4620ee65b2c870084c1459f18f60f3b76eb470a8eca"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/balanceTall-footer.png",
+    "node": "254:22028",
+    "figmaName": "Footer",
+    "left": 0,
+    "top": 1612.02,
+    "width": 1080,
+    "height": 309,
+    "layoutBox": {
+     "x": 0,
+     "y": 1612.02,
+     "w": 1080,
+     "h": 308.06
+    },
+    "zIndex": 4,
+    "overlay": false,
+    "sha": "8df2a004568f32194fdf66d54f68dc717a9423edbbbda47dc1812c5ab589651e"
+   }
+  ],
+  "balanceSelectedFamily": [
+   {
+    "role": "bg",
+    "node": "254:24142",
+    "hidden": true,
+    "fill": "#ffffff",
+    "note": "Gradient Bkg instance is visible:false on this family - the background is the frame fill #ffffff"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/balanceSelected-header.png",
+    "node": "254:24177",
+    "figmaName": "Frame 1984079979",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 299,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 298.15
+    },
+    "zIndex": 4,
+    "overlay": false,
+    "sha": "0d3513a1815e60fd302fafdbca95fd030831118dd90113d73a447aec281dbbc8"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/balanceSelected-footer.png",
+    "node": "254:24163",
+    "figmaName": "Group 1686562600",
+    "left": 0,
+    "top": 1590,
+    "width": 1080,
+    "height": 331,
+    "layoutBox": {
+     "x": 0,
+     "y": 1649,
+     "w": 1080,
+     "h": 271.38
+    },
+    "zIndex": 3,
+    "overlay": false,
+    "sha": "d949a65b3ba53a94747b935833f92e1976b7a59a1f689a393b2a316183949c78"
+   }
+  ],
+  "homeFamily": [
+   {
+    "role": "bg",
+    "file": "/v2/chrome/home-bg.png",
+    "node": "254:1024",
+    "figmaName": "Component 53",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 975,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 974.77
+    },
+    "zIndex": 0,
+    "overlay": false,
+    "sha": "7e5525f1cb48cb60b27f7eaad0800708e69ceb4cce07e7d02d9cb6727cbbde9d"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/home-header.png",
+    "node": "254:1499",
+    "figmaName": "Header",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 332,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 331.38
+    },
+    "zIndex": 9,
+    "overlay": false,
+    "sha": "2e8ada7f2710579ec8d5fc15fdab6db92709626b27bce9050919c0c76cdcc0b7"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/home-footer.png",
+    "node": "254:1420",
+    "figmaName": "Group 1686562582",
+    "left": -91,
+    "top": 1438.69,
+    "width": 2946,
+    "height": 560,
+    "layoutBox": {
+     "x": 0,
+     "y": 1541.15,
+     "w": 1080,
+     "h": 379.08
+    },
+    "zIndex": 8,
+    "overlay": false,
+    "sha": "0d7f888cc14ae51016a16b7ad9ff33e3ef5c4f096b09c5b9789e3747b702046a"
+   }
+  ],
+  "homeCardFamily": [
+   {
+    "role": "bg",
+    "file": "/v2/chrome/home-bg.png",
+    "node": "254:58072",
+    "figmaName": "Component 53",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 975,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 974.77
+    },
+    "zIndex": 0,
+    "overlay": false,
+    "sha": "7e5525f1cb48cb60b27f7eaad0800708e69ceb4cce07e7d02d9cb6727cbbde9d",
+    "aliasOf": "home-bg"
+   },
+   {
+    "role": "header",
+    "file": "/v2/chrome/homeCard-header.png",
+    "node": "254:58547",
+    "figmaName": "Header",
+    "left": 0,
+    "top": 0,
+    "width": 1080,
+    "height": 332,
+    "layoutBox": {
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 331.38
+    },
+    "zIndex": 9,
+    "overlay": false,
+    "sha": "bf04702f46f1b1cdfde32d98045d45329f325052363f962911ce183184378386"
+   },
+   {
+    "role": "footer",
+    "file": "/v2/chrome/homeCard-footer.png",
+    "node": "254:58468",
+    "figmaName": "Group 1686562582",
+    "left": -91,
+    "top": 1438.69,
+    "width": 2946,
+    "height": 560,
+    "layoutBox": {
+     "x": 0,
+     "y": 1541.15,
+     "w": 1080,
+     "h": 379.08
+    },
+    "zIndex": 8,
+    "overlay": false,
+    "sha": "105e068780a953f3187552d046fd3ab720b13a6368d00a771d18c263780d8010"
+   }
+  ]
+ },
+ "layers": {
+  "home-carousel": {
+   "file": "/v2/layers/home-carousel.png",
+   "node": "254:1319",
+   "w": 3709,
+   "h": 266,
+   "note": "Frame 1686562866 - horizontal carousel content, home",
+   "sha": "6912156eaf19da0524ac05a9a4169adaba2882bd4407015fdd2d57d630434ed1",
+   "left": 0,
+   "top": 465.23,
+   "layoutBox": {
+    "x": 44.31,
+    "y": 481.84,
+    "w": 1035.69,
+    "h": 177.23
+   },
+   "frame": "254:1023"
+  },
+  "home-carousel-dots": {
+   "file": "/v2/layers/home-carousel-dots.png",
+   "node": "254:1408",
+   "w": 984,
+   "h": 17,
+   "note": "Frame 1686562094 - carousel dots, home",
+   "sha": "58885c5627ebcc09a10f788a3fa4e88481a8147a8c3e9072c758573b493ff3de",
+   "left": 44.31,
+   "top": 692.3,
+   "layoutBox": {
+    "x": 44.31,
+    "y": 692.3,
+    "w": 983.08,
+    "h": 16.62
+   },
+   "frame": "254:1023"
+  },
+  "homeCard-carousel": {
+   "file": "/v2/layers/homeCard-carousel.png",
+   "node": "254:58367",
+   "w": 3709,
+   "h": 266,
+   "note": "horizontal carousel content, homeCard",
+   "sha": "84fbacbec2c26084eca5f494fdec8864a520e42041ab8da227642b19d0dd9e60",
+   "left": 0,
+   "top": 465.23,
+   "layoutBox": {
+    "x": 44.31,
+    "y": 481.84,
+    "w": 1035.69,
+    "h": 177.23
+   },
+   "frame": "254:58071"
+  },
+  "homeCard-carousel-dots": {
+   "file": "/v2/layers/homeCard-carousel-dots.png",
+   "node": "254:58456",
+   "w": 984,
+   "h": 17,
+   "note": "carousel dots, homeCard",
+   "sha": "ea2e0da00cb00bd2f56bbe28ff06b46bbf622d7f6e00e1f9fd86a5a30016dc1d",
+   "left": 44.31,
+   "top": 692.3,
+   "layoutBox": {
+    "x": 44.31,
+    "y": 692.3,
+    "w": 983.08,
+    "h": 16.62
+   },
+   "frame": "254:58071"
+  },
+  "254-1028": {
+   "file": "/v2/layers/254-1028.png",
+   "node": "254:1028",
+   "w": 1080,
+   "h": 1493,
+   "note": "home - Group 1547753965, the body under the animated background",
+   "sha": "1257210eb38b2d6e2e465525d56794b3ab22acdabc403f5d2f471867d7bbd145",
+   "owner": "src/v2/screens/HomeScreen.tsx",
+   "left": 0,
+   "top": 783.7,
+   "layoutBox": {
+    "x": 0,
+    "y": 783.7,
+    "w": 1080,
+    "h": 1492.62
+   },
+   "frame": "254:1023"
+  },
+  "254-1318": {
+   "file": "/v2/layers/254-1318.png",
+   "node": "254:1318",
+   "w": 3709,
+   "h": 266,
+   "note": "home - Frame 1686562867, carousel + dots",
+   "sha": "56dd7273407a8c8feb4bde1cd04fc9e5d97a6f85c423e8dbbbb09dda6af943b9",
+   "owner": "src/v2/screens/HomeScreen.tsx",
+   "left": 0,
+   "top": 465.23,
+   "layoutBox": {
+    "x": 44.31,
+    "y": 481.84,
+    "w": 1035.69,
+    "h": 227.08
+   },
+   "frame": "254:1023"
+  },
+  "254-1413": {
+   "file": "/v2/layers/254-1413.png",
+   "node": "254:1413",
+   "w": 992,
+   "h": 60,
+   "note": "home - Frame 1686562563, the row above the carousel",
+   "sha": "3df3993e6a683e2f37e37a01fd7628dcaae8ccf7c2fde6fc82f45de8fcfbe1fc",
+   "owner": "src/v2/screens/HomeScreen.tsx",
+   "left": 44.31,
+   "top": 365.54,
+   "layoutBox": {
+    "x": 44.31,
+    "y": 365.54,
+    "w": 991.38,
+    "h": 60
+   },
+   "frame": "254:1023"
+  },
+  "254-1499": {
+   "file": "/v2/layers/254-1499.png",
+   "node": "254:1499",
+   "w": 1080,
+   "h": 332,
+   "note": "home - Header",
+   "sha": "2e8ada7f2710579ec8d5fc15fdab6db92709626b27bce9050919c0c76cdcc0b7",
+   "owner": "src/v2/screens/HomeScreen.tsx",
+   "left": 0,
+   "top": 0,
+   "layoutBox": {
+    "x": 0,
+    "y": 0,
+    "w": 1080,
+    "h": 331.38
+   },
+   "frame": "254:1023"
+  },
+  "254-58076": {
+   "file": "/v2/layers/254-58076.png",
+   "node": "254:58076",
+   "w": 1080,
+   "h": 1493,
+   "note": "homeCard - Group 1547753965",
+   "sha": "3668def6621b543f478cdf76c68191bcbcc2cf5073d332ca6f2ee482c47785f4",
+   "owner": "src/v2/screens/HomeScreen.tsx",
+   "left": 0,
+   "top": 783.7,
+   "layoutBox": {
+    "x": 0,
+    "y": 783.7,
+    "w": 1080,
+    "h": 1492.62
+   },
+   "frame": "254:58071"
+  },
+  "254-58366": {
+   "file": "/v2/layers/254-58366.png",
+   "node": "254:58366",
+   "w": 3709,
+   "h": 266,
+   "note": "homeCard - Frame 1686562867",
+   "sha": "6163beee3ff132dac2c1f0961b7db5e85748a6e6089ff780948f3820c9e44ac0",
+   "owner": "src/v2/screens/HomeScreen.tsx",
+   "left": 0,
+   "top": 465.23,
+   "layoutBox": {
+    "x": 44.31,
+    "y": 481.84,
+    "w": 1035.69,
+    "h": 227.08
+   },
+   "frame": "254:58071"
+  },
+  "254-58461": {
+   "file": "/v2/layers/254-58461.png",
+   "node": "254:58461",
+   "w": 992,
+   "h": 60,
+   "note": "homeCard - Frame 1686562563",
+   "sha": "3df3993e6a683e2f37e37a01fd7628dcaae8ccf7c2fde6fc82f45de8fcfbe1fc",
+   "owner": "src/v2/screens/HomeScreen.tsx",
+   "left": 44.31,
+   "top": 365.54,
+   "layoutBox": {
+    "x": 44.31,
+    "y": 365.54,
+    "w": 991.38,
+    "h": 60
+   },
+   "frame": "254:58071"
+  },
+  "254-58547": {
+   "file": "/v2/layers/254-58547.png",
+   "node": "254:58547",
+   "w": 1080,
+   "h": 332,
+   "note": "homeCard - Header",
+   "sha": "bf04702f46f1b1cdfde32d98045d45329f325052363f962911ce183184378386",
+   "owner": "src/v2/screens/HomeScreen.tsx",
+   "left": 0,
+   "top": 0,
+   "layoutBox": {
+    "x": 0,
+    "y": 0,
+    "w": 1080,
+    "h": 331.38
+   },
+   "frame": "254:58071"
+  }
+ },
+ "aliases": {
+  "amount-pinelabs-100": "amount-pinelabs-none",
+  "amount-pinelabs-400": "amount-pinelabs-200",
+  "amount-iob-200": "amount-iob-100",
+  "amount-iob-300": "amount-iob-100",
+  "amount-iob-400": "amount-iob-100",
+  "amount-iob-500": "amount-iob-100",
+  "amount-rbl-200": "amount-rbl-100",
+  "amount-rbl-500": "amount-rbl-400",
+  "chrome:methods-footer": "amount-footer",
+  "chrome:introAccepted-bg": "intro-bg",
+  "chrome:homeCard-bg": "home-bg"
+ },
+ "failed": {},
+ "paidLegCheck": {
+  "paid-pinelabs-100": {
+   "legs": [
+    "setup",
+    "recharge"
+   ],
+   "nodes": [
+    "254:45528",
+    "254:56801"
+   ],
+   "identical": false,
+   "pixelIdentical": true,
+   "differingPixels": 193,
+   "verdict": "same artwork, different PNG bytes (sub-pixel AA only) - one plate would do"
+  },
+  "paid-pinelabs-200": {
+   "legs": [
+    "setup",
+    "recharge"
+   ],
+   "nodes": [
+    "254:45813",
+    "254:56858"
+   ],
+   "identical": false,
+   "pixelIdentical": true,
+   "differingPixels": 213,
+   "verdict": "same artwork, different PNG bytes (sub-pixel AA only) - one plate would do"
+  },
+  "paid-pinelabs-300": {
+   "legs": [
+    "setup",
+    "recharge"
+   ],
+   "nodes": [
+    "254:46098",
+    "254:56915"
+   ],
+   "identical": false,
+   "pixelIdentical": true,
+   "differingPixels": 219,
+   "verdict": "same artwork, different PNG bytes (sub-pixel AA only) - one plate would do"
+  },
+  "paid-pinelabs-400": {
+   "legs": [
+    "setup",
+    "recharge"
+   ],
+   "nodes": [
+    "254:46383",
+    "254:56972"
+   ],
+   "identical": false,
+   "pixelIdentical": true,
+   "differingPixels": 254,
+   "verdict": "same artwork, different PNG bytes (sub-pixel AA only) - one plate would do"
+  },
+  "paid-pinelabs-500": {
+   "legs": [
+    "setup",
+    "recharge"
+   ],
+   "nodes": [
+    "254:46668",
+    "254:57029"
+   ],
+   "identical": false,
+   "pixelIdentical": true,
+   "differingPixels": 219,
+   "verdict": "same artwork, different PNG bytes (sub-pixel AA only) - one plate would do"
+  }
+ },
+ "verified": {
+  "intro": {
+   "containerName": "Frame 1984080067",
+   "claimed": {
+    "x": 0,
+    "y": 304,
+    "mismatchPct": 23.583
+   },
+   "unionOrigin": {
+    "x": 0,
+    "y": 304
+   },
+   "best": {
+    "x": 0,
+    "y": 304,
+    "mismatchPct": 23.583
+   },
+   "comparedPixels": 245367,
+   "ok": true,
+   "exact": false,
+   "residual": "sub-pixel raster phase (fractional content origin) and, on intro, the visible Gradient Bkg overlay that is chrome"
+  },
+  "introAccepted": {
+   "containerName": "Frame 1984080068",
+   "claimed": {
+    "x": 0,
+    "y": 303.77,
+    "mismatchPct": 27.383
+   },
+   "unionOrigin": {
+    "x": 0,
+    "y": 303.77
+   },
+   "best": {
+    "x": 0,
+    "y": 304,
+    "mismatchPct": 27.383
+   },
+   "comparedPixels": 245367,
+   "ok": true,
+   "exact": false,
+   "residual": "sub-pixel raster phase (fractional content origin) and, on intro, the visible Gradient Bkg overlay that is chrome"
+  },
+  "methods": {
+   "containerName": "Frame 1984080069",
+   "claimed": {
+    "x": 6.62,
+    "y": 333.38,
+    "mismatchPct": 3.881
+   },
+   "unionOrigin": {
+    "x": 34.31,
+    "y": 333.38
+   },
+   "best": {
+    "x": 7,
+    "y": 333,
+    "mismatchPct": 3.881
+   },
+   "comparedPixels": 568623,
+   "ok": true,
+   "exact": false,
+   "residual": "sub-pixel raster phase (fractional content origin) and, on intro, the visible Gradient Bkg overlay that is chrome"
+  },
+  "amount-pinelabs-none": {
+   "containerName": "Frame 1984080071",
+   "claimed": {
+    "x": 0,
+    "y": 299,
+    "mismatchPct": 0.001
+   },
+   "unionOrigin": {
+    "x": 0,
+    "y": 299
+   },
+   "best": {
+    "x": 0,
+    "y": 299,
+    "mismatchPct": 0.001
+   },
+   "comparedPixels": 881633,
+   "ok": true,
+   "exact": true,
+   "residual": null
+  },
+  "balance-setup-iob-100-landing": {
+   "containerName": "Frame 1984080073",
+   "claimed": {
+    "x": 44,
+    "y": 299,
+    "mismatchPct": 1.878
+   },
+   "unionOrigin": {
+    "x": 32,
+    "y": 282
+   },
+   "best": {
+    "x": 44,
+    "y": 299,
+    "mismatchPct": 1.878
+   },
+   "comparedPixels": 1075069,
+   "ok": true,
+   "exact": false,
+   "residual": "sub-pixel raster phase (fractional content origin) and, on intro, the visible Gradient Bkg overlay that is chrome"
+  },
+  "balance-setup-pinelabs-100-none": {
+   "containerName": "Frame 1984080057",
+   "claimed": {
+    "x": 43.81,
+    "y": 299,
+    "mismatchPct": 2.038
+   },
+   "unionOrigin": {
+    "x": 31.81,
+    "y": 282
+   },
+   "best": {
+    "x": 44,
+    "y": 299,
+    "mismatchPct": 2.038
+   },
+   "comparedPixels": 1119659,
+   "ok": true,
+   "exact": false,
+   "residual": "sub-pixel raster phase (fractional content origin) and, on intro, the visible Gradient Bkg overlay that is chrome"
+  },
+  "balance-setup-pinelabs-200-landing": {
+   "containerName": "Frame 1984080062",
+   "claimed": {
+    "x": 44,
+    "y": 299,
+    "mismatchPct": 2.897
+   },
+   "unionOrigin": {
+    "x": 32,
+    "y": 282
+   },
+   "best": {
+    "x": 44,
+    "y": 299,
+    "mismatchPct": 2.897
+   },
+   "comparedPixels": 1129635,
+   "ok": true,
+   "exact": false,
+   "residual": "sub-pixel raster phase (fractional content origin) and, on intro, the visible Gradient Bkg overlay that is chrome"
+  }
+ },
+ "nearAliases": {
+  "homeCard": {
+   "sameAs": "home",
+   "differingPixels": 110,
+   "pct": 0.0053
+  },
+  "paid-pinelabs-100-recharge": {
+   "sameAs": "paid-pinelabs-100-setup",
+   "differingPixels": 193,
+   "pct": 0.0093
+  },
+  "paid-pinelabs-200-recharge": {
+   "sameAs": "paid-pinelabs-200-setup",
+   "differingPixels": 213,
+   "pct": 0.0103
+  },
+  "paid-pinelabs-300-recharge": {
+   "sameAs": "paid-pinelabs-300-setup",
+   "differingPixels": 219,
+   "pct": 0.0106
+  },
+  "paid-pinelabs-400-recharge": {
+   "sameAs": "paid-pinelabs-400-setup",
+   "differingPixels": 254,
+   "pct": 0.0122
+  },
+  "paid-pinelabs-500-recharge": {
+   "sameAs": "paid-pinelabs-500-setup",
+   "differingPixels": 219,
+   "pct": 0.0106
+  },
+  "amount-pinelabs-200": {
+   "sameAs": "amount-pinelabs-none",
+   "differingPixels": 19,
+   "pct": 0.0009
+  },
+  "amount-pinelabs-300": {
+   "sameAs": "amount-pinelabs-none",
+   "differingPixels": 40,
+   "pct": 0.0019
+  },
+  "amount-pinelabs-500": {
+   "sameAs": "amount-pinelabs-none",
+   "differingPixels": 180,
+   "pct": 0.0087
+  },
+  "amount-iob-100": {
+   "sameAs": "amount-iob-none",
+   "differingPixels": 1,
+   "pct": 0
+  },
+  "amount-rbl-100": {
+   "sameAs": "amount-rbl-none",
+   "differingPixels": 1,
+   "pct": 0
+  },
+  "amount-rbl-300": {
+   "sameAs": "amount-rbl-none",
+   "differingPixels": 855,
+   "pct": 0.0412
+  },
+  "amount-rbl-400": {
+   "sameAs": "amount-rbl-none",
+   "differingPixels": 879,
+   "pct": 0.0424
+  }
+ },
+ "summary": {
+  "platesPlanned": 113,
+  "platesDistinct": 105,
+  "scrollPlanned": 51,
+  "scrollDistinct": 51,
+  "chromeDistinct": 21,
+  "layersDistinct": 12,
+  "platesDistinctByPixels": 92,
+  "filesWritten": 189,
+  "megabytes": 48.61,
+  "failed": 0
+ }
+}

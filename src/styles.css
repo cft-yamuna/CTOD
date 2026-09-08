@@ -124,27 +124,41 @@ body {
    Run modes. App pins one `data-mode` attribute to <body> and everything below
    hangs off it - the only switch there is.
 
-   The kiosk half is written as `:not([data-mode="mouse"])` so it holds before
-   the attribute is set and if it never is: hiding the pointer is the safe
-   default, and losing it is what a touched panel wants either way.
-
-   Everything after it matches `mouse` alone. Kiosk mode has no selector here
-   that can match, so it draws the plate and the invisible hit areas and not one
+   Everything that draws matches `mouse` alone. Kiosk mode has no selector here
+   that can paint, so it draws the plate and the invisible hit areas and not one
    pixel more - which is the whole point, since the screens are diffed against
    the exported Figma frames.
+
+   The cursor is the exception, and it is not a paint: a CSS cursor is chrome
+   the compositor draws outside the page, so it never lands in a screenshot and
+   cannot move a diff. It is therefore free to be useful.
+
+   Kiosk mode shows an ordinary pointer, and a hand over anything live. The
+   panel is driven by a finger in the field, where there is no cursor to show
+   at all, but it is driven by a mouse everywhere else - on the bench, in a
+   demo, over remote desktop - and a screen whose controls are all painted into
+   the plate is unusable with an invisible pointer: every control looks exactly
+   like the flat artwork around it, so there is nothing to aim at. Hiding it
+   bought nothing on a touchscreen and cost everything on a desk.
+
+   `?cursor=none` puts it back for an installed kiosk that has a mouse plugged
+   in and does not want a pointer parked on the artwork. See `data-cursor`.
    -------------------------------------------------------------------------*/
 
-body:not([data-mode="mouse"]),
-body:not([data-mode="mouse"]) .hit {
-  cursor: none;
-}
-
-body[data-mode="mouse"] {
+body {
   cursor: default;
 }
 
-body[data-mode="mouse"] .hit {
+.hit {
   cursor: pointer;
+}
+
+/* The installed-kiosk opt-out. Written last so it beats both rules above, and
+   on `<body>` and `.hit` alike - `.hit` sets its own cursor, so hiding the
+   pointer on the body alone would bring it back over every control. */
+body[data-cursor="none"],
+body[data-cursor="none"] .hit {
+  cursor: none;
 }
 
 /* An outline over a hit area, never in place of one: pointer events stay off so

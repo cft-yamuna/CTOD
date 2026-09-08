@@ -11,3 +11,9 @@ assets-src
 
 # Vite dev server log - regenerated on every run.
 dev.log
+
+# Staged, id-named plate exports. public/v2 holds the named copies.
+.figma/v2/stage
+
+# Vite dev server log for the V2 port - regenerated on every run.
+dev-v2.log

@@ -1,0 +1,784 @@
+{
+ "254:1688": {
+  "name": "Gradient Bkg",
+  "type": "INSTANCE",
+  "frame": "254:1628",
+  "visible": false,
+  "layout": [
+   0,
+   0,
+   1080,
+   2337.23
+  ],
+  "render": null,
+  "z": 1,
+  "siblings": 5
+ },
+ "254:1718": {
+  "name": "Header",
+  "type": "FRAME",
+  "frame": "254:1628",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "z": 4,
+  "siblings": 5
+ },
+ "254:1709": {
+  "name": "gestureThreeButtons",
+  "type": "FRAME",
+  "frame": "254:1628",
+  "visible": true,
+  "layout": [
+   0,
+   1789,
+   1080,
+   130.83
+  ],
+  "render": [
+   0,
+   1789,
+   1080,
+   130.83
+  ],
+  "z": 3,
+  "siblings": 5
+ },
+ "254:16369": {
+  "name": "Gradient Bkg",
+  "type": "INSTANCE",
+  "frame": "254:16368",
+  "visible": false,
+  "layout": [
+   0,
+   0,
+   1080,
+   2337.23
+  ],
+  "render": null,
+  "z": 0,
+  "siblings": 5
+ },
+ "254:16526": {
+  "name": "Header",
+  "type": "FRAME",
+  "frame": "254:16368",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "z": 3,
+  "siblings": 5
+ },
+ "254:16556": {
+  "name": "gestureThreeButtons",
+  "type": "FRAME",
+  "frame": "254:16368",
+  "visible": true,
+  "layout": [
+   0,
+   1789,
+   1080,
+   130.83
+  ],
+  "render": [
+   0,
+   1789,
+   1080,
+   130.83
+  ],
+  "z": 4,
+  "siblings": 5
+ },
+ "254:1022": {
+  "name": "Gradient Bkg",
+  "type": "INSTANCE",
+  "frame": "254:941",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   2337.23
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   1920
+  ],
+  "z": 3,
+  "siblings": 4
+ },
+ "254:988": {
+  "name": "Header",
+  "type": "FRAME",
+  "frame": "254:941",
+  "visible": true,
+  "layout": [
+   0,
+   0.69,
+   1080,
+   298.15
+  ],
+  "render": [
+   0,
+   0.69,
+   1080,
+   298.15
+  ],
+  "z": 2,
+  "siblings": 4
+ },
+ "254:972": {
+  "name": "Frame 1686562600",
+  "type": "FRAME",
+  "frame": "254:941",
+  "visible": true,
+  "layout": [
+   0,
+   1520.23,
+   1080,
+   400
+  ],
+  "render": [
+   0,
+   1520.23,
+   1080,
+   399.77
+  ],
+  "z": 1,
+  "siblings": 4
+ },
+ "254:906": {
+  "name": "Gradient Bkg",
+  "type": "INSTANCE",
+  "frame": "254:860",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   2337.23
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   1920
+  ],
+  "z": 2,
+  "siblings": 4
+ },
+ "254:907": {
+  "name": "Header",
+  "type": "FRAME",
+  "frame": "254:860",
+  "visible": true,
+  "layout": [
+   0,
+   0.69,
+   1080,
+   298.15
+  ],
+  "render": [
+   0,
+   0.69,
+   1080,
+   298.15
+  ],
+  "z": 3,
+  "siblings": 4
+ },
+ "254:891": {
+  "name": "Frame 1686562600",
+  "type": "FRAME",
+  "frame": "254:860",
+  "visible": true,
+  "layout": [
+   0,
+   1520.23,
+   1080,
+   400
+  ],
+  "render": [
+   0,
+   1520.23,
+   1080,
+   399.77
+  ],
+  "z": 1,
+  "siblings": 4
+ },
+ "254:20025": {
+  "name": "Gradient Bkg",
+  "type": "INSTANCE",
+  "frame": "254:19983",
+  "visible": false,
+  "layout": [
+   0,
+   0,
+   1080,
+   2337.23
+  ],
+  "render": null,
+  "z": 1,
+  "siblings": 5
+ },
+ "254:20046": {
+  "name": "Frame 1984079979",
+  "type": "FRAME",
+  "frame": "254:19983",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "z": 3,
+  "siblings": 5
+ },
+ "254:20072": {
+  "name": "Footer",
+  "type": "FRAME",
+  "frame": "254:19983",
+  "visible": true,
+  "layout": [
+   0,
+   1612.4,
+   1080,
+   308.06
+  ],
+  "render": [
+   0,
+   1612.4,
+   1080,
+   307.6
+  ],
+  "z": 4,
+  "siblings": 5
+ },
+ "254:21063": {
+  "name": "Gradient Bkg",
+  "type": "INSTANCE",
+  "frame": "254:21023",
+  "visible": false,
+  "layout": [
+   0,
+   0,
+   1080,
+   2337.23
+  ],
+  "render": null,
+  "z": 1,
+  "siblings": 5
+ },
+ "254:21098": {
+  "name": "Frame 1984079979",
+  "type": "FRAME",
+  "frame": "254:21023",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "z": 4,
+  "siblings": 5
+ },
+ "254:21084": {
+  "name": "Footer",
+  "type": "FRAME",
+  "frame": "254:21023",
+  "visible": true,
+  "layout": [
+   0,
+   1648.7,
+   1080,
+   271.38
+  ],
+  "render": [
+   0,
+   1611.62,
+   1080,
+   308.38
+  ],
+  "z": 3,
+  "siblings": 5
+ },
+ "254:21981": {
+  "name": "Gradient Bkg",
+  "type": "INSTANCE",
+  "frame": "254:21940",
+  "visible": false,
+  "layout": [
+   0,
+   0,
+   1080,
+   2337.23
+  ],
+  "render": null,
+  "z": 1,
+  "siblings": 5
+ },
+ "254:22002": {
+  "name": "Frame 1984079979",
+  "type": "FRAME",
+  "frame": "254:21940",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "z": 3,
+  "siblings": 5
+ },
+ "254:22028": {
+  "name": "Footer",
+  "type": "FRAME",
+  "frame": "254:21940",
+  "visible": true,
+  "layout": [
+   0,
+   1612.02,
+   1080,
+   308.06
+  ],
+  "render": [
+   0,
+   1612.02,
+   1080,
+   307.98
+  ],
+  "z": 4,
+  "siblings": 5
+ },
+ "254:24142": {
+  "name": "Gradient Bkg",
+  "type": "INSTANCE",
+  "frame": "254:24103",
+  "visible": false,
+  "layout": [
+   0,
+   0,
+   1080,
+   2337.23
+  ],
+  "render": null,
+  "z": 1,
+  "siblings": 5
+ },
+ "254:24177": {
+  "name": "Frame 1984079979",
+  "type": "FRAME",
+  "frame": "254:24103",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   298.15
+  ],
+  "z": 4,
+  "siblings": 5
+ },
+ "254:24163": {
+  "name": "Group 1686562600",
+  "type": "GROUP",
+  "frame": "254:24103",
+  "visible": true,
+  "layout": [
+   0,
+   1649,
+   1080,
+   271.38
+  ],
+  "render": [
+   0,
+   1590,
+   1080,
+   330
+  ],
+  "z": 3,
+  "siblings": 5
+ },
+ "254:1024": {
+  "name": "Component 53",
+  "type": "INSTANCE",
+  "frame": "254:1023",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   974.77
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   974.77
+  ],
+  "z": 0,
+  "siblings": 10
+ },
+ "254:1499": {
+  "name": "Header",
+  "type": "FRAME",
+  "frame": "254:1023",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   331.38
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   331.38
+  ],
+  "z": 9,
+  "siblings": 10
+ },
+ "254:1420": {
+  "name": "Group 1686562582",
+  "type": "GROUP",
+  "frame": "254:1023",
+  "visible": true,
+  "layout": [
+   0,
+   1541.15,
+   1080,
+   379.08
+  ],
+  "render": [
+   -91,
+   1438.69,
+   2946,
+   560
+  ],
+  "z": 8,
+  "siblings": 10,
+  "renderMeasured": true,
+  "renderNote": "absoluteRenderBounds is clipped to the frame (0,1438.69,1080,481); the unclipped export is 2946x560 and its true left is -91, measured by matching opaque pixels against the home plate (3.3% residual vs 26% at left=0)"
+ },
+ "254:58072": {
+  "name": "Component 53",
+  "type": "INSTANCE",
+  "frame": "254:58071",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   974.77
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   974.77
+  ],
+  "z": 0,
+  "siblings": 10
+ },
+ "254:58547": {
+  "name": "Header",
+  "type": "FRAME",
+  "frame": "254:58071",
+  "visible": true,
+  "layout": [
+   0,
+   0,
+   1080,
+   331.38
+  ],
+  "render": [
+   0,
+   0,
+   1080,
+   331.38
+  ],
+  "z": 9,
+  "siblings": 10
+ },
+ "254:58468": {
+  "name": "Group 1686562582",
+  "type": "GROUP",
+  "frame": "254:58071",
+  "visible": true,
+  "layout": [
+   0,
+   1541.15,
+   1080,
+   379.08
+  ],
+  "render": [
+   -91,
+   1438.69,
+   2946,
+   560
+  ],
+  "z": 8,
+  "siblings": 10,
+  "renderMeasured": true,
+  "renderNote": "absoluteRenderBounds is clipped to the frame (0,1438.69,1080,481); the unclipped export is 2946x560 and its true left is -91, measured by matching opaque pixels against the home plate (3.3% residual vs 26% at left=0)"
+ },
+ "254:1319": {
+  "name": "Frame 1686562866",
+  "type": "FRAME",
+  "frame": "254:1023",
+  "visible": true,
+  "layout": [
+   44.31,
+   481.84,
+   1035.69,
+   177.23
+  ],
+  "render": [
+   0,
+   465.23,
+   3709,
+   266
+  ],
+  "z": 0,
+  "siblings": 2,
+  "renderMeasured": true,
+  "renderNote": "carousel exports unclipped at 3709x266 for a 1036x227 layout box; measured placement is left 0, top 465.23"
+ },
+ "254:1408": {
+  "name": "Frame 1686562094",
+  "type": "FRAME",
+  "frame": "254:1023",
+  "visible": true,
+  "layout": [
+   44.31,
+   692.3,
+   983.08,
+   16.62
+  ],
+  "render": [
+   44.31,
+   692.3,
+   983.08,
+   16.62
+  ],
+  "z": 1,
+  "siblings": 2
+ },
+ "254:58367": {
+  "name": "Frame 1686562866",
+  "type": "FRAME",
+  "frame": "254:58071",
+  "visible": true,
+  "layout": [
+   44.31,
+   481.84,
+   1035.69,
+   177.23
+  ],
+  "render": [
+   0,
+   465.23,
+   3709,
+   266
+  ],
+  "z": 0,
+  "siblings": 2,
+  "renderMeasured": true,
+  "renderNote": "carousel exports unclipped at 3709x266 for a 1036x227 layout box; measured placement is left 0, top 465.23"
+ },
+ "254:58456": {
+  "name": "Frame 1686562094",
+  "type": "FRAME",
+  "frame": "254:58071",
+  "visible": true,
+  "layout": [
+   44.31,
+   692.3,
+   983.08,
+   16.62
+  ],
+  "render": [
+   44.31,
+   692.3,
+   983.08,
+   16.62
+  ],
+  "z": 1,
+  "siblings": 2
+ },
+ "254:1028": {
+  "name": "Group 1547753965",
+  "type": "GROUP",
+  "frame": "254:1023",
+  "visible": true,
+  "layout": [
+   0,
+   783.7,
+   1080,
+   1492.62
+  ],
+  "render": [
+   0,
+   783.7,
+   1080,
+   1136.3
+  ],
+  "z": 3,
+  "siblings": 10
+ },
+ "254:1318": {
+  "name": "Frame 1686562867",
+  "type": "FRAME",
+  "frame": "254:1023",
+  "visible": true,
+  "layout": [
+   44.31,
+   481.84,
+   1035.69,
+   227.08
+  ],
+  "render": [
+   0,
+   465.23,
+   3709,
+   266
+  ],
+  "z": 6,
+  "siblings": 10,
+  "renderMeasured": true,
+  "renderNote": "carousel exports unclipped at 3709x266 for a 1036x227 layout box; measured placement is left 0, top 465.23"
+ },
+ "254:1413": {
+  "name": "Frame 1686562563",
+  "type": "FRAME",
+  "frame": "254:1023",
+  "visible": true,
+  "layout": [
+   44.31,
+   365.54,
+   991.38,
+   60
+  ],
+  "render": [
+   44.31,
+   365.54,
+   991.38,
+   60
+  ],
+  "z": 7,
+  "siblings": 10
+ },
+ "254:58076": {
+  "name": "Group 1547753965",
+  "type": "GROUP",
+  "frame": "254:58071",
+  "visible": true,
+  "layout": [
+   0,
+   783.7,
+   1080,
+   1492.62
+  ],
+  "render": [
+   0,
+   783.7,
+   1080,
+   1136.3
+  ],
+  "z": 3,
+  "siblings": 10
+ },
+ "254:58366": {
+  "name": "Frame 1686562867",
+  "type": "FRAME",
+  "frame": "254:58071",
+  "visible": true,
+  "layout": [
+   44.31,
+   481.84,
+   1035.69,
+   227.08
+  ],
+  "render": [
+   0,
+   465.23,
+   3709,
+   266
+  ],
+  "z": 6,
+  "siblings": 10,
+  "renderMeasured": true,
+  "renderNote": "carousel exports unclipped at 3709x266 for a 1036x227 layout box; measured placement is left 0, top 465.23"
+ },
+ "254:58461": {
+  "name": "Frame 1686562563",
+  "type": "FRAME",
+  "frame": "254:58071",
+  "visible": true,
+  "layout": [
+   44.31,
+   365.54,
+   991.38,
+   60
+  ],
+  "render": [
+   44.31,
+   365.54,
+   991.38,
+   60
+  ],
+  "z": 7,
+  "siblings": 10
+ }
+}
