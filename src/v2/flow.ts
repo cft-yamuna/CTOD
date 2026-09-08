@@ -20,6 +20,7 @@
 
 import hits from './hits.json';
 import plates from './plates.json';
+import { homeArtwork } from './screens/HomeScreen';
 
 /* ------------------------------------------------------------------------- *
  * State
@@ -172,8 +173,16 @@ type PlateScroll = {
 type PlateEntry = {
   file: string; node: string; w: number; h: number;
   chrome?: string | null; scroll?: PlateScroll;
-  preScrolled?: boolean; variant?: string;
+  /** Set on artwork the designer flattened at a scroll offset, with the offset
+      it was flattened AT - the export measured both off the frame. */
+  preScrolled?: boolean; scrollTop?: number; variant?: string;
+  /** On flattened artwork: the window it was flattened through, and where its
+      content's own pixels ended up inside the frame. */
+  clippedPanel?: { box?: Box; unionBox?: Box };
 };
+
+/** A rectangle in frame coordinates, as the export writes them. */
+type Box = { x: number; y: number; w: number; h: number };
 
 type PlateManifest = {
   screens: Record<string, PlateEntry>;
@@ -299,6 +308,94 @@ export function plateFor(s: FlowState): string {
 }
 
 /**
+ * A selection is not another screen. It is this screen, with a still over it.
+ *
+ * The balance screen's selected artwork is a flattened frame - the whole page
+ * at scroll 482, chip filled, custom amount typed, CTA alive - and treating it
+ * as a screen of its own is what made selecting an amount JUMP: the live panel
+ * stood wherever the customer had scrolled it, the still stands at 482, and
+ * swapping one for the other moved the page by the difference.
+ *
+ * So the still is not swapped in. Its scrolling window - the 1350 rows the
+ * panel would be showing - is painted INTO the panel, at the content rows those
+ * pixels belong to, and scrolls with everything else. The chip lights up and
+ * nothing moves, which is what the amount screen does and what this screen was
+ * always meant to do.
+ *
+ * The offset is the map's own and needs no measuring: the same chip is declared
+ * at frame-y 1624 unselected and 1142 on the still, and 1624 - 1142 is the 482
+ * the manifest records. Confirmed against the pixels - the chip row differs
+ * between the two exports at exactly those rows and nowhere else.
+ */
+/**
+ * The offset the selected balance frames were flattened at.
+ *
+ * 482.846, not the 482 the manifest rounds it to: those frames put the card at
+ * y=-183.846 against the 299 the unselected frame draws it at, which is the
+ * same fraction `cardArtFor` had to measure to put an issuer's card back on one
+ * of them. The rounded value is right for the hit boxes below - the map itself
+ * declares the same chip 482 apart on the two frames, and reproducing the
+ * declared box exactly is what the harness checks - and wrong for the artwork,
+ * where 0.85px of slip is a visible outline around every glyph.
+ */
+const FLATTENED_AT = 482.846;
+
+export type Still = {
+  src: string;
+  /** The panel's window, in CONTENT coordinates - where these pixels live. */
+  window: { left: number; top: number; width: number; height: number };
+  /** The still inside that window, positioned so its own window lines up. */
+  left: number; top: number; width: number; height: number;
+};
+
+export function selectionStill(s: FlowState): Still | undefined {
+  const e = screenFor(s);
+  if (!e?.preScrolled) return undefined;
+  const live = scrollFor(s);
+  const vp = live?.viewport;
+  if (!live || !vp) return undefined;
+  /**
+   * Where the still stops being content and starts being chrome.
+   *
+   * The still is a whole frame with the fixed layers baked into it, so its rows
+   * below the footer ARE the footer - and painted into the scrolling content
+   * they draw the Add Money button a SECOND time, a blue sliver that slides out
+   * from under the real one whenever the panel is not standing at the offset
+   * the still was flattened at. The panel's own window runs to 1649 and the CTA
+   * band starts at 1590, so 59 rows of it were being drawn twice.
+   *
+   * Taken from the chrome the app is about to composite over the top rather
+   * than from a number: whatever is drawn as fixed chrome is, by definition,
+   * not part of the scrolling content underneath it.
+   */
+  const chromeTop = chromeFor(s)
+    .filter((c) => c.file && !c.hidden && c.role !== 'header')
+    .reduce((top, c) => Math.min(top, c.top ?? Infinity), Infinity);
+  const bottom = Math.min(vp.y + vp.h, chromeTop);
+
+  return {
+    src: e.file,
+    /* Rounded, every one of them. The window's own origin is fractional -
+       43.81, and the flatten is 482.846 - so an unrounded overlay lands on a
+       half pixel and the browser resamples a 1080x1920 plate to draw it, which
+       shows up as a soft outline around every glyph on the screen. Rounding
+       leaves the still 0.15px from where the content plate has the same pixels,
+       which is less than a pixel and therefore nothing at all. */
+    window: {
+      left: Math.round(vp.x - (live.contentX ?? vp.x)),
+      top: Math.round(vp.y - (live.contentY ?? vp.y) + FLATTENED_AT),
+      width: vp.w, height: bottom - vp.y,
+    },
+    /* The still is a whole frame; only its window belongs here, so it is
+       pulled up and left by the window's own origin and clipped to it. */
+    left: -Math.round(vp.x), top: -Math.round(vp.y), width: e.w, height: e.h,
+  };
+}
+
+/** How far the still is scrolled, for the hits declared on it. */
+export const flatOffset = (s: FlowState) => screenFor(s)?.scrollTop ?? 0;
+
+/**
  * The fixed chrome a scrolling screen composites OVER its scrolling content:
  * the background, the header, and the footer or sticky CTA band.
  *
@@ -344,14 +441,52 @@ export const HOME_SCROLL: PlateScroll = {
   contentX: 0, contentY: 0, viewport: { x: 0, y: 0, w: 1080, h: 1920 },
 };
 
+/**
+ * Where the exported content plate's own pixels start, measured.
+ *
+ * The manifest records the union of the region's children, which is the right
+ * answer only when the export was taken at those bounds. The balance families
+ * were not: their content plates come back exactly as wide as the panel - 992
+ * against a 991.38 window - because they were exported CLIPPED to it, so their
+ * pixels start at the window's origin and not at the union's.
+ *
+ * Believing the union put the whole balance screen 12px left and 17px above
+ * where its own frame draws it. Everything moved together, hit targets
+ * included, so nothing looked broken until the flattened selected artwork -
+ * which is not clipped, and does sit at the union - landed beside it and the
+ * page jumped by exactly that (12, 17).
+ *
+ * Solved against each family's own full-frame plate, the way `solve-offsets`
+ * does: the balance content matches at (44, 299), the window's origin, and
+ * matches nowhere near (32, 282). Amount, intro and methods already agree with
+ * their manifest and are left alone - the width test is what tells them apart.
+ */
+function measuredOrigin(spec: PlateScroll): PlateScroll {
+  const vp = spec.viewport;
+  if (!vp) return spec;
+  /* Exported at its own bounds, not clipped to the panel: trust the manifest. */
+  if (Math.abs(spec.contentW - vp.w) > 1.5) return spec;
+  const x = spec.contentX ?? vp.x;
+  const y = spec.contentY ?? vp.y;
+  if (Math.abs(x - vp.x) < 1 && Math.abs(y - vp.y) < 1) return spec;
+  return { ...spec, contentX: vp.x, contentY: vp.y };
+}
+
 export function scrollFor(s: FlowState): PlateScroll | undefined {
   /* Home scrolls, but `HomeScreen` owns the panel because the screen is a
      composite rather than a plate. The app still needs the geometry, to place
      the targets that ride inside it. */
   if (OWNS_FRAME.has(s.template)) return HOME_SCROLL;
   const entry = screenFor(s);
-  if (!entry || entry.preScrolled || !entry.scroll || entry.scroll.preScrolled) return undefined;
-  return entry.scroll;
+  if (!entry) return undefined;
+  /* A still is a state OF this screen, not another screen: the panel stays,
+     and the still is painted into it. See `selectionStill`. */
+  if (entry.preScrolled) {
+    const live = screenFor({ ...s, amount: null })?.scroll;
+    return live && !live.preScrolled ? measuredOrigin(live) : undefined;
+  }
+  if (!entry.scroll || entry.scroll.preScrolled) return undefined;
+  return measuredOrigin(entry.scroll);
 }
 
 /* ------------------------------------------------------------------------- *
@@ -390,6 +525,80 @@ export function apply(s: FlowState, hit: Hit): FlowState {
 
   if (hit.to) next.template = hit.to;
   return next;
+}
+
+/**
+ * Where a tap lands, back arrow included.
+ *
+ * `apply` answers every hit the map can answer on its own; the two that need
+ * the state as well as the box are the back arrow and the sheet's close, and
+ * they are resolved here so that the app and the prefetch below cannot disagree
+ * about where a control goes. They did once: the prefetch walked `apply` and
+ * the app walked its own copy, so every back arrow in the flow arrived on
+ * artwork nobody had loaded.
+ */
+export function nextState(s: FlowState, h: Hit): FlowState {
+  if (h.label === 'Back' || h.label.startsWith('Close')) {
+    const back = h.to ?? backTarget(s);
+    return back ? { ...s, template: back } : s;
+  }
+  return apply(s, h);
+}
+
+/**
+ * Every image a state puts on screen.
+ *
+ * Composed exactly the way `App` composes the screen, and it has to stay that
+ * way - this list is what gets decoded before a tap is allowed to land, so an
+ * image the app draws and this function forgets is an image that flickers.
+ * Hence the three cases below rather than "all of the plates for this state":
+ * a scrolling screen never draws its own full-frame plate, and prefetching that
+ * unused 400KB on every screen would push the artwork that IS needed out of the
+ * way at exactly the wrong moment.
+ */
+export function artworkFor(s: FlowState): string[] {
+  const out: string[] = [];
+  /* `home` and `homeCard` composite their own layers rather than a plate, and
+     only the screen itself knows what those are. */
+  if (OWNS_FRAME.has(s.template)) {
+    out.push(...homeArtwork(s.template === 'home' ? 'setup' : 'card'));
+  } else {
+    const scroll = scrollFor(s);
+    if (scroll) {
+      if (scroll.content) out.push(scroll.content);
+      const still = selectionStill(s);
+      if (still) out.push(still.src);
+      for (const c of chromeFor(s)) if (c.file && !c.hidden) out.push(c.file);
+    } else {
+      out.push(plateFor(s));
+    }
+  }
+  for (const p of patchesFor(s)) out.push(p.src);
+  return out;
+}
+
+/**
+ * Every image the NEXT tap could need, from here.
+ *
+ * The whole of the prefetch policy, and it is a walk of the interaction map
+ * rather than a list of screens on purpose: what a chip does, where the back
+ * arrow goes and what a timer runs out into are all already answered in
+ * `hits.json`, and a hand-kept list of "screens worth preloading" would be a
+ * second copy of that to get wrong. Every reachable state, one tap deep.
+ *
+ * On the amount screen that is the five chips plus Continue plus Back - about
+ * 2MB of local PNGs fetched while the customer is reading the screen, which is
+ * the entire reason the chips no longer flicker when they are pressed.
+ */
+export function nextArtwork(s: FlowState): string[] {
+  const out = new Set<string>();
+  for (const h of hitsFor(s)) for (const a of artworkFor(nextState(s, h))) out.add(a);
+  const t = timerFor(s.template);
+  if (t?.to) for (const a of artworkFor({ ...s, template: t.to })) out.add(a);
+  /* The PIN pad submits without a hit of its own - `PinScreen` owns those keys
+     - so the screen it submits to is not on the map and has to be named. */
+  if (s.template === 'pin') for (const a of artworkFor({ ...s, template: 'success' })) out.add(a);
+  return [...out];
 }
 
 /**
@@ -432,21 +641,6 @@ export type Hit = {
   scrolled?: boolean;
 };
 
-/**
- * ADDITION - ours, not the prototype's.
- *
- * On the last round of the balance screen the whole frame answers and the run
- * starts over - the third on card issuance, the second on recharge, see
- * `BALANCE_ROUNDS`. It is declared `scrolled` so the screen still scrolls: the
- * panel's own drag-vs-tap threshold decides which gesture a press is, and a
- * frame-sized target pinned outside the panel would have made the screen rigid
- * and hidden the chips the artwork prints below the fold.
- */
-export const TERMINAL_TAP: Hit = {
-  node: '-', label: 'Done - tap anywhere to start over',
-  left: 0, top: 0, width: 1080, height: 1920,
-  kind: 'global', to: 'unlocked', scrolled: true,
-};
 
 /**
  * Every balance the file has a frame for, per leg.
@@ -587,21 +781,55 @@ const homeScrollFix = (h: Hit): Hit =>
  * would put a dead target over every live one.
  */
 export function hitsFor(s: FlowState): Hit[] {
-  const own = specFor(s)?.hits ?? [];
+  const declared = specFor(s)?.hits ?? [];
+
+  /* A hit on a still is declared where the still draws it, and the still is
+     this screen scrolled by 482 - so a chip the map puts at frame-y 1142 is the
+     chip the unselected frame puts at 1624. Now that the still is painted into
+     the live panel rather than replacing it, those boxes have to be brought
+     back to the panel's own coordinates or every chip on a selected balance
+     screen answers 482px above where it is drawn. Only the scrolled ones: the
+     CTA and the two globals are on fixed chrome and never moved. */
+  const flat = flatOffset(s);
+  const own = flat
+    ? declared.map((h) => (h.scrolled ? { ...h, top: h.top + flat } : h))
+    : declared;
 
   /* The run ends on the balance screen, and there are two ways to get there:
-     the last round for the leg, or a card with nothing left it can be topped
-     up to. The
-     second is not a corner case - Rs500 and another Rs500 reaches the top of
-     what the designer drew in two rounds, and a screen with every chip dropped
-     and no way on would strand the kiosk. Either way the whole frame answers
-     and the next customer starts clean. */
+     the last sighting for the leg, or a card with nothing left it can be topped
+     up to. The second is not a corner case - Rs500 and another Rs500 reaches
+     the top of what the designer drew in two rounds, and a screen with every
+     chip dropped and no way on would strand the kiosk.
+
+     Either way the ending is the same, and it is the frame's OWN two controls
+     that carry it, not a sheet over the top. Only the payment controls die -
+     the chips and the Add Money CTA, which is everything that could spend more
+     money on a card the artwork can no longer draw. What is left is what the
+     designer already put on the frame:
+
+       Back  - the arrow at (44,182), to the app's home screen for this leg.
+       Home  - the device's middle button at (479,1793), which ends the run and
+               hands the kiosk to the next customer from `INITIAL`.
+
+     Both are `global` on this screen, so that is the whole filter.
+
+     This replaces a full-frame "tap anywhere to start over" target. Covering
+     the frame ended the run on any touch at all, including the one meant for a
+     dead chip, and it took the back arrow with it - a customer who wanted the
+     screen they came from got the top of the flow instead. Two live controls
+     that are already drawn beat one invisible one that is not.
+
+     ADDITION - ours, not the prototype's, and only Back is: the designer's own
+     `landing` frames declare Home alone and PRINT the arrow dead (254:20070,
+     254:21614). The prototype simply stops here; a kiosk cannot. */
   if (s.template === 'balance') {
     const offerable = own.some(
       (h) => typeof h.set?.amount === 'number'
         && isDrawableBalance(s.leg, s.balance + h.set.amount),
     );
-    if (s.balanceVisits >= roundsFor(s.leg) || !offerable) return [TERMINAL_TAP];
+    if (s.balanceVisits >= roundsFor(s.leg) || !offerable) {
+      return own.filter((h) => h.kind === 'global');
+    }
   }
   return own.map(homeScrollFix).filter((h) => {
     /* A chip that would take the card past the last balance the designer drew

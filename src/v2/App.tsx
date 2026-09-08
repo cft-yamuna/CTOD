@@ -1,14 +1,17 @@
-import { useCallback, useEffect, useLayoutEffect, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Stage } from '../components/Stage';
-import { Plate } from '../components/Plate';
 import { HitTarget } from '../components/HitTarget';
+import { CrossfadeImage } from './components/CrossfadeImage';
 import { ScrollPanel, toContent } from './components/ScrollPanel';
+import { SelectionStill } from './components/SelectionStill';
+import { onIdle, preloadAll, ready } from './preload';
 import { PinScreen, pinKeypadOwns } from './screens/PinScreen';
 import { LoadingScreen } from './screens/LoadingScreen';
 import { HomeScreen } from './screens/HomeScreen';
 import {
   INITIAL, OWNS_FRAME, hitsFor, backTarget, timerFor, plateFor, scrollFor,
-  chromeFor, patchesFor, apply, arrive, resolveTemplate, seedFor, type FlowState, type Hit,
+  chromeFor, patchesFor, apply, arrive, resolveTemplate, seedFor, nextState,
+  artworkFor, nextArtwork, selectionStill, type FlowState, type Hit,
 } from './flow';
 
 /**
@@ -57,10 +60,10 @@ export default function App() {
   const hits = hitsFor(state);
   const timer = timerFor(state.template);
 
-  /* A scroll region only exists where the prototype declares one AND the
-     artwork is not already flattened at an offset: the balance screen's
-     selected state is a pre-scrolled export, so it is a plain plate and
-     scrolling it again would move artwork that has already been moved. */
+  /* Every screen the prototype declares a scroll region on has one, its
+     selected states included: the balance screen's selection is a flattened
+     still, but it is a still OF this panel, so the panel stays and the still is
+     painted into it rather than replacing it. See `selectionStill`. */
   const scroll = scrollFor(state);
   /* Home scrolls inside `HomeScreen`, not here - the screen is a composite of
      animated layers, not a plate - so the app supplies the targets that ride in
@@ -77,10 +80,29 @@ export default function App() {
   const [pressed, setPressed] = useState<string | null>(null);
   const TAP_FEEDBACK_MS = 140;
 
+  /**
+   * The longest a tap may be held back waiting for its artwork to decode.
+   *
+   * It runs alongside the feedback beat rather than after it, so a screen whose
+   * plates are already decoded - which, with the prefetch below, is all of them
+   * after the first second on any screen - still moves at exactly the 140ms it
+   * did before. The budget is only ever spent when a plate really is cold, and
+   * it is capped because a kiosk that pauses is better than a kiosk that stops:
+   * past this it goes anyway and accepts one rough frame.
+   */
+  const SWAP_BUDGET_MS = 260;
+
+  /* Which tap is current. A tap that loses the race - the timer on `success`
+     firing while a press is still waiting on its artwork - must not land a
+     second navigation on top of the one that beat it. */
+  const tapSeq = useRef(0);
+
   const commit = useCallback((raw: FlowState) => {
     /* Arrivals are counted here, where both the screen being left and the one
        being reached are in hand. */
     const next = arrive(state, raw);
+    /* Whatever a pending tap was waiting for, it is out of date now. */
+    tapSeq.current += 1;
     setPressed(null);
     setState(next);
     /* Keep the URL honest, so a reload lands where you were looking and a bug
@@ -91,9 +113,38 @@ export default function App() {
     window.history.replaceState(null, '', url);
   }, [state]);
 
+  /**
+   * Move, but never onto artwork that is not decoded yet.
+   *
+   * Every way out of a screen goes through this or through `tap`, which wraps
+   * it: the timed transitions off `loading` and `success`, the PIN pad's own
+   * submit, and the dev keyboard. A timer that fires into an undecoded plate
+   * flashes exactly like a chip does, and it does it on the two screens the
+   * customer is already waiting on, where a flash reads as a fault.
+   */
+  const go = useCallback((next: FlowState) => {
+    const seq = ++tapSeq.current;
+    void ready(artworkFor(next), SWAP_BUDGET_MS).then(() => {
+      if (tapSeq.current === seq) commit(next);
+    });
+  }, [commit]);
+
+  /**
+   * A tap: acknowledge it, get the next screen's artwork decoded, then move.
+   *
+   * The two waits are concurrent and the longer one wins. Sequencing them would
+   * add the decode to the beat and make every tap feel slower than it is; the
+   * point is not to spend time, it is to never arrive on a screen whose images
+   * are still being made. See `preload.ts` for why that is what the amount
+   * chips were doing.
+   */
   const tap = useCallback((key: string, next: FlowState) => {
     setPressed(key);
-    window.setTimeout(() => commit(next), TAP_FEEDBACK_MS);
+    const seq = ++tapSeq.current;
+    const beat = new Promise<void>((r) => window.setTimeout(r, TAP_FEEDBACK_MS));
+    Promise.all([beat, ready(artworkFor(next), SWAP_BUDGET_MS)]).then(() => {
+      if (tapSeq.current === seq) commit(next);
+    });
   }, [commit]);
 
   /* The one switch. Kiosk sets it too, so the mode a screen is in is legible in
@@ -116,6 +167,22 @@ export default function App() {
   }, [state.balanceVisits, state.balance, state.issuer]);
 
   /**
+   * Everything one tap away, fetched and decoded while the customer reads.
+   *
+   * This is the half of the fix that makes the other half free. Holding a tap
+   * until its artwork is ready would be a visible pause if the artwork were
+   * only ever started at the moment of the tap; started here instead, it is
+   * finished long before, and the hold costs nothing on any screen the customer
+   * has been looking at for more than a moment.
+   *
+   * Keyed on the whole state, not the template: which plates are next depends
+   * on the balance and the issuer as much as on the screen, so a chip selected
+   * changes the answer. Idle-scheduled, so it never competes with painting the
+   * screen that is actually in front of someone.
+   */
+  useEffect(() => onIdle(() => { void preloadAll(nextArtwork(state)); }, 120), [state]);
+
+  /**
    * The declared timed transitions: `success` holds for the 1850ms the
    * prototype declares and `loading` for its 2000ms. Neither screen carries a
    * tap target at all, so this timer is the only way out of them - if it does
@@ -124,9 +191,9 @@ export default function App() {
   useEffect(() => {
     if (!timer?.to) return;
     const to = timer.to;
-    const t = setTimeout(() => commit({ ...state, template: to }), timer.ms);
+    const t = setTimeout(() => go({ ...state, template: to }), timer.ms);
     return () => clearTimeout(t);
-  }, [timer, state, commit]);
+  }, [timer, state, go]);
 
   useEffect(() => {
     if (!mouse) return;
@@ -138,19 +205,19 @@ export default function App() {
       if (e.key === 'ArrowRight' || e.key === ' ') hit = hits.find((h) => h.kind !== 'global');
       else if (e.key === 'ArrowLeft' || e.key === 'Backspace') {
         const back = backTarget(state);
-        if (back) commit({ ...state, template: back });
+        if (back) go({ ...state, template: back });
         e.preventDefault();
         return;
-      } else if (e.key === 'r' || e.key === 'R') { e.preventDefault(); commit({ ...INITIAL }); return; }
+      } else if (e.key === 'r' || e.key === 'R') { e.preventDefault(); go({ ...INITIAL }); return; }
       else return;
       /* Space would re-fire whichever hit button has focus and Backspace would
          walk browser history, both on top of the move we just made. */
       e.preventDefault();
-      if (hit) commit(apply(state, hit));
+      if (hit) go(apply(state, hit));
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [mouse, state, hits, commit]);
+  }, [mouse, state, hits, go]);
 
   /**
    * The back arrow is the one control the map cannot answer alone.
@@ -160,13 +227,6 @@ export default function App() {
    * The box itself is still the prototype's, and it is dropped entirely on the
    * templates that do not declare one.
    */
-  const withBack = (h: Hit): FlowState => {
-    if (h.label === 'Back' || h.label.startsWith('Close')) {
-      const back = h.to ?? backTarget(state);
-      return back ? { ...state, template: back } : state;
-    }
-    return apply(state, h);
-  };
 
   const target = (h: Hit) => {
     /* Inside a scroll region the box is declared in frame coordinates but
@@ -175,12 +235,7 @@ export default function App() {
        once already: `balance` has a viewport inset 44px from the frame edge, so
        dropping the X term shifted every chip 44px right - still inside a 147px
        chip, so the flow kept working and only the harness noticed. */
-    let box = h.scrolled && scroll?.viewport ? toContent(h, scroll.viewport, scroll) : h;
-    /* A tap-anywhere target covers the CONTENT, not the frame - otherwise only
-       the first screenful of a scrolled panel answers. */
-    if (h.node === '-' && scroll) {
-      box = { left: 0, top: 0, width: scroll.contentW, height: scroll.contentH };
-    }
+    const box = h.scrolled && scroll?.viewport ? toContent(h, scroll.viewport, scroll) : h;
     return (
       <HitTarget
         key={h.node + h.label}
@@ -190,7 +245,7 @@ export default function App() {
         width={box.width}
         height={box.height}
         pressed={pressed === h.node + h.label}
-        onSelect={() => tap(h.node + h.label, withBack(h))}
+        onSelect={() => tap(h.node + h.label, nextState(state, h))}
       />
     );
   };
@@ -247,7 +302,7 @@ export default function App() {
           key={state.leg}
           plate={plate}
           mouse={mouse}
-          onSubmit={() => commit({ ...state, template: 'success' })}
+          onSubmit={() => go({ ...state, template: 'success' })}
         />
       ) : scroll ? (
         <div
@@ -255,7 +310,10 @@ export default function App() {
           style={{ background: scrollBg?.fill ?? '#ffffff' }}
         />
       ) : (
-        <Plate src={plate} alt={state.template} />
+        /* Grouped by template, so the balance screen dissolving between its own
+           unselected and selected artwork is a dissolve, while moving from one
+           screen to another is still the prototype's own instant cut. */
+        <CrossfadeImage className="plate" src={plate} group={state.template} alt={state.template} />
       )}
 
 
@@ -276,6 +334,9 @@ export default function App() {
              intent. */
           resetKey={`${state.template}:${state.leg}:${state.balance}`}
         >
+          {/* A selection is drawn INTO the panel, over the content rows it
+              describes - never in place of the screen. See `selectionStill`. */}
+          <SelectionStill still={selectionStill(state)} />
           {inScroll.map(target)}
           {mouse && inScroll.map(outline)}
         </ScrollPanel>
@@ -320,6 +381,7 @@ export default function App() {
 
       {onFrame.map(target)}
       {mouse && onFrame.map(outline)}
+
     </Stage>
   );
 }

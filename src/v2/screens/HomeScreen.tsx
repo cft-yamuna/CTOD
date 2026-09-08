@@ -86,6 +86,18 @@ const ART: Record<'setup' | 'card', HomeArt> = {
   },
 };
 
+/**
+ * Every image this screen paints, for the prefetch.
+ *
+ * Home is the one screen the flow cannot describe from the plate manifest - it
+ * is composited from its own layers and mounts them itself - so it says so
+ * here rather than letting `artworkFor` guess. Without this, coming back to
+ * home from anywhere in the flow mounts six undecoded layers at once, which is
+ * the same blank frame the amount chips had.
+ */
+export const homeArtwork = (variant: 'setup' | 'card'): string[] =>
+  [...ART[variant].layers, ...ART[variant].fixed].map((l) => l.src);
+
 export function HomeScreen({
   variant, children,
 }: {

@@ -1,4 +1,5 @@
 import { useLayoutEffect, useRef, type PointerEvent, type ReactNode } from 'react'
+import { CrossfadeImage } from './CrossfadeImage'
 
 /**
  * A genuine Figma scroll region: a plate TALLER than the 1080x1920 frame,
@@ -278,13 +279,18 @@ export function ScrollPanel(props: {
         }}
       >
         {content && (
-          <img
+          /* Crossfaded, not assigned. Selecting an amount chip replaces this
+             whole 385KB plate with the same screen drawn one chip differently,
+             and setting `src` on a live <img> blanks it until the new bitmap
+             decodes - the flicker over the entire body of the screen. The
+             swap is held instead until the incoming plate is ready, then
+             dissolved, so the chip lights up and nothing else moves. */
+          <CrossfadeImage
             className="scroll-panel-plate"
             src={content}
-            alt=""
+            group={resetKey}
             width={contentW}
             height={contentH}
-            draggable={false}
           />
         )}
         {children}

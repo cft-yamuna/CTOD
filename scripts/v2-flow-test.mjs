@@ -280,6 +280,12 @@ const READ = () => {
   const panel = document.querySelector('[data-scroll-panel]');
   const plate = base(document.querySelector('img.plate'));
   const content = panel ? base(panel.querySelector('img')) : null;
+  /* A selection is not a screen of its own: the balance screen's selected
+     artwork is a still of THIS panel, composited into it over the content it
+     replaces, so the panel keeps showing the unselected content plate
+     underneath and the still is what says which state this is. Read before the
+     content for that reason - and after the plate, which nothing composites. */
+  const still = base(document.querySelector('.v2-still img'));
   return {
     screen: q.get('screen') || '-',
     plate,
@@ -288,7 +294,8 @@ const READ = () => {
        animated background can sit at its true depth, so they have no single
        plate to name and are identified by the stack instead. */
     layers: !!document.querySelector('.layer-clip'),
-    art: plate ?? content ?? (document.querySelector('.layer-clip') ? 'layers' : null),
+    still,
+    art: plate ?? still ?? content ?? (document.querySelector('.layer-clip') ? 'layers' : null),
     chrome: [...document.querySelectorAll('.v2-chrome')].map((c) => base(c)),
     scroll: panel ? {
       top: Math.round(panel.scrollTop),
