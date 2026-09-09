@@ -86,13 +86,23 @@ const ALIASES = PLATES.aliases ?? {};
 const SCREENS = PLATES.screens ?? {};
 const aliasOf = (key) => ALIASES[key] ?? key;
 const isAliased = (key) => aliasOf(key) !== key;
+/**
+ * The attract screen has no row in the manifest and never will: it is not a
+ * prototype frame, it is a poster the client supplied, so the export pass has
+ * nothing to say about it. Named here rather than imported from `flow.ts` for
+ * the same reason as every other rule in this file - a harness that reads the
+ * app's answer cannot check the app's answer.
+ */
+const SCREENSAVER_ART = 'CoDT%20Home%20Screen';
+
 /** The basename the app will actually render for a plate key. */
 const fileOf = (key) => {
+  if (key === 'screensaver') return SCREENSAVER_ART;
   const entry = SCREENS[aliasOf(key)];
   const file = entry?.file ?? `/v2/screens/${aliasOf(key)}.png`;
   return file.split('/').pop().replace(/\.(png|jpe?g|svg)$/i, '');
 };
-const drawn = (key) => !!SCREENS[aliasOf(key)];
+const drawn = (key) => key === 'screensaver' || !!SCREENS[aliasOf(key)];
 
 /* ------------------------------------------------------------------------ *
  * The flow, read out of the running dev server

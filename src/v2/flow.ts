@@ -33,6 +33,7 @@ export type Leg = 'setup' | 'recharge';
 export type Issuer = 'pinelabs' | 'iob' | 'rbl';
 
 export type Template =
+  | 'screensaver'
   | 'unlocked' | 'home' | 'homeCard' | 'intro' | 'introAccepted' | 'issuer'
   | 'amount' | 'methods' | 'pin' | 'success' | 'paid' | 'loading' | 'balance';
 
@@ -57,8 +58,42 @@ export type FlowState = {
 };
 
 export const INITIAL: FlowState = {
-  template: 'unlocked', leg: 'setup', issuer: 'pinelabs',
+  template: 'screensaver', leg: 'setup', issuer: 'pinelabs',
   amount: null, balance: 0, balanceVisits: 0,
+};
+
+/**
+ * The attract screen, and the only screen in this app that is not Figma.
+ *
+ * A kiosk left alone shows something rather than the first screen of a flow
+ * nobody is running - so the run starts here, and every way of ending a run
+ * comes back here, because `INITIAL` is what the Home button resets to.
+ *
+ * It is deliberately NOT in `plates.json`. That manifest is written by the
+ * export pass out of the prototype, and a hand-added row would be gone the next
+ * time it runs; this is a poster the client supplied, so it is named here
+ * instead and `plateFor` reads it straight. The space in the filename is the
+ * client's and is left alone - it is encoded here rather than renamed, so the
+ * file in `public/` stays the file they handed over.
+ *
+ * The source is 2251x4000, a hair wider than the 1080x1920 frame (0.5628
+ * against 0.5625), so it lands within half a pixel of the stage and is left at
+ * full resolution rather than resampled to fit.
+ */
+export const SCREENSAVER_PLATE = '/CoDT%20Home%20Screen.png';
+
+/**
+ * Tap anywhere to begin. ADDITION - ours, not the prototype's.
+ *
+ * `nav` and not `global`, which matters: `apply` turns a global heading for
+ * `unlocked` into a whole reset to `INITIAL`, and `INITIAL` is now this screen
+ * - so a global here would answer every tap by redrawing itself, and the kiosk
+ * would never start.
+ */
+export const SCREENSAVER_TAP: Hit = {
+  node: 'screensaver', label: 'Tap anywhere to begin',
+  left: 0, top: 0, width: 1080, height: 1920,
+  kind: 'nav', to: 'unlocked',
 };
 
 /** The five amount chips, in the order they are drawn, on both screens. */
@@ -304,6 +339,7 @@ export function patchesFor(s: FlowState): Layer[] {
 
 /** The plate for a state. Falls back to the key so a miss is visible, not blank. */
 export function plateFor(s: FlowState): string {
+  if (s.template === 'screensaver') return SCREENSAVER_PLATE;
   return screenFor(s)?.file ?? `/v2/screens/${plateKey(s)}.png`;
 }
 
@@ -781,6 +817,10 @@ const homeScrollFix = (h: Hit): Hit =>
  * would put a dead target over every live one.
  */
 export function hitsFor(s: FlowState): Hit[] {
+  /* Not in `hits.json` - it is not a prototype frame - so it is answered before
+     the map is consulted at all. */
+  if (s.template === 'screensaver') return [SCREENSAVER_TAP];
+
   const declared = specFor(s)?.hits ?? [];
 
   /* A hit on a still is declared where the still draws it, and the still is
@@ -868,6 +908,9 @@ export const timerFor = (t: Template) => HITS.timers?.[t];
 /** `?screen=` accepts a template name, so a screen can be deep-linked. */
 export function resolveTemplate(param: string | null): Template {
   const t = (param ?? '') as Template;
+  /* Named here because it is the one template with no row in `hits.json`, and
+     the map is what every other name is checked against. */
+  if (t === 'screensaver') return t;
   return HITS.templates?.[t] ? t : INITIAL.template;
 }
 
