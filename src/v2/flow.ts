@@ -72,15 +72,16 @@ export const INITIAL: FlowState = {
  * It is deliberately NOT in `plates.json`. That manifest is written by the
  * export pass out of the prototype, and a hand-added row would be gone the next
  * time it runs; this is a poster the client supplied, so it is named here
- * instead and `plateFor` reads it straight. The space in the filename is the
- * client's and is left alone - it is encoded here rather than renamed, so the
- * file in `public/` stays the file they handed over.
+ * instead and `plateFor` reads it straight.
+ *
+ * `codt_new.png` replaces the first poster, `CoDT Home Screen.png`, which is
+ * still in `public/` and simply no longer referenced.
  *
  * The source is 2251x4000, a hair wider than the 1080x1920 frame (0.5628
  * against 0.5625), so it lands within half a pixel of the stage and is left at
  * full resolution rather than resampled to fit.
  */
-export const SCREENSAVER_PLATE = '/CoDT%20Home%20Screen.png';
+export const SCREENSAVER_PLATE = '/codt_new.png';
 
 /**
  * Tap anywhere to begin. ADDITION - ours, not the prototype's.

@@ -93,7 +93,7 @@ const isAliased = (key) => aliasOf(key) !== key;
  * the same reason as every other rule in this file - a harness that reads the
  * app's answer cannot check the app's answer.
  */
-const SCREENSAVER_ART = 'CoDT%20Home%20Screen';
+const SCREENSAVER_ART = 'codt_new';
 
 /** The basename the app will actually render for a plate key. */
 const fileOf = (key) => {
